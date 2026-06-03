@@ -117,13 +117,36 @@
      "The embedding model treated the professor's nickname as out-of-vocabulary and returned
      results from an unrelated review" is an explanation. -->
 
-**Question that failed:**
+> Note: this failure was caught during Milestone 3 chunk inspection (`python chunk.py
+> --random`), before retrieval/generation was built. It is a defect in the chunks
+> themselves, so it is certain to surface at query time; the end-to-end run in the
+> Evaluation Report will confirm it.
 
-**What the system returned:**
+**Question that failed:** "What loot can I get from a Trial Chamber vault?" (a core
+Trial Chambers question — that structure's whole point is its rewards).
 
-**Root cause (tied to a specific pipeline stage):**
+**What the system returned:** The most relevant chunk is content-free. Chunk 158 reads,
+in full: *"Trial Chambers > Loot > Vaults > Ominous vaults: In Java Edition and Bedrock
+Edition, each trial chambers ominous vault contains items drawn from 3 pools, with the
+following distribution:"* — and then it stops. The chunk promises a loot distribution but
+contains none, so any answer built from it can confirm that vault loot *exists* without
+naming a single item.
 
-**What you would change to fix it:**
+**Root cause (tied to a specific pipeline stage):** Ingestion — not chunking or
+retrieval. `ingest.py` deletes every `<table>` element (it is in `JUNK_SELECTORS`) to keep
+the text clean, but on minecraft.wiki the actual loot and structure data lives *inside
+those tables*. The introductory sentence ("…the following distribution:") is a normal
+paragraph, so it survives, while the table it points to is removed — leaving a dangling
+reference. A corpus-wide scan found **19 of 233 chunks (~8%) with this pattern**,
+concentrated in **Trial Chambers (13 chunks)** — the one article whose value is almost
+entirely tabular loot.
+
+**What you would change to fix it:** Flatten tables into prose during ingestion instead of
+deleting them — render each row as text (e.g. "Pool 1: Diamond ×1–2 (40% chance)") so the
+data survives as embeddable content. As a cheap safety net, also drop "stub" chunks whose
+body ends in a lead-in ("…the following:") with no payload, so retrieval never surfaces an
+empty promise. After either change, re-run `python chunk.py --sample` and confirm the
+dangling-chunk count falls.
 
 ---
 

@@ -1,0 +1,54 @@
+{
+  "title": "The Nether",
+  "url": "https://minecraft.wiki/w/The_Nether",
+  "sections": [
+    {
+      "section": "(introduction)",
+      "text": "The Nether is a dangerous, volcanic, fungal dimension resembling a hellish underworld. It contains fire that never goes out ; vast oceans of lava ; Nether fungi and normal mushrooms in place of plants; many unique mobs , mostly hostile in nature; and exclusive structures , resources, and biomes ."
+    },
+    {
+      "section": "Accessing",
+      "text": "To access the Nether, the player must construct a Nether portal in the Overworld (portals created in the End do not activate). To create the portal, the player must first build a rectangular obsidian frame, ranging in size from a minimum of 4 blocks × 5 blocks to a maximum of 23 blocks × 23 blocks. Once the frame is completed, it can then be activated by placing fire within the frame, using flint and steel , fire charge , dispensers , or any material that is capable of igniting fire.\nThe portal allows most entities (with the exception of the wither and the ender dragon ) to be transported to a corresponding portal in the Nether. In Survival , the player must stand in a Nether portal for 4 seconds to enter the Nether. The player can step out of a portal before it completes its animation to abort the teleport. The portal plays a sound effect while the player is inside it. If there is no corresponding portal, a new 4×5 portal is created. The portal can be destroyed by breaking the obsidian frame, by a nearby explosion, or by placing water in the Overworld or lava into it with a bucket or dispenser . Any of the blocks in the corners can be destroyed without destroying the portal.\nThe Nether could generate in the former Old ‌ [ Bedrock Edition only ] world type, (with the same 256×256 borders as the Overworld) though Nether portals could not be created without using commands. Nether portals created in the Nether could spawn the player outside of the world barrier.\nIf cheats are enabled, players can also teleport to the Nether without using a Nether portal: the syntax is / execute in the_nether in Java Edition , and / execute in nether in Bedrock Edition ."
+    },
+    {
+      "section": "Traits",
+      "text": "Bedrock forms a rough 5 layer ceiling on top of the nether (starting at y-level 123 and ending at y-level 127) restricting the player from leaving the Nether. Just like in the Overworld , the player is protected from falling off the world by 5 bottom layers of bedrock (starting at y level 4 and ending at y-level 0) in a rough pattern. This makes the Nether 128 blocks high unlike the Overworld's 384. As with the vast Overworld and End dimensions of the Java and Bedrock Editions, the Nether is equally horizontally vast to the world border .\nIn Java Edition , build limit in the Nether is 256 blocks: if the player manages to get on top of the bedrock roof , they can build additional 128 blocks upward on it. In Bedrock Edition , the build limit in the Nether is 128 blocks, despite it being 256 in the End, and 320 in the Overworld.\nThe Nether has no daylight cycle and no weather . Natural sources of light include fire , lava , portals , shroomlights and glowstone . Even with a light level of 0, the Nether has a dim ambient light (roughly equivalent to light level 8 in the Overworld). Light otherwise functions exactly the same as it does in the Overworld and the End. The Nether is the only dimension without directional lighting in Vibrant Visuals , so there are no dynamic shadows.\nThe majority of \"flora\" in the Nether is fungus-based as opposed to plants. The Nether \"grass\" consists of specialized Nether mycelium (known as \" nylium \"). The Nether features its own unique fungi (including Nether wart), as well as equivalent huge fungi that serve as trees . The stems of the huge fungi function as logs . Also present are a number of native vines and roots.\nMost creatures found in the Nether are hostile and potentially dangerous; the only Nether-exclusive mobs that are fully passive are striders .\nLocations in the Nether correlate to Overworld coordinates , but horizontal Overworld distances are scaled down by a ratio of 8:1 for travel in the Nether. Therefore, traveling one block in the Nether means traveling eight blocks in the Overworld. For example, in a perfect scenario, a player who enters a portal in the Overworld at X=0, Z=0 and travels in the Nether to X=1000, Z=1000 returns to the Overworld at X=8000, Z=8000. This makes portals a useful tool for traveling long distances in the Overworld. This does not allow one to pass the Overworld World border.\nMost items and blocks in the Nether function the same as they do in the Overworld, with a few notable exceptions:\n- Beds cannot be used as a spawn point; they instead explode and cause fires when a player attempts to sleep in one. It has an explosion power of 5. The explosion is larger than that of TNT , which has an explosion power of 4. Villagers, if brought into the Nether, can still use beds safely during night time in the Overworld.\n- The player may use a powered respawn anchor to respawn in the Nether, but when it runs out of charges, the player once again respawns in the Overworld.\n- There is no way to place liquid water in the Nether without the use of commands , except inside a cauldron . These can be used to put out a player on fire. Using water buckets produces steam particles and a hissing sound, leaving the player with an empty bucket . Ice that is melted or smashed in the Nether does not produce water. A wet sponge instantly becomes a regular sponge when placed. If placed using cheats or when placed inside a cauldron, water takes on a reddish-brown color.‌ [ Bedrock Edition only ]\n- Lava flows twice as far (eight blocks) and three times as fast in the Nether compared to Overworld, with the same flowing distance and half the flowing speed of water in the Overworld.\n- Grass blocks , most plants , and leaves take on a dead-looking brownish color because the Nether is dry and hot .\n- Maps generate a brown-gray static pattern. The player's direction indicator is colored red‌ [ BE only ] and spins randomly; its location is still relative to the player's location in the Nether, except in the New Nintendo 3DS Edition , where it is always in the center of the map. Using an Overworld map in the Nether displays the player's relative coordinates.‌ [ Bedrock Edition only ]\n- Clocks spin wildly, making it impossible to tell the time while in the Nether. Compasses also spin wildly unless connected to a lodestone , which they then point toward.\n- Eyes of ender cannot be thrown, since no strongholds generate in the Nether.\n- Snow golems rapidly take fire damage and die, due to the Nether being dry and hot. However, they can survive if they have the Fire Resistance status effect.\n- Stalactites produce lava particles instead of water particles, and do not convert mud above them into clay .\n- Because there is no daylight cycle, certain blocks and mobs behave differently: Creaking hearts do not spawn creakings when placed between two pale oak logs . Eyeblossoms do not change between open and closed states depending on the time of day. Bees work without resting as if it never turns night. Villagers still continue their routine following the Overworld daylight cycle."
+    },
+    {
+      "section": "Environment",
+      "text": "The Nether features unique cave-like terrain with no sky. Lava and fire are common hazards everywhere in the Nether. Areas distant from the player are shrouded in fog of red or blue, depending on the biome, and some biomes are filled with particles in the air. The shape of the terrain in the Nether is independent of the biome distribution; instead, the biomes alter the surface material and add terrain features to the netherrack terrain."
+    },
+    {
+      "section": "Environment > Biomes",
+      "text": "The Nether is divided into several biomes just like the Overworld, each featuring unique terrain, mobs, structures, ambience , etc. There are five biomes in the Nether:"
+    },
+    {
+      "section": "Environment > Generated structures",
+      "text": "The Nether contains a variety of unique generated structures. Though equally vast, it contains far fewer types of generated structures than there are in the Overworld.\nThere are 4 generated structures in the Nether:"
+    },
+    {
+      "section": "Environment > Terrain features",
+      "text": "The Nether has a lot of different terrain features that generate within the biomes of the Nether.\nThere are currently 5 terrain features in The Nether:"
+    },
+    {
+      "section": "Environment > Mobs",
+      "text": "The Nether is home to its own share of mobs , most of which are immune to fire and lava . Skeletons and endermen are the only Overworld mobs that can naturally spawn in the Nether; in Java Edition , baby zombified piglins may spawn as chicken jockeys .\nOther Overworld mobs do not naturally spawn in the Nether but can be brought in through portals (except for the wither and ender dragon ).\nThere are currently 12 in Java Edition , or 11 in Bedrock Edition , mobs that spawn in this dimension, with 3 additional associated mobs:\n- Blaze\n- Wither Skeleton\n- Skeleton\n- Ghast\n- Hoglin\n- Magma Cube\n- Piglin\n- Piglin Brute\n- Strider\n- Zombified Piglin\n- Warm Chicken ‌ [ JE only ] (from zombified piglin chicken jockeys )\n- Enderman\nAssociated: The following mobs are associated with the Nether, but do not spawn naturally without player interaction.\n- Happy Ghast\n- Wither\n- Zoglin"
+    },
+    {
+      "section": "Environment > Blocks > Naturally generated",
+      "text": "Naturally generated blocks includes those that are created through the world seed."
+    },
+    {
+      "section": "Environment > Blocks > Naturally created",
+      "text": "Naturally created blocks are created through a combination of events that lead these blocks to be placed by natural causes, not by the player."
+    },
+    {
+      "section": "Environment > Blocks > Structures",
+      "text": "These blocks are only generated as part of Nether fortresses , Nether fossils , bastion remnants and ruined portals , when the \" generated structures \" option is on."
+    },
+    {
+      "section": "Technical information > Folder",
+      "text": "In Java Edition , the Nether is stored in .minecraft /saves/ worldname /DIM-1 . Deleting this folder resets the Nether, so that all player-made changes and buildings in that dimension are undone.\nIn Bedrock Edition , the com.mojang /minecraftWorlds/ world ID /db folder contains several collections of chunks. Some of these files are used for the Nether, but it is impossible to tell which ones simply by reading the file name."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "title": "Trial Chambers",
+  "url": "https://minecraft.wiki/w/Trial_Chambers",
+  "sections": [
+    {
+      "section": "(introduction)",
+      "text": "Trial chambers are uncommon underground structures that serve as a mid-game combat challenge. They consist mostly of copper blocks and tuff bricks , and are the only place where trial spawners and vaults naturally generate. Trial chambers are also the only place where breezes spawn, whose breeze rods can be used to craft wind charges . Various materials such as heavy cores and certain armor trims are obtained exclusively by unlocking vaults in trial chambers. As it is the only source of breeze rods and heavy cores, the structure is also the location where maces are obtained.\nOminous trials can also take place here through Bad Omen , where Trial Omen causes all trial spawners to become ominous , making them more difficult and providing greater rewards."
+    },
+    {
+      "section": "Generation",
+      "text": "Trial chambers generate underground in the Overworld . The starting room generates at an altitude of between Y=-40 and -20, but the structure is not restricted to those Y levels; the majority of the structure's rooms tend to generate between Y=-20 and 0. [ verify ]\nTrial chambers can only generate in new chunks, specifically ones that did not exist prior to Java Edition 1.21 and Bedrock Edition 1.21.0 .\nThe generation of trial chambers follows a grid of 34×34 chunk regions centered on the world origin (X=0, Z=0). There is always one trial chambers structure generated in each region at a random location, unless a deep dark biome cancels the generation of the trial chambers.\nWhile the origin point of the structure ( corridor_end ) cannot generate within a deep dark biome, other parts of it can intersect a deep dark biome."
+    },
+    {
+      "section": "Generation > Locating",
+      "text": "Trial chambers can be located using trial explorer maps , which are sold by journeyman-level cartographer villagers for 12 emeralds and a compass . The maps always point to the nearest trial chamber relative to the cartographer that does not already have a trial explorer map that points to it. All maps bought from the same cartographer always points to the same structure.\nIn Java Edition , a given villager always trades the same map, which is determined upon the trade unlocking.\nAn online seed map such as mcseedmap.net or chunkbase.com may be used instead."
+    },
+    {
+      "section": "Structure",
+      "text": "The starting room of the structure is corridor/end . This room connects to a chamber and a section of a corridor. At the end of the section of a corridor, an intersection links to another chamber and another section of a corridor is generated, but this time it ends on the atrium, which then leads to the entrance room.\nThe structure then branches out from some corridor/straight pieces."
+    },
+    {
+      "section": "Structure > File structure",
+      "text": "All trial chambers structures found below are located in the folder client.jar /data/minecraft/structure/trial_chambers ‌ [ JE only ] or data/behavior_packs/vanilla/structures/trial_chambers ‌ [ BE only ] ."
+    },
+    {
+      "section": "Structure > Components > Corridors",
+      "text": "Trial chambers feature two corridors:\n- a corridor going from the entrance room to the intersection, passing through four slices and the atrium;\n- a corridor going from the intersection to the end room, passing through four slices.\nThe intersection connects both corridors, forming an L-shape. The intersection and the end room always lead to a chamber, while slices have a probability to lead to a hallway (see § Hallways ).\nThe entrance generates at the end of one of the two corridors.\nentrance_1 and entrance_2 include a vault , two entrance chests, and a platform containing either an oak , a mangrove , or a cactus ; additionally, entrance_1 has a secret room containing a bed and a chest.\nentrance_3 includes two vaults and three entrance chests.\nThe atrium generates between the entrance and the slices. It always contains an ominous vault above the doorway leading to the entrance and a fountain.\nMurals are generated on both sides; they can depict either a bogged , a breeze , a spider , or a spiral shape. The grand staircase is also chosen randomly.\nCorridor slices, or straight pieces, are sub-structures that make up the corridors; they are generated on top of a tuff brick plate. Each of the two corridors has four slices.\nExcept for straight_1 and straight_8 , all slices have a copper door:\n- straight_2 and straight_5 generate a copper door on the lower level;\n- straight_3 and straight_6 generate a copper door on the middle level;\n- straight_4 and straight_7 generate a copper door on the upper level.\nOn average, each trial chamber has 6,29 ( 44 ⁄ 7 ) doors. These copper doors can either lead directly to a chamber, a hallway or nothing. Provided the latter case doesn't happen:\n- lower level doors always lead to a descending spiral staircase ( lower_hallway_connector );\n- upper level doors always lead to an ascending spiral staircase ( upper_hallway_connector );\n- middle level doors and these spiral staircases have a 97.48% chance to directly lead to a chamber, 2.44% chance to lead to a hallway piece, and 0.08% chance to directly lead to a dead-end (see § Hallways ).\nBoth straight_6 and straight_8 generate with a trial spawner that can either spawn a melee, small melee or ranged mob (see § Mobs ), but never breezes . straight_7 generates with a hidden vault .\nIn addition to their addons, slices can generate with various decorations such as flower pots , decorated pots , candles and corridor barrels (see § Decor ). Some addons can generate with a trial spawner (that can either spawn a melee, small melee or ranged mob) and a vault.\nThe end room generates at the end of one of the two corridors. It always leads to one of these chambers with equal probability:\n- chamber_1\n- eruption\n- assembly\n- slanted\nEnd rooms cannot lead to any other chamber, i.e. it excludes:\n- chamber_2\n- pedestal\n- chamber_4\n- chamber_8\nEnd rooms always include an ominous vault . In addition to its ominous vault, end_2 also features a regular vault and an intersection chest."
+    },
+    {
+      "section": "Structure > Components > Intersections",
+      "text": "The intersection is the room that connects both corridors. It always features a safer zone equipped with beds as well as an entrance to a chamber. In addition to that:\n- intersection_1 and intersection_2 feature an ominous vault ;\n- intersection_2 and intersection_3 feature an intersection barrel ;\n- intersection_2 features a secret room with an additional bed and a decorated pot always containing 3 strings ."
+    },
+    {
+      "section": "Structure > Components > Hallways",
+      "text": "Hallways are segments that connect corridors to chambers. When a copper door generates in a corridor, it (or, in the case of an upper or lower door, the spiral staircase that follows it; see § Slices ) may lead to one of the following pieces:\n- a chamber (97.48%);\n- a hallway segment (1.14%);\n- an encounter (0.41%);‌ [ Java Edition only ]\n- a dead end (0.08%).\nIf the selected piece cannot be generated, the game attempts to generate a different piece. After a certain number of failed attempts, it defaults to generating a dead end.​ [ more information needed ] If the dead end itself cannot be generated, no piece is generated.\nThis process is then repeated at the end of each hallway segment or encounter. Furthermore, hallways never branch, meaning that every copper door found in corridors eventually leads to a single chamber, a dead end, or nothing.\nEncounters are hallway pieces that consist in \"short challenges leading to a larger chamber\". They feature a single trial spawner and a vault."
+    },
+    {
+      "section": "Structure > Components > Chambers",
+      "text": "Chambers are large combat rooms that contain multiple trial spawners and vaults, as well as one ominous vault. Chambers can be accessed from hallways, intersections, end rooms, and corridor slices.\nEach chamber design has several potential entrances, of which only one is connected to the rest of the structure. The remaining entrances are sealed with an entrance cap (see § Hallways ). Each potential entrance, including the sealed ones, generates a disposal consisting of a hopper placed above a barrel (see § Decor ), allowing players to manage their inventory before entering a chamber.\nChamber_1 and Chamber_2\nPedestal\nChamber_4\nEruption\nAssembly\nChamber_8\nSlanted"
+    },
+    {
+      "section": "Structure > Components > Miscellaneous",
+      "text": "Decor includes decorated pots, flower pots, candles, and barrels. It can generate in slices, some encounters, and some chambers.\nDisposals and beds are also classified as decor but are not part of the decor pool: they only generate near chamber entrances and at intersections respectively."
+    },
+    {
+      "section": "Mobs",
+      "text": "Natural hostile mob spawning is disabled within a trial chamber. Mobs spawn only from the trial spawners . The number of mobs spawned scales with the number of players in range of each spawner, and breezes are spawned less per spawner and per player than other mobs.\nWhen a trial chamber structure generates, one mob from each of the following categories is randomly selected for the trial spawners in that structure. Every mob within the same category has an equal chance to be selected. The breeze is in its own category and is thus guaranteed to be found in certain chambers.\nAdditionally, chickens can also appear in trial chambers in two different ways.\n- In Java Edition , baby zombies or baby husks that spawn have a 5% chance to spawn as a chicken jockey .\n- Naturally generated dispensers can contain eggs and breezes can unintentionally power a button or pressure plate, activating the dispenser to fire the eggs, which have an 1/8 chance to spawn a chick."
+    },
+    {
+      "section": "Loot",
+      "text": "Loot is available from vaults , chests , barrels , dispensers , and decorated pots from within the chambers. Players who defeat a trial spawner each receive rewards; this loot scales depending on the number of players who defeat the trial spawner."
+    },
+    {
+      "section": "Loot > Vaults",
+      "text": "In Java Edition , each trial chambers vault and reward chest contains  items drawn from 3 pools,  with the following distribution:\nIn Bedrock Edition , each trial chambers vault and reward chest contains  items drawn from 3 pools,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Vaults > Ominous vaults",
+      "text": "In Java Edition and Bedrock Edition , each trial chambers ominous vault contains  items drawn from 3 pools,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Chests > Entrances",
+      "text": "In Java Edition and Bedrock Edition , each trial chambers entrance chest contains 2–3 item stacks,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Chests > Intersections",
+      "text": "The room where the loot is stored isn't actually an intersection, it is a corridor end.\nIn Java Edition and Bedrock Edition , each trial chambers intersection chest contains 1–3 item stacks,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Chests > Supply",
+      "text": "In Java Edition and Bedrock Edition , each trial chambers supply chest contains 3–5 item stacks,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Barrels > Intersection barrels",
+      "text": "In Java Edition , each trial chambers intersection barrel contains 1–3 item stacks,  with the following distribution:\nIn Bedrock Edition , each trial chambers intersection barrel contains 1–3 item stacks,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Barrels > Corridor barrels",
+      "text": "Despite being barrels, the corridor containers are referred to as chests by the game.\nIn Java Edition and Bedrock Edition , each trial chambers corridor chest contains 1–3 item stacks,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Decorated pots",
+      "text": "In addition to the below, decorated pots may have flow, guster, or scrape designs, which yield their respective pottery sherds when broken, along with bricks for any blank sides. There is a 10 ⁄ 13 chance that the pot is composed entirely out of bricks, and 1 ⁄ 13 chance for each of the variants with a single sherd.\nIn Java Edition and Bedrock Edition , each trial chambers corridor pot contains 1 item stack,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Dispensers > Chamber dispenser",
+      "text": "In Java Edition and Bedrock Edition , each trial chambers chamber dispenser contains 1 item stack,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Dispensers > Corridor dispenser",
+      "text": "In Java Edition and Bedrock Edition , each trial chambers corridor dispenser contains 1 item stack,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Dispensers > Water dispenser",
+      "text": "In Java Edition and Bedrock Edition , each trial chambers water dispenser contains 1 item stack,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Trial spawners",
+      "text": "When all mobs have been killed, the trial spawner has a 50% chance of picking the trial key , in which case it drops for all players. The other 50% of the time it drops one of the other items for each player.\nIn Java Edition and Bedrock Edition , each trial chambers trial spawner contains 1 item stack,  with the following distribution:"
+    },
+    {
+      "section": "Loot > Trial spawners > Ominous trial spawners",
+      "text": "When all mobs have been killed, the ominous trial spawner has a 30% chance of picking the ominous trial key , in which case it drops for all players. The other 70% of the time it drops one of the other items for each player.\nIn Java Edition and Bedrock Edition , each trial chamber ominous trial spawner contains 1 item stack,  with the following distribution:"
+    }
+  ]
+}

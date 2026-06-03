@@ -1,0 +1,70 @@
+{
+  "title": "Illager",
+  "url": "https://minecraft.wiki/w/Illager",
+  "sections": [
+    {
+      "section": "(introduction)",
+      "text": "Illagers are a type of hostile mob that spawn in woodland mansions , patrols , pillager outposts , and raids .\nIllagers are hostile toward players , adult villagers , wandering traders , snow golems ,‌ [ BE only ] and iron golems . Illagers come in three (or four‌ [ JE only ] ) classes: pillager , vindicator , evoker , and unused illusioner .‌ [ JE only ] In Java Edition , all of these mobs are also part of the illager entity tag . All illagers are afraid of creakings .\nRavagers and witches can spawn in raids and join patrols. These mobs do not count as illagers, but they do count as raiders .\nVexes are only encountered when summoned by evokers, but they do not count as illagers or raiders."
+    },
+    {
+      "section": "Properties",
+      "text": "All raiders (and, by extension, all illagers) share the following properties:\n- They are part of the #raider entity tag .\n- They can join patrols .\n- They participate in raids .\n- They gain the Glowing effect whenever a bell is rung within 32 blocks' distance.‌ [ Java Edition only ]\n- They follow illager captains . They follow orders given by captains.‌ [ Java Edition only ]\n- Witches throw splash potions of Instant Health and Regeneration at them during raids .\nAll illagers share the following properties exclusive to them:\n- All illagers are also raiders and possess all properties specific to raiders.\n- They are classified as Illager in the game code.\n- They are part of the #illager entity tag .\n- They are immune to the Raid Omen effect.\n- They can wear ominous banners and become captains . Raid captains can give orders to other illagers and raiders.‌ [ Java Edition only ]\n- They cannot be damaged by evoker fangs .\n- They cannot be damaged by ravager roars.\n- They flee from creakings that are closer than 8 blocks' distance.\n- They may spawn as ravager jockeys in raids.\n- The mob does not fight back when hit by an arrow shot by a pillager or illusioner .‌ [ Java Edition only ] [ needs testing in Bedrock and Java editions ]\n- The mob attacks villagers but ignores baby villagers . In Bedrock Edition , vindicators named \" Johnny \" will also attack baby villagers. [ needs testing ]\n- \" Johnny \" vindicators do not attack them. Note that this does not apply to vexes or non-illager raiders.\nVexes are neither raiders nor illagers, and do not necessarily have any of the properties listed above. [ needs testing ]"
+    },
+    {
+      "section": "List of mobs",
+      "text": "- Evoker\n- Illusioner ‌ [ JE only ]\n- Pillager\n- Vindicator"
+    },
+    {
+      "section": "List of mobs > Affiliated mobs",
+      "text": "- Ravager\n- Vex\n- Witch"
+    },
+    {
+      "section": "List of mobs > Jockeys",
+      "text": "This jockey is comprised of at least one illager.\n- Ravager Jockey\nRavagers and vexes are also under the Illager section in the spawn eggs tab in the creative inventory"
+    },
+    {
+      "section": "Occurrences",
+      "text": "Illagers spawn naturally in patrols . Illagers and raiders spawn during raids :\n- Pillagers (including one patrol captain) spawn in patrols.\n- All illagers and raiders (except for illusioners ) can spawn in raids. Ravagers only spawn during raids.\nThey will also spawn in their respective structures :\n- Pillagers spawn in pillager outposts .\n- Vindicators and evokers spawn in woodland mansions when they are generated.\nThe vindicators and evokers that spawn naturally in woodland mansions do not despawn. They also do not respawn when killed.\nIllusioners ‌ [ JE only ] do not spawn naturally and can be summoned only through commands."
+    },
+    {
+      "section": "Occurrences > Raid captains",
+      "text": "All illagers have a small chance to be a raid captain wearing an ominous banner when spawned using a spawn egg ‌ [ JE only ] or when summoned by commands. [ needs testing ]\nRaid captains naturally spawn in raids‌ [ JE only ] . One raid captain is spawned during each wave as the “leader” of that wave. When the raid captain is killed and drops its ominous banner, other nearby illagers attempt to pick up the banner to become the new raid captain.\nOne pillager raid captain (also called a patrol captain) spawns in patrols.\nIn Java Edition , other illagers and raiders follow the orders of the raid captain, attacking any target the raid captain attacks.\nIn Java Edition , the ominous banner equips on the illager's helmet slot. In Bedrock Edition , the ominous banner equips on the illager's chestplate slot.\nRaiders that are not illagers cannot be captains."
+    },
+    {
+      "section": "Occurrences > Ravager jockeys",
+      "text": "An illager can spawn riding a ravager, creating a ravager jockey . The rider can be a pillager, vindicator, or evoker. In Java Edition , illusioners can also be summoned as ravager jockeys through commands.\nThey naturally spawn only in certain waves during raids. In Java Edition , the rider can also be a raid captain.\nJava Edition\nA pillager-ravager jockey spawns in wave 5. A vindicator-ravager jockey and an evoker-ravager jockey in wave 7. 1-2 vindicator-ravager jockeys and an evoker-ravager jockey also spawn in the extra wave (wave 8) in Hard difficulty .\nBedrock Edition\nA pillager-ravager jockey spawns in wave 5. A pillager-ravager jockey and an evoker-ravager jockey spawn in wave 7. \nVindicator-ravager jockeys do not spawn during raids, and can be spawned only with commands."
+    },
+    {
+      "section": "Occurrences > Events",
+      "text": "Illagers have their own in-game events, led by raid captains‌ [ JE only ] :\n- Patrol — a naturally spawned group of several pillagers led by a patrol captain roaming the landscape.\n- Raid — an ominous event in which waves of illagers and raiders spawn and attack a village while a goat horn blares. In Java Edition , a raid captain spawns in each wave alongside the other illagers, usually with a vindicator as the captain. A raid is triggered when a player with the Bad Omen status effect enters a village, where it transforms into Raid Omen and starts the raid if not removed after 30 seconds. Raiders and villagers both have unique behaviors during a raid. In Bedrock Edition , any killed raiders drop special loot, such as armor and enchanted books . The raiders and villagers celebrate after defeating or saving a village, respectively."
+    },
+    {
+      "section": "Occurrences > Effects",
+      "text": "Killing a raid captain drops an ominous bottle of a random level (I-V), which grant the Bad Omen effect of the same level when drank by a player . When that player enters a village, it becomes Raid Omen . If the Raid Omen effect is not removed, after 30 seconds a raid begins where the player obtained the Raid Omen. The level of the effect increases the enchantment power of pillagers' and vindicators' crossbows and axes, respectively, and omens with a level higher than 1 cause an extra wave of raiders to occur ‌ [ JE only ] .\nWhen all waves have been defeated in a raid, the Hero of the Village effect is given, which decreases prices when trading with villagers. The level of the effect scales with the level of the omen that triggered the raid."
+    },
+    {
+      "section": "Rune",
+      "text": "Illagers have an alphabet called illageralt , a rune font from Minecraft Dungeons . This font is currently usable only in Java Edition via commands."
+    },
+    {
+      "section": "Java Edition",
+      "text": "All illagers ignore baby villagers, but may still hit them by accident.\nIllagers do not retaliate when hit by a missed arrow shot by a pillager or illusioner.\nAll illagers and raiders within 48 blocks of a bell that has been rung gain three seconds of the Glowing effect, effectively highlighting them through walls."
+    },
+    {
+      "section": "Java Edition > Reinforcements",
+      "text": "On all difficulty levels, damaged illager mobs call all other illagers of their respective type within an area centered on the attacked illager to target the attacker, as long as the attacker is a non-illager. For example, nearby pillagers will attack a skeleton that injures another pillager, but pillagers do not aid a vindicator hit by a skeleton.​ [ more information needed ]"
+    },
+    {
+      "section": "Java Edition > Raids",
+      "text": "During raids, vindicators can open doors like villagers . They can also break wooden doors in Normal or Hard difficulty, if they cannot open the door successfully. Evokers and illusioners gain high movement speed without any effect.\nA raid captain spawns in each wave with other raiders, usually with a vindicator as the captain.\nIllagers pick up ominous banners dropped by raid captains and become the new raid captain. If the raid captain is still alive, they do not pick up a banner dropped from a previous wave or thrown by a player."
+    },
+    {
+      "section": "Java Edition > Patrols",
+      "text": "All illagers, ravagers, and witches actively join nearby patrols. If a \"Johnny\" vindicator joins a patrol, all patrol members assume the \"Johnny\" vindicator's aggressive behavior."
+    },
+    {
+      "section": "Bedrock Edition",
+      "text": "All illagers and vexes ignore baby villagers, but pillagers may still shoot them by accident. However, if a vindicator is named Johnny, then they will attack and kill them.\nA dispenser can equip an evoker, vindicator, or pillager with armor . However, no armor is visible on them and no armor drops upon death.\nPillagers and ravagers do not purposefully attack other illagers. However, non-pillagers and non- ravagers do attack pillagers who hit them with missed arrows . Vindicators and evokers retaliate against a pillager if the pillager accidentally hits the vindicator or evoker with an arrow, although the evoker fang deals no damage to pillagers. Vexes summoned by an injured evoker can still attack the pillager.\nA \" ravager with vindicator rider \" is unused in Bedrock Edition and can only be summoned with the following command:\n/ summon ravager ~ ~ ~ ~ ~ minecraft:spawn_with_vindicator_rider\nAfter the Texture Update , illagers still use the Java Edition 1.14 snapshot texture, including some of the Marketplace textures (for example, the pillager's arms). Also, a ravager's left leg texture in Bedrock Edition is different from that in Java Edition , where it uses it's right leg texture instead."
+    }
+  ]
+}

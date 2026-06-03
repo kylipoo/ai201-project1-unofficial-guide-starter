@@ -1,0 +1,2099 @@
+[
+  {
+    "text": "Bartering > (introduction): Bartering is a gameplay mechanic that allows players to exchange gold ingots for various items with piglins .",
+    "metadata": {
+      "source": "Bartering",
+      "section": "(introduction)",
+      "url": "https://minecraft.wiki/w/Bartering",
+      "tokens": 28
+    }
+  },
+  {
+    "text": "Bartering > Mechanics: Adult piglins can trade gold ingots for certain items when they pick up nearby gold ingot items or when the player uses gold ingots while looking at them. After the piglin takes the gold ingot and examines it for 6 seconds (120 gameticks) in Java Edition it tosses a random item to the player, or upward if no player is in sight. The full cycle time, from when a piglin accepts an ingot until it accepts the next ingot, is 6.05 seconds (121 gameticks) in Java Edition and 8 seconds (160 gameticks) in Bedrock Edition . Baby piglins take the ingot, but do not barter; they instead store the ingot in their inventory. Piglin brutes ignore gold ingots and do not barter. Piglins can pick up other items that are in the piglin_food or piglin_loved tags; however, gold ingots are the only items that piglins accept for bartering. Hitting a piglin causes it to \"confiscate\" the ingot; the piglin does not complete the barter. It cannot be bartered with again unless it puts another item in its inventory.",
+    "metadata": {
+      "source": "Bartering",
+      "section": "Mechanics",
+      "url": "https://minecraft.wiki/w/Bartering",
+      "tokens": 250
+    }
+  },
+  {
+    "text": "Bartering > Mechanics: Hitting a piglin causes it to \"confiscate\" the ingot; the piglin does not complete the barter. It cannot be bartered with again unless it puts another item in its inventory. Piglins who are killed in one hit before they finish examining always drop the ingot. When a piglin is examining a gold ingot, it can still be angered when the player breaks a container or a gold-related block nearby, although its behavior differs depending on the game edition. In Java Edition , the piglin finishes the barter on the original schedule and starts attacking the player only after the barter finishes. In Bedrock Edition , the piglin immediately finishes the barter and starts attacking the player, leading to a bartering transaction much shorter than the default 8 seconds. This allows piglins in Bedrock Edition to barter rapidly when gold-related blocks are repeatedly broken nearby or repeatedly pushed and pulled by pistons. Bartering is controlled by the loot table minecraft:gameplay/piglin_bartering . If the game rule mobGriefing is false , piglins barter only when the player uses a gold ingot on them.",
+    "metadata": {
+      "source": "Bartering",
+      "section": "Mechanics",
+      "url": "https://minecraft.wiki/w/Bartering",
+      "tokens": 241
+    }
+  },
+  {
+    "text": "Bartering > Mechanics: If the game rule mobGriefing is false , piglins barter only when the player uses a gold ingot on them. In Java Edition , if a piglin is zombified into a zombified piglin before the bartering is complete, the newly-zombified piglin drops the gold ingot immediately. In Bedrock Edition , the zombified piglin continues to hold the gold ingot after zombification and drops it upon death. When a piglin is admiring a gold ingot while bartering, it does not run away from nearby zoglins or zombified piglins. Piglins sometimes pick up and equip the iron boots enchanted with Soul Speed at a random level that they have just offered while bartering. A player wanting to obtain the iron boots without killing the piglin can induce the piglin to discard the iron boots by offering a pair of golden boots .",
+    "metadata": {
+      "source": "Bartering",
+      "section": "Mechanics",
+      "url": "https://minecraft.wiki/w/Bartering",
+      "tokens": 199
+    }
+  },
+  {
+    "text": "Bartering > Items bartered: The item the piglin throws may be one of the following:\nBartering is the only renewable source of nether quartz, crying obsidian, soul sand, dried ghasts (both directly as a barterable item and indirectly as a product of soul sand), nether brick‌ [ Java Edition only ] , gravel, blackstone, and the Soul Speed enchantment.",
+    "metadata": {
+      "source": "Bartering",
+      "section": "Items bartered",
+      "url": "https://minecraft.wiki/w/Bartering",
+      "tokens": 83
+    }
+  },
+  {
+    "text": "Enchantment > (introduction): Enchantments modify the behavior of tools, weapons, and armor, granting additional abilities. A glint animation appears on items to show that they are enchanted.",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "(introduction)",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 40
+    }
+  },
+  {
+    "text": "Enchantment > Obtaining: The player can apply enchantments to items by: - Using an enchanting table . An unenchanted item can be enchanted at the cost of lapis lazuli and experience levels. - Using an anvil . An enchanted or unenchanted item can be combined with an enchanted book at the cost of experience levels. When two like items are combined, their enchantments are also combined, at the cost of experience levels. - Using the / enchant or / give commands. Enchanted items can be obtained from: - Trading . Some villagers trade enchanted items for emeralds. - Fishing . Enchanted items can be obtained from fishing treasure loot. - Mob drops . Some mobs can spawn with enchanted weapons or armor and have a chance of dropping their items when killed by a player. - Bartering . Piglins sometimes drop enchanted items when given gold. - Generated loot from various structures . - Raids ‌ [ Bedrock Edition only ] . Pillagers and vindicators spawned during raids may drop enchanted items. In Creative mode, items can be enchanted using an enchanting table or anvil without using lapis lazuli or experience levels.",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "Obtaining",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 245
+    }
+  },
+  {
+    "text": "Enchantment > Obtaining: Pillagers and vindicators spawned during raids may drop enchanted items. In Creative mode, items can be enchanted using an enchanting table or anvil without using lapis lazuli or experience levels. Enchanted books can be found in the Creative inventory . Enchanting table An enchanting table can be used to enchant unenchanted items, consuming lapis lazuli and experience levels in the process. The player can only choose one of three randomly generated enchantments to apply to the item; however, there is a chance for additional bonus enchantments to also be applied. The quality of the offered enchantments depends on the arrangement of bookshelves around the enchanting table. Which of the three offered enchantments the player can choose depends on the player's experience level. Anvil An anvil can be used to combine the enchantments of two like items, or an item and an enchanted book; one of the items is always sacrificed in the process.",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "Obtaining",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 217
+    }
+  },
+  {
+    "text": "Enchantment > Obtaining: Anvil An anvil can be used to combine the enchantments of two like items, or an item and an enchanted book; one of the items is always sacrificed in the process. Combining items in an anvil costs experience levels; the amount depends on the enchantments of the sacrificed item, and the number of times the items have been used in an anvil. Trading Some villager sell enchanted equipment or books. Armorer , fisherman , fletcher , toolsmith , and weaponsmith villagers sell enchanted tools, weapons, or armor with non-treasure enchantmets. Librarian villagers sell enchanted books that can have almost any enchantment, including most treasure enchantments, except for Soul Speed, Swift Sneak, and Wind Burst. Bartering Piglins can trade enchanted books or iron boots with a random level of Soul Speed when given gold ingots. Fishing Enchanted books, bows, and fishing rods can be obtained from fishing treasure loot. Mob drops Some mobs can spawn with enchanted weapons or armor, which have an 8.5% chance of dropping if the mob is killed by a player. Generated loot",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "Obtaining",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 236
+    }
+  },
+  {
+    "text": "Enchantment > Obtaining: Mob drops Some mobs can spawn with enchanted weapons or armor, which have an 8.5% chance of dropping if the mob is killed by a player. Generated loot Most structures that contain loot chests have a chance of generating enchanted books or items. Raids In Bedrock Edition , pillagers and vindicators spawned during a raid have a chance to spawn with enchanted weapons or armor, which has a chance of dropping if the mob is killed by a player.",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "Obtaining",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 100
+    }
+  },
+  {
+    "text": "Enchantment > Behavior: Effects The effects of enchantments vary significantly. Some enchantments increase protection against specific types of damage, others increase damage dealt to certain classes of mobs. Some enchantments grant unique abilities such as summoning a lightning bolt or turning water into ice blocks. See § List of enchantments . Level Many enchantments have multiple levels. Generally, the higher the level, the more potent the enchantment's effects are. Levels are stylized as Roman numerals (I, II, III,...). The minimum level of any enchantment is I; the maximum level depends on the enchantment. When applied using / give , which ignores regular maximum levels, the maximum allowed level for any enchantment is 255. Incompatibilities Some enchantments are incompatible with one another. This means that it is not possible for the player to apply both conflicting enchantments to the same item using standard methods, including / enchant , although / give can force conflicting enchantments onto the same item with varying results to their effects.",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 234
+    }
+  },
+  {
+    "text": "Enchantment > Behavior: Enchanting tables and generated loot do not produce items with conflicting enchantments, and attempting to combine conflicting enchantments in an anvil results in the sacrificed item's incompatible enchantment being lost. Conflicting enchantments - Sword: Sharpness , Smite , and Bane of Arthropods - Tool: Fortune and Silk Touch - Armor: Protection , Fire Protection , Blast Protection , Projectile Protection - Boots: Depth Strider and Frost Walker - Bow: Infinity and Mending - Crossbow: Multishot and Piercing - Trident: Loyalty and Riptide or Channeling and Riptide - Mace: Density , Breach , Smite, and Bane of Arthropods. - Books: Sharpness, Density, and Breach. All of the above restrictions also apply. Some enchantments are incompatible with certain items. For example, Protection, which decreases damage, cannot be applied to swords, and Sharpness, which increases attack damage cannot be applied to armor. Primary and secondary items An enchantment's primary items are the set of items that can receive the enchantment from an enchanting table.",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 239
+    }
+  },
+  {
+    "text": "Enchantment > Behavior: Primary and secondary items An enchantment's primary items are the set of items that can receive the enchantment from an enchanting table. Some items that cannot receive a particular enchantment from an enchanting table can still have the enchantment applied to them by combining the item with an enchanted book in an anvil; these are the enchantment's secondary items . Treasure Treasure enchantments cannot be obtained through an enchanting table, and are never found on natural equipment worn by mobs or on enchanted equipment traded by villagers. Most treasure enchantments, however, can be generated on enchanted books sold by librarians . If a treasure enchantment is tradable, it has double the price (before capping to 64 emeralds) compared to a non-treasure enchantment of the same level. Some treasure enchantments, such as Soul Speed, Swift Sneak, and Wind Burst, can only be obtained in specific structures or through a specific game mechanic. Curse Curse enchantments apply negative modifiers to items and cannot be removed.",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 231
+    }
+  },
+  {
+    "text": "Enchantment > Behavior: Curse Curse enchantments apply negative modifiers to items and cannot be removed. Attempting to disenchant an item with a curse enchantment removes all other enchantments, except for the curse enchantment.",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 53
+    }
+  },
+  {
+    "text": "Enchantment > Disenchanting: Enchantments can be removed from an item by combining it with another item in the grindstone or the crafting grid . This does not remove curse enchantments from the item.",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "Disenchanting",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 48
+    }
+  },
+  {
+    "text": "Enchantment > List of enchantments > Descriptions: Each enchantment in the table below includes attributes that are possible for the player to acquire legitimately in Survival mode. Other combinations are possible in Creative mode or with cheats, mods, or third-party software.\n- Max Level: Maximum level that can be obtained without commands.\n- Primary Items: The items that can receive the enchantment legitimately in Survival mode by using an enchanting table . Items of any material can be enchanted (some more easily than others – see Enchantment mechanics ).\n- Secondary Items: Items that, in Survival mode, cannot receive the enchantment from an enchanting table but can from an enchanted book with an anvil.",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "List of enchantments > Descriptions",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 152
+    }
+  },
+  {
+    "text": "Enchantment > List of enchantments > Summary of enchantments by item: The table below shows which enchantments can be applied to particular items.\nThe tables below show which enchantments can be obtained through an enchanting table, and which can only be applied through an anvil.\n- indicates the item can receive the enchantment from an enchanting table .\n- indicates the item cannot receive the enchantment from an enchanting table, but can receive the enchantment by using an anvil to combine the item with an enchanted book or another enchanted item.",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "List of enchantments > Summary of enchantments by item",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 125
+    }
+  },
+  {
+    "text": "Enchantment > Maximum effective values for enchantments: Using / give , items can be enchanted at higher levels than in vanilla gameplay. Some enchantments continue to increase their effectiveness at higher levels. However, there is a point where higher levels no longer increase effectiveness. The table below shows the effective limits for enchantments (also found here ).",
+    "metadata": {
+      "source": "Enchantment",
+      "section": "Maximum effective values for enchantments",
+      "url": "https://minecraft.wiki/w/Enchantment",
+      "tokens": 75
+    }
+  },
+  {
+    "text": "Ender Dragon > (introduction): The ender dragon is a giant flying hostile boss mob found when first entering the End . It is the largest naturally spawning mob in the game. Its attacks involve charging at the player and shooting fireballs that create damaging effect clouds . The ender dragon can be re-summoned by placing four End crystals around the exit portal .\nDefeating the ender dragon the first time activates the exit portal which allows safe return to the Overworld . Each time it is defeated, an End gateway is created on the outskirts of the central island which can be used to teleport to the outer End islands .",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "(introduction)",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 127
+    }
+  },
+  {
+    "text": "Ender Dragon > Spawning > Initial spawning: The ender dragon spawns 20 game ticks (1 second) after an entity first arrives in the End, along with the bedrock frame for the exit portal.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Spawning > Initial spawning",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 42
+    }
+  },
+  {
+    "text": "Ender Dragon > Spawning > Re-summoning: Players can re-summon the dragon by placing four End crystals on the edges of the exit portal , one on each side. If the exit portal is ever destroyed, End crystals can be placed on obsidian blocks placed where the bedrock of the original exit portal once stood. In Bedrock Edition , the crystals can be placed one block outward, in all or either of the four directions. - The End crystals do not need to be aligned to the central pillar.​ [ more information needed ] - The End crystals may be placed on obsidian instead of bedrock. When it is re-summoned, the four End crystals point to the tops of each pillar, setting off a series of explosions that resets the obsidian pillars, iron bars, and End crystals. The top of each pillar explodes, destroying any player-placed blocks. Eventually, all of the End crystals point at the coordinates of (0.0, 128, 0.0) and the ender dragon spawns there. The four crystals placed around the exit portal then explode. The whole sequence lasts a bit over 30 seconds (exactly 604 ticks).",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Spawning > Re-summoning",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 232
+    }
+  },
+  {
+    "text": "Ender Dragon > Spawning > Re-summoning: The four crystals placed around the exit portal then explode. The whole sequence lasts a bit over 30 seconds (exactly 604 ticks). If any of the End crystals placed around the exit portal are destroyed, the summoning sequence is canceled. During the summoning sequence, the End crystals on top of the End spikes cannot be destroyed. If the player does not pick up the dragon egg and starts to re-summon the dragon, the dragon egg disappears. If the dragon goes through an End gateway , another immediately spawns at (0, 128, 0) while the other dragon flies to (0, 128, 0).",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Spawning > Re-summoning",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 138
+    }
+  },
+  {
+    "text": "Ender Dragon > Death and drops: After the ender dragon is slain for the first time, the following events take place: - First, it moves to the highest dragon-immune block in the (0,0) column, which is typically the top of the exit portal. During this final move, the dragon can still damage other entities, despite being \"dead\". - Once it reaches (0,0), it changes model and slowly ascends, its wings and body becoming more tattered until it disappears in beams of light erupting from its center. A loud sound, Ender dragon death.ogg is played. This takes 10 seconds. During this ascension, the following occurs: Starting 7.7 seconds (154 game ticks ) after the dragon begins ascending, a total of 12000 XP experience points (ten drops of 960 and one drop of 2400) appear out of the dragon's body (one by one, per tick) — enough to bring a player from no experience all the way up to level 68. Some of the experience orbs can drop into the exit portal and can then be retrieved in the Overworld.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Death and drops",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 236
+    }
+  },
+  {
+    "text": "Ender Dragon > Death and drops: Some of the experience orbs can drop into the exit portal and can then be retrieved in the Overworld. Shortly thereafter, exactly 10 seconds (200 game ticks ) into the animation, the following occurs: The bedrock structure fills in with End portal blocks to become the exit portal , enabling the player to transport back to the Overworld and respawn at their spawn point, or at world spawn if they didn't set a spawn point . If the exit portal doesn't exist at the expected location (for example, if it was destroyed in Creative Mode), a new one is created there. A dragon egg appears above the island's central bedrock structure. If a block exists right above the center of the central bedrock structure, then the dragon egg spawns 1 block above the highest block at (0,0). If the highest block is at the height limit, then the dragon egg does not spawn. An End gateway portal is generated 96 blocks away from the exit portal always floating at Y=75.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Death and drops",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 214
+    }
+  },
+  {
+    "text": "Ender Dragon > Death and drops: If the highest block is at the height limit, then the dragon egg does not spawn. An End gateway portal is generated 96 blocks away from the exit portal always floating at Y=75. When a re-summoned ender dragon is slain, the same events occur, except that only 500 XP experience points are dropped, and if there are already 20 End gateway portals, no more are generated. In Java Edition , the dragon egg appears only the first time the ender dragon is slain; in Bedrock Edition , it appears the first and second time.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Death and drops",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 118
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior: During the battle with the ender dragon, unique music called \" Boss \" plays, the edges of the screen darken, black fog appears, and chunks around the exit portal are constantly loaded regardless of simulation distance. These happen as long as there is at least one player within a Euclidean distance of 192 blocks from (0.0, 128, 0.0). The ender dragon has a light purple health bar that appears at the top of the player 's screen. Its health is restored by nearby End crystals at the rate of 1 HP every 10 game ticks (0.5 seconds), indicated by a white beam connecting the dragon and the crystal. Destroying an End crystal that is actively healing the dragon causes 10 HP damage to it. The ender dragon only takes damage from explosions and players (including commands ). The ender dragon is immune to fire, falling, drowning, freezing, poisoning, lightning, and the void; when perched, it is also immune to arrows (but not firework rockets shot from a crossbow). The dragon is immune to all status effects , except for Instant Damage coming from a player (via a thrown splash or lingering potion of Harming).",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 247
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior: The dragon is immune to all status effects , except for Instant Damage coming from a player (via a thrown splash or lingering potion of Harming). It also reduces all incoming damage to it by ~75% unless the attack is hitting its head, giving it an effective 800 HP × 400 if no attacks are dealt against its head. In Java Edition , due to a bug, the ender dragon's head has the same damage reduction as the rest of its hitboxes, giving no benefit to attacking its head. This uses the formula original damage 4 + min ⁡ ( 1 , original damage ) , which adjusts the value toward 4 ⁄ 3 ( HP × 0.667 ). In Bedrock Edition , this damage reduction is temporarily removed when a projectile hits its head. The ender dragon's hitbox, especially its wings, is larger than the ender dragon itself. This causes players to be knocked back even when not standing too close. The damage modification is applied to all damage types the dragon takes, including starvation and void damage, which are only possible with / damage . In Java Edition , the ender dragon is immune to critical hits , since it can be applied only to living entities .",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 249
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior: In Java Edition , the ender dragon is immune to critical hits , since it can be applied only to living entities . While the ender dragon is a living entity, the parts that are damaged are actually non-mob entities. Suffocation is completely non-applicable, as it either phases through or immediately destroys any block it touches. By using the F3 + B shortcut, the dragon's bounding box appears.‌ [ Java Edition only ] However, it cannot be damaged at just any spot in this large volume: eight green sub- hitboxes are also shown, which indicate the locations where the dragon can take damage: the tail (three hitboxes), body, head, neck, and wings (one hitbox for each wing). Name tags cannot be used on an ender dragon, because it is not possible to interact directly with it, only with its parts (green hitboxes), which are not living entities.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 200
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior: Name tags cannot be used on an ender dragon, because it is not possible to interact directly with it, only with its parts (green hitboxes), which are not living entities. Ender dragons killed by / kill ‌ [ Java Edition only ] or from damage belonging to the type self_destruct , and was not spawned from the player ‌ [ Bedrock Edition only ] , will skip their death animation and the exit portal will immediately open; in Bedrock Edition , if the dragon was killed by / kill it will stay in the same place and play its death animation there instead of flying to the exit portal. The purple eyes and mouth of the ender dragon are emissive with Vibrant Visuals enabled.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 147
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior > Movement: The ender dragon is a flying mob and cannot stand on the ground. It flies around the End's main island. The dragon can pass through all blocks and destroys most of them, but it can still be affected by flowing water , lava , and bubble columns . Blocks not destroyed are those that naturally generate on the central End island, such as End stone, and those that are intended to be indestructible, such as bedrock. The following blocks will not be destroyed if the ender dragon passes through them: - Barrier - Bedrock - Command blocks - Crying obsidian - End stone - End portal - End portal frame - End gateway - Fire - Iron bars - Jigsaw - Light block - Moving piston - Obsidian - Reinforced deepslate - Respawn anchor - Soul fire - Structure block - Test blocks ‌ [ JE only ] - Test instance block ‌ [ JE only ] - Allow ‌ [ BE only ] - Deny ‌ [ BE only ] - Border ‌ [ BE only ] In Java Edition , these blocks are marked under the dragon_immune tag , with the exception of light blocks and fire, which are marked as dragon_transparent .",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior > Movement",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 235
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior > Movement: - Deny ‌ [ BE only ] - Border ‌ [ BE only ] In Java Edition , these blocks are marked under the dragon_immune tag , with the exception of light blocks and fire, which are marked as dragon_transparent . Destroyed blocks are not dropped , but containers other than shulker boxes and ender chests drop their contents.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior > Movement",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 74
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior > Attacking: The dragon never targets any entity but the player, although other mobs may turn hostile to the dragon when hit, and the dragon may sometimes retaliate against other mobs if it takes damage to a projectile. Any entities hit by its wings are dealt 5 HP damage (or 10 HP damage if hit by its head), and in Java Edition , are thrown into the air, sometimes to fatal heights or off the island. Neither of these effects is applied for 1 ⁄ 2 second after the dragon takes damage. The ender dragon has four main states of behavior: Guarding - The dragon begins in this state, circling the ring of obsidian pillars on either the outside if there are still End crystals or the inside if the crystals are destroyed. - With each crystal's destruction, it takes damage and there is an increased chance of the dragon switching states. Targeting Whenever the dragon finds itself less than 10 blocks or more than 150 blocks from its current target, it attempts to choose a new target. When damaged it targets a point just behind itself, causing it to turn away and choose a new target. Strafing - Upon the destruction of an End crystal, the dragon switches to strafing.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior > Attacking",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 248
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior > Attacking: When damaged it targets a point just behind itself, causing it to turn away and choose a new target. Strafing - Upon the destruction of an End crystal, the dragon switches to strafing. As soon as it is within 64 blocks, it shoots a fireball at the player. - The dragon resumes circling after this state. Diving‌ [ Bedrock Edition only ] - The dragon dives onto the target player's position, taken at the start of the dive. The dragon never seems to perform this attack mid-flight in game, it only seems to do it when exiting the portal. - The dragon resumes circling after this state, whether or not it actually hit the player. - Does not happen on Java Edition due to a bug. Perching",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior > Attacking",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 162
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior > Attacking: - The dragon resumes circling after this state, whether or not it actually hit the player. - Does not happen on Java Edition due to a bug. Perching - While guarding and the dragon has reached the end of the path, it has 1 in (3 + crystals alive) chance (~7.7% up to 33%)​ [ more information needed for Bedrock Edition ] to go to the exit portal structure (approaching from the side opposite the player if possible) and lands on the highest block of the coordinates (X=0, Z=0), up to (Y=101).‌ [ Bedrock Edition only ] The dragon circles above the exit structure while slowly descending in Java Edition , or dive from the obsidian pillars in Bedrock Edition . If there is no block in (X=0, Z=0) the dragon flies down to (Y=0) and \"perches\" there in Java Edition , or freezes right when it switches to perching in Bedrock Edition . The dragon is immune to arrows and thrown tridents in this state; they catch fire and bounce off.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior > Attacking",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 229
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior > Attacking: The dragon is immune to arrows and thrown tridents in this state; they catch fire and bounce off. Dragon's breath After 1.25 seconds, if a player is within 20 blocks of the exit portal structure, the dragon roars and use its 3-second breath attack , damaging players similarly to a lingering potion of Harming . This does not happen on Peaceful difficulty in Java Edition . An area of visible particles in the shape of a horizontal disc one block tall and 5 to 6 blocks in diameter appears where the breath attack strikes, either on the ground or floating in the air, at whatever point the breath attack struck a block. The harming effect zone where the player takes damage is confined to a smaller area in the center this visible cloud, covering about 3 to 4 blocks. The harming effect portion of the purple clouds emitted from the dragon's breath attack can be collected in a glass bottle to obtain dragon's breath . Each bottle of dragon's breath collected removes one block from the lingering damage zone of the breath attack. The visible clouds remain for 3 seconds whether the dragons breath is bottled or not.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior > Attacking",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 234
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior > Attacking: Each bottle of dragon's breath collected removes one block from the lingering damage zone of the breath attack. The visible clouds remain for 3 seconds whether the dragons breath is bottled or not. By rapidly collecting all of the harmful blocks, usually around three, even a direct hit from the breath attack can be mostly and even entirely negated before the player suffers any damage. Charge If the player is not near the portal within 5 seconds of the dragon's landing, it charges at the closest player within 150 blocks with a line of sight from the dragon's head.‌ [ Bedrock Edition only ] In Java Edition line of sight is not required. Take-off After four consecutive breath attacks, or if the dragon fails to locate a player within 150 blocks, it takes off from its perch. In Java Edition , it always takes off in Peaceful difficulty, making it difficult to land melee hits. The dragon resumes circling after this state. Escape If cumulative damage taken while perched exceeds 50 HP × 25 , the dragon takes off and resets the damage accumulator. The accumulator is not reset if it does not take enough damage. The dragon resumes circling after this state.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior > Attacking",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 244
+    }
+  },
+  {
+    "text": "Ender Dragon > Behavior > Attacking: The accumulator is not reset if it does not take enough damage. The dragon resumes circling after this state. When the dragon takes a fatal blow, it flies toward the exit portal structure before dying, unless it cannot find it within 150 blocks, or it is inside blocks.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Behavior > Attacking",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 65
+    }
+  },
+  {
+    "text": "Ender Dragon > Dragon Fireball: Dragon fireballs are special fireballs that the ender dragon fires. The ender dragon always fires one dragon fireball for each End crystal destroyed by the player, and also fires them periodically. Unlike ghast fireballs , they cannot be deflected and do not deal any damage or knockback on impact with an entity. Instead, they deposit purple effect clouds across the ground that damage players the same way a lingering potion of Harming II does. This means that the ender dragon's fireballs deal magic damage, which ignores any damage reduction from the player's armor. However, its damage is reduced by the Protection enchantment. The purple effect cloud's hitbox slowly grows larger in diameter until it disappears.\nAs with its close-ranged breath attack, the purple clouds can be bottled to obtain the dragon's breath .\nUnlike lingering potions of Harming, the effect cloud does not shrink when affecting mobs.",
+    "metadata": {
+      "source": "Ender Dragon",
+      "section": "Dragon Fireball",
+      "url": "https://minecraft.wiki/w/Ender_Dragon",
+      "tokens": 199
+    }
+  },
+  {
+    "text": "Illager > (introduction): Illagers are a type of hostile mob that spawn in woodland mansions , patrols , pillager outposts , and raids .\nIllagers are hostile toward players , adult villagers , wandering traders , snow golems ,‌ [ BE only ] and iron golems . Illagers come in three (or four‌ [ JE only ] ) classes: pillager , vindicator , evoker , and unused illusioner .‌ [ JE only ] In Java Edition , all of these mobs are also part of the illager entity tag . All illagers are afraid of creakings .\nRavagers and witches can spawn in raids and join patrols. These mobs do not count as illagers, but they do count as raiders .\nVexes are only encountered when summoned by evokers, but they do not count as illagers or raiders.",
+    "metadata": {
+      "source": "Illager",
+      "section": "(introduction)",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 182
+    }
+  },
+  {
+    "text": "Illager > Properties: All raiders (and, by extension, all illagers) share the following properties: - They are part of the #raider entity tag . - They can join patrols . - They participate in raids . - They gain the Glowing effect whenever a bell is rung within 32 blocks' distance.‌ [ Java Edition only ] - They follow illager captains . They follow orders given by captains.‌ [ Java Edition only ] - Witches throw splash potions of Instant Health and Regeneration at them during raids . All illagers share the following properties exclusive to them: - All illagers are also raiders and possess all properties specific to raiders. - They are classified as Illager in the game code. - They are part of the #illager entity tag . - They are immune to the Raid Omen effect. - They can wear ominous banners and become captains . Raid captains can give orders to other illagers and raiders.‌ [ Java Edition only ] - They cannot be damaged by evoker fangs . - They cannot be damaged by ravager roars. - They flee from creakings that are closer than 8 blocks' distance. - They may spawn as ravager jockeys in raids.",
+    "metadata": {
+      "source": "Illager",
+      "section": "Properties",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 247
+    }
+  },
+  {
+    "text": "Illager > Properties: - They cannot be damaged by ravager roars. - They flee from creakings that are closer than 8 blocks' distance. - They may spawn as ravager jockeys in raids. - The mob does not fight back when hit by an arrow shot by a pillager or illusioner .‌ [ Java Edition only ] [ needs testing in Bedrock and Java editions ] - The mob attacks villagers but ignores baby villagers . In Bedrock Edition , vindicators named \" Johnny \" will also attack baby villagers. [ needs testing ] - \" Johnny \" vindicators do not attack them. Note that this does not apply to vexes or non-illager raiders. Vexes are neither raiders nor illagers, and do not necessarily have any of the properties listed above. [ needs testing ]",
+    "metadata": {
+      "source": "Illager",
+      "section": "Properties",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 166
+    }
+  },
+  {
+    "text": "Illager > List of mobs: - Evoker\n- Illusioner ‌ [ JE only ]\n- Pillager\n- Vindicator",
+    "metadata": {
+      "source": "Illager",
+      "section": "List of mobs",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 26
+    }
+  },
+  {
+    "text": "Illager > List of mobs > Affiliated mobs: - Ravager\n- Vex\n- Witch",
+    "metadata": {
+      "source": "Illager",
+      "section": "List of mobs > Affiliated mobs",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 21
+    }
+  },
+  {
+    "text": "Illager > List of mobs > Jockeys: This jockey is comprised of at least one illager.\n- Ravager Jockey\nRavagers and vexes are also under the Illager section in the spawn eggs tab in the creative inventory",
+    "metadata": {
+      "source": "Illager",
+      "section": "List of mobs > Jockeys",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 49
+    }
+  },
+  {
+    "text": "Illager > Occurrences: Illagers spawn naturally in patrols . Illagers and raiders spawn during raids :\n- Pillagers (including one patrol captain) spawn in patrols.\n- All illagers and raiders (except for illusioners ) can spawn in raids. Ravagers only spawn during raids.\nThey will also spawn in their respective structures :\n- Pillagers spawn in pillager outposts .\n- Vindicators and evokers spawn in woodland mansions when they are generated.\nThe vindicators and evokers that spawn naturally in woodland mansions do not despawn. They also do not respawn when killed.\nIllusioners ‌ [ JE only ] do not spawn naturally and can be summoned only through commands.",
+    "metadata": {
+      "source": "Illager",
+      "section": "Occurrences",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 147
+    }
+  },
+  {
+    "text": "Illager > Occurrences > Raid captains: All illagers have a small chance to be a raid captain wearing an ominous banner when spawned using a spawn egg ‌ [ JE only ] or when summoned by commands. [ needs testing ]\nRaid captains naturally spawn in raids‌ [ JE only ] . One raid captain is spawned during each wave as the “leader” of that wave. When the raid captain is killed and drops its ominous banner, other nearby illagers attempt to pick up the banner to become the new raid captain.\nOne pillager raid captain (also called a patrol captain) spawns in patrols.\nIn Java Edition , other illagers and raiders follow the orders of the raid captain, attacking any target the raid captain attacks.\nIn Java Edition , the ominous banner equips on the illager's helmet slot. In Bedrock Edition , the ominous banner equips on the illager's chestplate slot.\nRaiders that are not illagers cannot be captains.",
+    "metadata": {
+      "source": "Illager",
+      "section": "Occurrences > Raid captains",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 196
+    }
+  },
+  {
+    "text": "Illager > Occurrences > Ravager jockeys: An illager can spawn riding a ravager, creating a ravager jockey . The rider can be a pillager, vindicator, or evoker. In Java Edition , illusioners can also be summoned as ravager jockeys through commands.\nThey naturally spawn only in certain waves during raids. In Java Edition , the rider can also be a raid captain.\nJava Edition\nA pillager-ravager jockey spawns in wave 5. A vindicator-ravager jockey and an evoker-ravager jockey in wave 7. 1-2 vindicator-ravager jockeys and an evoker-ravager jockey also spawn in the extra wave (wave 8) in Hard difficulty .\nBedrock Edition\nA pillager-ravager jockey spawns in wave 5. A pillager-ravager jockey and an evoker-ravager jockey spawn in wave 7. \nVindicator-ravager jockeys do not spawn during raids, and can be spawned only with commands.",
+    "metadata": {
+      "source": "Illager",
+      "section": "Occurrences > Ravager jockeys",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 225
+    }
+  },
+  {
+    "text": "Illager > Occurrences > Events: Illagers have their own in-game events, led by raid captains‌ [ JE only ] :\n- Patrol — a naturally spawned group of several pillagers led by a patrol captain roaming the landscape.\n- Raid — an ominous event in which waves of illagers and raiders spawn and attack a village while a goat horn blares. In Java Edition , a raid captain spawns in each wave alongside the other illagers, usually with a vindicator as the captain. A raid is triggered when a player with the Bad Omen status effect enters a village, where it transforms into Raid Omen and starts the raid if not removed after 30 seconds. Raiders and villagers both have unique behaviors during a raid. In Bedrock Edition , any killed raiders drop special loot, such as armor and enchanted books . The raiders and villagers celebrate after defeating or saving a village, respectively.",
+    "metadata": {
+      "source": "Illager",
+      "section": "Occurrences > Events",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 185
+    }
+  },
+  {
+    "text": "Illager > Occurrences > Effects: Killing a raid captain drops an ominous bottle of a random level (I-V), which grant the Bad Omen effect of the same level when drank by a player . When that player enters a village, it becomes Raid Omen . If the Raid Omen effect is not removed, after 30 seconds a raid begins where the player obtained the Raid Omen. The level of the effect increases the enchantment power of pillagers' and vindicators' crossbows and axes, respectively, and omens with a level higher than 1 cause an extra wave of raiders to occur ‌ [ JE only ] .\nWhen all waves have been defeated in a raid, the Hero of the Village effect is given, which decreases prices when trading with villagers. The level of the effect scales with the level of the omen that triggered the raid.",
+    "metadata": {
+      "source": "Illager",
+      "section": "Occurrences > Effects",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 175
+    }
+  },
+  {
+    "text": "Illager > Rune: Illagers have an alphabet called illageralt , a rune font from Minecraft Dungeons . This font is currently usable only in Java Edition via commands.",
+    "metadata": {
+      "source": "Illager",
+      "section": "Rune",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 37
+    }
+  },
+  {
+    "text": "Illager > Java Edition: All illagers ignore baby villagers, but may still hit them by accident.\nIllagers do not retaliate when hit by a missed arrow shot by a pillager or illusioner.\nAll illagers and raiders within 48 blocks of a bell that has been rung gain three seconds of the Glowing effect, effectively highlighting them through walls.",
+    "metadata": {
+      "source": "Illager",
+      "section": "Java Edition",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 76
+    }
+  },
+  {
+    "text": "Illager > Java Edition > Reinforcements: On all difficulty levels, damaged illager mobs call all other illagers of their respective type within an area centered on the attacked illager to target the attacker, as long as the attacker is a non-illager. For example, nearby pillagers will attack a skeleton that injures another pillager, but pillagers do not aid a vindicator hit by a skeleton.​ [ more information needed ]",
+    "metadata": {
+      "source": "Illager",
+      "section": "Java Edition > Reinforcements",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 94
+    }
+  },
+  {
+    "text": "Illager > Java Edition > Raids: During raids, vindicators can open doors like villagers . They can also break wooden doors in Normal or Hard difficulty, if they cannot open the door successfully. Evokers and illusioners gain high movement speed without any effect.\nA raid captain spawns in each wave with other raiders, usually with a vindicator as the captain.\nIllagers pick up ominous banners dropped by raid captains and become the new raid captain. If the raid captain is still alive, they do not pick up a banner dropped from a previous wave or thrown by a player.",
+    "metadata": {
+      "source": "Illager",
+      "section": "Java Edition > Raids",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 120
+    }
+  },
+  {
+    "text": "Illager > Java Edition > Patrols: All illagers, ravagers, and witches actively join nearby patrols. If a \"Johnny\" vindicator joins a patrol, all patrol members assume the \"Johnny\" vindicator's aggressive behavior.",
+    "metadata": {
+      "source": "Illager",
+      "section": "Java Edition > Patrols",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 52
+    }
+  },
+  {
+    "text": "Illager > Bedrock Edition: All illagers and vexes ignore baby villagers, but pillagers may still shoot them by accident. However, if a vindicator is named Johnny, then they will attack and kill them. A dispenser can equip an evoker, vindicator, or pillager with armor . However, no armor is visible on them and no armor drops upon death. Pillagers and ravagers do not purposefully attack other illagers. However, non-pillagers and non- ravagers do attack pillagers who hit them with missed arrows . Vindicators and evokers retaliate against a pillager if the pillager accidentally hits the vindicator or evoker with an arrow, although the evoker fang deals no damage to pillagers. Vexes summoned by an injured evoker can still attack the pillager. A \" ravager with vindicator rider \" is unused in Bedrock Edition and can only be summoned with the following command: / summon ravager ~ ~ ~ ~ ~ minecraft:spawn_with_vindicator_rider",
+    "metadata": {
+      "source": "Illager",
+      "section": "Bedrock Edition",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 238
+    }
+  },
+  {
+    "text": "Illager > Bedrock Edition: / summon ravager ~ ~ ~ ~ ~ minecraft:spawn_with_vindicator_rider After the Texture Update , illagers still use the Java Edition 1.14 snapshot texture, including some of the Marketplace textures (for example, the pillager's arms). Also, a ravager's left leg texture in Bedrock Edition is different from that in Java Edition , where it uses it's right leg texture instead.",
+    "metadata": {
+      "source": "Illager",
+      "section": "Bedrock Edition",
+      "url": "https://minecraft.wiki/w/Illager",
+      "tokens": 99
+    }
+  },
+  {
+    "text": "Piglin > (introduction): A piglin is a neutral mob found in the Nether . It is hostile to players unless they wear at least one piece of golden armor . It can be given gold ingots to barter for various items . It wields either a golden sword , golden spear , or crossbow and uses either melee, spear charge, or ranged attacks, respectively.\nBaby piglins do not grow up, are passive, and take gold without giving anything in return.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "(introduction)",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 98
+    }
+  },
+  {
+    "text": "Piglin > Spawning: Piglins spawn in groups of 4 in nether wastes and 3-4 in crimson forest biomes at light levels of 11‌ [ Java Edition only ] or 7‌ [ Bedrock Edition only ] and below. They can spawn on most blocks other than nether wart blocks and magma blocks . Piglins also spawn within bastion remnants upon generation. Each piglin has a 20%‌ [ Java Edition only ] or 5%‌ [ Bedrock Edition only ] chance to spawn as a baby. In Java Edition , piglins do not naturally spawn in the Peaceful difficulty ​ [ until: JE 26.2 ] except during world generation as part of bastions . However, they are passive. Every adult piglin spawns with a weapon: either a golden sword (45% chance), a golden spear (5% chance) or a crossbow (50% chance). Adult piglins can also spawn with golden armor, with each armor slot independently having a 10% chance to be equipped. Therefore, each piglin has a 34.39% chance to spawn with at least 1 piece of armor, and a 0.01% chance to spawn with a full set. Baby piglins never spawn with weapons or armor.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Spawning",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 245
+    }
+  },
+  {
+    "text": "Piglin > Spawning: Baby piglins never spawn with weapons or armor. A baby piglin can also be spawned by using a piglin spawn egg on an adult piglin, similar to other mobs with a baby variant.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Spawning",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 46
+    }
+  },
+  {
+    "text": "Piglin > Drops > On death: Java Edition :\nBedrock Edition :\nIf a piglin is killed in one hit while admiring a gold ingot , the ingot drops. However, if the piglin is hit and not killed, the piglin stops admiring the item. This causes the item to vanish from its hands and subsequently not drop when the piglin is killed.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Drops > On death",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 75
+    }
+  },
+  {
+    "text": "Piglin > Drops > Equipment: Adults have an 8.5% chance of dropping each naturally held or worn  piece of equipment when killed by a player or tamed wolf. The dropped item has a random durability . Each level of Looting used to kill the piglin increases the drop chance for each piece of equipment by 1%.\nBabies always spawn without equipment.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Drops > Equipment",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 74
+    }
+  },
+  {
+    "text": "Piglin > Drops > Equipment > Weapons: A piglin naturally spawns with one of these weapons:\n- Golden Sword (45%, or 9 ⁄ 20 )\n- Crossbow (50%, or 1 ⁄ 2 )\n- Golden Spear (5%, or 1 ⁄ 20 )",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Drops > Equipment > Weapons",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 56
+    }
+  },
+  {
+    "text": "Piglin > Drops > Equipment > Armor: Adults sometimes ​ [ more information needed ] spawn with 1-4 normal or enchanted pieces of armor, which may be:\n- Golden Helmet\n- Golden Chestplate\n- Golden Leggings\n- Golden Boots",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Drops > Equipment > Armor",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 47
+    }
+  },
+  {
+    "text": "Piglin > Drops > Picked up equipment: Piglins always drop picked-up equipment upon death.\nPiglins can pick up any type of armor or weapon, as long as the new equipment is better than the current equipment. See § Picking up items .\nIn Java Edition , a picked-up item always drops with the same durability as when picked up.\nIn Bedrock Edition , armor ​ [ more information needed ] picked up by piglins can lose durability and even break (if it takes enough damage).",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Drops > Picked up equipment",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 104
+    }
+  },
+  {
+    "text": "Piglin > Drops > Other picked up items: Piglins do not drop any gold ingots, raw porkchops, or cooked porkchops that they have picked up. However, any other items they have picked up are dropped.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Drops > Other picked up items",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 48
+    }
+  },
+  {
+    "text": "Piglin > Drops > Experience: Adults drop 5 XP , which is not affected by armor, if killed by a player or tamed wolf . Baby piglins drop 5 XP ‌ [ JE only ] or 1 XP ‌ [ BE only ] .",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Drops > Experience",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 47
+    }
+  },
+  {
+    "text": "Piglin > Behavior: Piglins snort enviously while watching players holding a gold-related item. Like villagers , piglins can open and close wooden and copper doors , but cannot open fence gates , trapdoors , or iron doors . They also cannot climb ladders . Piglins cannot swim and can drown if submerged. Unlike zombified piglins , they are not naturally immune to fire or lava . Idle piglins retreat from zombified piglins (except babies), zoglins , soul fire , soul torches , soul lanterns , and lit soul campfires . Piglins ignore soul fire items when pursuing the player, but still run from zombified piglins and zoglins. Baby piglins additionally retreat from wither skeletons and withers . Crossbow piglins do not reload their crossbows when spawned, unlike pillagers . They reload only when provoked. Baby piglins are passive and play with baby hoglins , running around and riding upon them. Up to 3 baby piglins may stack on top of each other while riding a baby hoglin. Baby piglins can be given gold, but they do not give anything in return and run away.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 242
+    }
+  },
+  {
+    "text": "Piglin > Behavior: Up to 3 baby piglins may stack on top of each other while riding a baby hoglin. Baby piglins can be given gold, but they do not give anything in return and run away. Baby piglins can also pick up and wear armor as well as hold gold tools or weapons. However, they are unable to pick up leather . Unlike many other mobs, piglins cannot be spawned holding any items in their off-hand; instead, the item in question is placed into their inventory or, if applicable, their main hand or an armor slot. As a consequence, they cannot fire special ammunition from their crossbows, such as firework rockets or tipped arrows , and they cannot use a totem of undying alongside a melee weapon. If spawned with a gold ingot in their off-hand, the piglin immediately drops a random bartering good without examining the ingot. As they are monsters, golden dandelions do not work on baby piglins.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 202
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Aggravation: Adult piglins are neutral if the player is wearing at least one piece of golden armor . In Java Edition , the list of items that make piglins neutral can be modified in a data pack, by putting an item in the piglin_safe_armor tag , which contains golden armor by default. In Bedrock Edition , the list of items that make piglins neutral can be modified in a behavior pack, by putting an entity filter like this in the piglin.json file, in the alert_for_attack_targets component group, and in the minecraft:behavior.nearest_attackable_target . { \"test\": \"has_equipment\", \"subject\": \"other\", \"domain\": \"<any armor slot>\", \"operator\": \"not\", \"value\": \"<item>\" } This filter contains golden armor by default. Piglins are provoked by any player who: - Is not wearing any piece of gold armor. Short range, light aggravation - Attacks a piglin or piglin brute , regardless of whether the player kills it in one hit or not.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Aggravation",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 239
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Aggravation: - Is not wearing any piece of gold armor. Short range, light aggravation - Attacks a piglin or piglin brute , regardless of whether the player kills it in one hit or not. Long range, heavy aggravation to the damaged piglin, medium aggravation to other piglins - Opens or breaks a chest , trapped chest , copper chest , ender chest , shulker box , barrel , minecart with chest , or boat with chest . Opening is short range, medium aggravation Breaking is mid-range, medium aggravation - Breaks a block of gold , gold ore , gilded blackstone , nether gold ore , block of raw gold , or deepslate gold ore . Mid-range, medium aggravation",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Aggravation",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 163
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Aggravation > Aggravation range: - Short range: When a piglin has been aggravated by a player not wearing gold armor , or opening a container, piglins from up to around 15 blocks centered around the player become aggravated by the player if there is a straight line of sight to the player.\n- Mid range: When a piglin has been aggravated by a player breaking a golden block or a container, piglins from up to 16 blocks from the player’s feet become aggravated. No line of sight is required.\n- Long range: When a piglin has been aggravated by a player damaging a piglin or piglin brute , piglins from up to 16 blocks from the damaged piglin (rather than the player) become aggravated. No line of sight is required.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Aggravation > Aggravation range",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 163
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Aggravation > Light aggravation: - Light aggravation occurs when a piglin has been aggravated by a player not wearing gold armor .\n- The piglin can de-aggravate when the player puts on gold armor , distracts the piglin with gold, or the piglin loses a line of sight with the player.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Aggravation > Light aggravation",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 74
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Aggravation > Medium aggravation: - Medium aggravation occurs when a piglin has been aggravated by a player opening/breaking a container or breaking a golden block , or when a piglin witnesses a piglin brute or another piglin getting damaged by a player.\n- Piglins under medium aggravation can be distracted with gold.\n- A piglin already under light aggravation does not re-aggravate to medium aggravation. This means that if a piglin knows a player broke a golden block near them after already going after them due to them not wearing gold armor , the player can de-aggravate that piglin by putting on gold armor or losing the line of sight even though the player broke the golden block .",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Aggravation > Medium aggravation",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 158
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Aggravation > Heavy aggravation: - Heavy aggravation occurs if a piglin is damaged.\n- The piglin cannot be distracted by gold and is unable to barter while under heavy aggravation.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Aggravation > Heavy aggravation",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 49
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Aggravation > Other: - A player who is under the influence of the Invisibility effect can open containers in front of piglins without aggravating them. The player, while invisible, can also break containers or gold blocks without aggravating them.\n- In Java Edition , a player under the Invisibility effect who is not wearing any armor can attack piglins without causing the piglins to retaliate. This is not the case with any other hostile or neutral mob because mobs attacked by an invisible player still attack the player.\nOpening or breaking a hopper does not provoke piglins. Piglins do not react to the opening or breaking of other containers. Breaking a bell does not provoke them either, even though piglins admire them as gold.\nWhen provoked, piglins remain hostile for 30 seconds.\nUnlike other neutral mobs, piglins don't count towards the AngryAt tag.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Aggravation > Other",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 188
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Attacking: Piglins have different attacking behavior based on the weapon they are wielding.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Attacking",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 21
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Attacking > Using swords: Piglins wielding swords and most other items rush at the player. When attacking with a sword it holds its dominant arm and sword in front of it, similarly to a vindicator .",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Attacking > Using swords",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 47
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Attacking > Using crossbows: When attacking with a crossbow , piglins shoot arrows every 2 seconds. In Java Edition , they walk backward (stopping if at the edge of a drop) as soon as the target is close. In Java Edition , their crossbows can break if it runs out of durability, making the piglins use their fists, while in Bedrock Edition their crossbows never break. Unlike mobs armed with bows , they do not strafe from left to right while shooting. Also, unlike pillagers , piglins cannot fire firework rockets or special kinds of arrows , since they cannot hold them in their off-hand if spawned so.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Attacking > Using crossbows",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 140
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Attacking > Using spears: Piglins wielding spears use the spear's charge attack while moving towards their target. They hold the charge through its full duration, using all 3 stages. Once the charge attack has ended or they get too close to their target, they walk away to increase the distance between them and their target before turning around to begin another charge. Piglins with spears are especially dangerous because they run towards their target instead of walking, increasing the damage of their charge attack.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Attacking > Using spears",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 101
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Attacking > Hostility: Adult piglins congregate within 16 blocks and attack in hordes. If a group of piglins successfully defeats their target, they gather at the site of their target's demise and emit \"celebration sounds\". However, piglins do not have a chance of dancing unless their target was a hoglin.\nAdult piglins are hostile toward wither skeletons and withers .\nIron golems attack both adult and baby piglins; however, piglins do not attack iron golems without provocation.\nThe detection range of piglins is reduced to half of their normal range (17.5 blocks) when the player is wearing a piglin head .\nPiglins also retaliate to being rammed by a goat .‌ [ Java Edition only ]",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Attacking > Hostility",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 161
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Attacking > Hunting: Piglins sometimes attack hoglins, causing other piglins and piglin brutes‌ [ Bedrock Edition only ] in that area to attack the targeted hoglin as well. Adults do not immediately attack adult hoglins on sight, but a piglin has a random chance to decide to hunt a hoglin (this decision rarely happens if the piglin recently hunted, but other piglins can still start a hunt). [ verify ] Once that piglin attacks the hoglin, all other piglins and piglin brutes‌ [ Bedrock Edition only ] in that area become hostile to the hoglin. If outnumbered by hoglins, the piglins flee, making \"retreat\" sounds. After defeating a hoglin (or any other entity ), piglins have a 10% chance to do a \"victory dance\" by bobbing their heads, bodies and sticking out their arms like a T-pose. Each piglin that sees a hoglin has a 10% chance of starting a hunt. [ verify ] Therefore, the more piglins there are, the larger the chance of a hunt occurring, as there are more opportunities for a hunt to begin.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Attacking > Hunting",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 238
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Attacking > Hunting: After a hunt, any nearby piglins pick up the porkchops or cooked porkchops the hoglin dropped, but not the leather. Piglins that spawned as part of a bastion remnant during world generation do not hunt. Piglin brutes also join in hunts started by piglins, but do not start a hunt themselves.‌ [ Bedrock Edition only ]",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Attacking > Hunting",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 81
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Attacking > Being distracted: Piglins briefly stop attacking when given gold items. If the player offers a gold ingot, bartering then takes place as it normally would. They resume attacking once the barter is complete. If the player distracts them with a gold item and equips a piece of gold armor while the piglin is examining the item, then the piglin ceases hostility. They may also cease hostility if distracted enough times. If the player breaks any gold-related block or hurt/kill a piglin and then distracts the piglin up to 5 times with a piece of gold armor equipped, the piglin ceases hostility entirely.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Attacking > Being distracted",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 138
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Bartering: Adult piglins take gold ingots, whether dropped nearby or when a player uses one while looking at them, and barter certain items for them. The piglin \"examines\" the ingot for six‌ [ JE only ] or eight‌ [ BE only ] seconds, then drops a random item from the chart . However, baby piglins examine the ingot and then run away without dropping an item. Piglins can also pick up items dropped by a dispenser or dropper . In Java Edition , the pool for what piglins can barter may be modified in a data pack .\nPiglins can still barter while riding another mob.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Bartering",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 138
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Picking up items: Piglins can pick up any items they come across, except for leather , and prefer gold -related items, which they actively seek out.\nEach piglin has eight hidden inventory slots in which it can stack items . A piglin with a full inventory does not attempt to pick up gold-related items, except gold ingots.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Picking up items",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 75
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Picking up items > Equipping: A piglin automatically equips any armor or weapon it can pick up, as long as the new equipment is better than its current equipment. When this happens, the previously held or worn item is dropped, giving players another way to easily recover their equipment. Piglins also prefer gold over other armors.\nWhen a piglin picks up a gold-related piece of equipment, it has to inspect the item first before equipping it. Inspecting the item takes six seconds. However, non-gold equipment, if preferable, is equipped instantly. Piglins do not pick up any items when the / gamerule mobGriefing is set to false .\nOnly a piglin with a crossbow can pick up crossbows.\nA piglin picks up raw porkchops and cooked porkchops from 1 block, unless it has already done so within the last 10 seconds. However, a piglin does not seek out porkchops or go out of its way to collect them.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Picking up items > Equipping",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 212
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Picking up items > Piglin loved items: Items with the piglin_loved tag are the only items that piglins want and pick up. When a piglin picks up one of these items, the player who dropped it (if it was dropped by a player) is given the advancement \"Oh Shiny\"‌ [ Java Edition only ] / achievement \"Oooh, Shiny!\"‌ [ Bedrock Edition only ] unless the item was a gold nugget. Piglins aren't interested in other items, and can't be distracted by other items, even if the items are related to gold in some way.\nItems that piglins love:\nBaby piglins attempt to pick up every item‌ [ JE only ] (except leather), regardless of whether they love it, and they admire gold ingots but do not barter any items.\nAdult piglins can pick up gold nuggets , but won't inspect them for bartering.  When killed, a piglin drops all of its items, except for gold ingots, raw porkchops, and cooked porkchops.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Picking up items > Piglin loved items",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 224
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Picking up items > Despawning: Piglins that spawned in a bastion remnant during world generation, and piglins that have picked up or equipped items, do not despawn naturally.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Picking up items > Despawning",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 44
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Zombification: When in the Overworld or the End , piglins transform into zombified piglins after 15 seconds, retaining their armor, their name, and any items that they are holding. However, they cannot shoot a crossbow, using it instead as a melee weapon. Upon transformation, the spawned zombified piglin has the Nausea effect for 10 seconds‌ [ JE only ] ; this is just a cosmetic effect. When a piglin transforms into a zombified piglin, it drops anything except equipped weapons and armor in its inventory; other items in its inventory disappear. In Bedrock Edition, if the game is set to Peaceful difficulty, the piglin despawns instead of transforming because hostile mobs do not exist in Peaceful difficulty. A piglin that returns to the Nether before 15 seconds remains unchanged, although the 15-second portal cooldown usually prevents them from returning during that time. A piglin does not zombify outside the Nether if its IsImmuneToZombification tag is set to true . Piglins with their NoAI tag set to true also do not zombify.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Zombification",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 239
+    }
+  },
+  {
+    "text": "Piglin > Behavior > Zombification: Piglins with their NoAI tag set to true also do not zombify. In Java Edition , if a piglin is inspecting/admiring a gold ingot or a gold-related item and then gets zombified while inspecting, it drops the gold ingot or the gold-related item.",
+    "metadata": {
+      "source": "Piglin",
+      "section": "Behavior > Zombification",
+      "url": "https://minecraft.wiki/w/Piglin",
+      "tokens": 73
+    }
+  },
+  {
+    "text": "Slime > (introduction): Slimes are cube-shaped hostile mobs that spawn deep underground in particular chunks , aboveground in swamps , or when an Oozing -affected entity dies. They move by jumping, chase after their targets, and usually deal damage on touch. Slimes spawn in different sizes, and larger ones split into smaller ones on death. Slimes are a major source of slimeballs .",
+    "metadata": {
+      "source": "Slime",
+      "section": "(introduction)",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 86
+    }
+  },
+  {
+    "text": "Slime > Spawning: Slimes spawn naturally in 3 sizes: small, medium, and large. A fourth size, known as semi-large , only spawns from trial spawners and the oozing mob effect [ verify ] . Slimes have an NBT tag, [Byte] Size , which determines their size. Small, medium, and big slimes have their Size set to 0 , 1 , and 3 respectively. Using the / summon or / data commands, a slime can be given any Size in the range from 0 to 126 (inclusive). [ verify for Bedrock Edition ] A slime needs a space of 2.04×2.04×2.04 blocks to spawn, which must be clear of solid and liquid obstructions. When a slime attempts to spawn, the game checks to see if the space requirement is followed. Therefore, small and medium slimes are not able to spawn in 2-block tall areas even though it would normally be enough room for other small mobs. Any block within the space, even a glass pane , can prevent slimes from spawning.",
+    "metadata": {
+      "source": "Slime",
+      "section": "Spawning",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 225
+    }
+  },
+  {
+    "text": "Slime > Spawning: Any block within the space, even a glass pane , can prevent slimes from spawning. - A button or any block without a collision hitbox can prevent a mob from spawning on the block below it, but does not count as an obstruction. This is because the game looks for an air block above it when trying to spawn a mob. - In Java Edition , the space is centered on the top face of the block the slime spawns on. It should be noted that a trapdoor is treated like a full-block when the game looks for space to spawn mobs. Therefore, the effective spawning space the slime needs is 3×2.1×3 blocks. - In Bedrock Edition , the space is centered in the northwest corner of a block. This means the effective spawning region is 2×2×2 blocks. [ verify for Bedrock Edition ] The random distribution of slime sizes is affected by regional difficulty : chances range from 33% for each size at the low difficulty to 16% small, 33% medium, and 50% big with higher difficulty.",
+    "metadata": {
+      "source": "Slime",
+      "section": "Spawning",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 222
+    }
+  },
+  {
+    "text": "Slime > Spawning > Swamps: Slimes can spawn in swamps and mangrove swamps between the altitudes of Y=51 and Y=69 (inclusive) when the provided light level is 7 or less. They spawn most often on a full moon , and never on a new moon.\nMore precisely, the game checks two factors:\n- If the light level is equal to or less than a random integer (from 0 to 7)\n- If the fraction of the moon that is bright is greater than a random number (from 0 to 1)\nIf these conditions are met and the altitude is acceptable, there is a 50% chance of spawning a slime.\nThe light level requirement for slime spawning in swamps is different from that of most hostile mobs, which spawn only at light level 0. This allows slimes in swamps to spawn in dimly-lit areas where most hostile mobs can't, allowing swamp-based slime farms to be built.",
+    "metadata": {
+      "source": "Slime",
+      "section": "Spawning > Swamps",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 191
+    }
+  },
+  {
+    "text": "Slime > Spawning > Slime chunks: Slimes spawn in the Overworld in slime chunks below the layer of Y=40 in groups of four‌ [ JE only ] or individually‌ [ BE only ] , regardless of the lighting or weather conditions.\nAbout 1 ⁄ 10 of all chunks are generated as slime chunks, but they are not determined randomly. An algorithm is used to determine whether each chunk is a slime chunk. In Java Edition , whether a chunk at a particular set of coordinates becomes a slime chunk is determined by the world's seed . In Bedrock Edition , however, they are generated at the same coordinates in every world.",
+    "metadata": {
+      "source": "Slime",
+      "section": "Spawning > Slime chunks",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 130
+    }
+  },
+  {
+    "text": "Slime > Spawning > Slime chunks > Java Edition: In Java Edition , slime chunks are determined pseudo-randomly by combining their chunk coordinates with the seed of the world .\nThis Java code can be used to print a message to the terminal indicating whether one specific chunk is a slime chunk.\nThe chunk coordinates and the world seed are combined to make a specific RNG seed to generate a random integer between 0 and 9 (inclusive). If the random integer is 0, then the chunk is a slime chunk. World coordinates can be converted to chunk coordinates by dividing by 16 and then rounding down. The world coordinates and the chunk coordinates are both 32-bit integers (instances of int ).",
+    "metadata": {
+      "source": "Slime",
+      "section": "Spawning > Slime chunks > Java Edition",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 141
+    }
+  },
+  {
+    "text": "Slime > Spawning > Slime chunks > Bedrock Edition: In Bedrock Edition , the algorithm does not depend on the world seed, so the chunks that slimes can naturally spawn in inhabit the same coordinates for every world.",
+    "metadata": {
+      "source": "Slime",
+      "section": "Spawning > Slime chunks > Bedrock Edition",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 44
+    }
+  },
+  {
+    "text": "Slime > Spawning > Trial spawners: Each trial chambers structure has a 25% chance to select slimes as the \"small melee\" mob for its trial spawners . This means only about 25% of trial chambers contain slime spawners within them.\nSlimes from trial spawners spawn in sizes 1 (medium) and 2 (semi-large), unlike slimes that spawn in slime chunks and swamps, which come in sizes 0 , 1 and 3 respectively.\nDuring ominous trials , each ominous trial spawner has a 1 ⁄ 7 chance to dispense lingering potions of Oozing, which spawn two medium slimes upon an affected entity's death. Any type of ominous trial spawner can dispense Oozing potions, regardless of the mob type it spawns.",
+    "metadata": {
+      "source": "Slime",
+      "section": "Spawning > Trial spawners",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 163
+    }
+  },
+  {
+    "text": "Slime > Spawning > Potions: If an entity inflicted with the Oozing effect dies, two medium-sized slimes appear at its death location.\nIn Java Edition , Oozing only spawns slimes in a 5×5×5 cube up to the maximum entity cramming count (default to 24).",
+    "metadata": {
+      "source": "Slime",
+      "section": "Spawning > Potions",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 67
+    }
+  },
+  {
+    "text": "Slime > Drops > On death: From a single large slime, a player can expect an experience and slimeball yield of 12-28 and 0-32, respectively. The average yield from a single large slime is usually around 19 experience and 9 slimeballs .",
+    "metadata": {
+      "source": "Slime",
+      "section": "Drops > On death",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 58
+    }
+  },
+  {
+    "text": "Slime > Drops > On death > Large slime: - Spawns two to four medium slimes on death\n- 4 XP when killed by the player",
+    "metadata": {
+      "source": "Slime",
+      "section": "Drops > On death > Large slime",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 31
+    }
+  },
+  {
+    "text": "Slime > Drops > On death > Medium slime: - Spawns two to four small slimes on death\n- 2 XP when killed by the player",
+    "metadata": {
+      "source": "Slime",
+      "section": "Drops > On death > Medium slime",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 31
+    }
+  },
+  {
+    "text": "Slime > Drops > On death > Small slime: Java Edition :\nBedrock Edition :\n1 XP when killed by the player",
+    "metadata": {
+      "source": "Slime",
+      "section": "Drops > On death > Small slime",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 25
+    }
+  },
+  {
+    "text": "Slime > Behavior: Slimes move by hopping, which they do every 10 to 30 ticks ( 1 ⁄ 2 to 1 1 ⁄ 2 seconds). They can swim in water and climb ladders and scaffolding. Unlike other mobs, slimes continue moving when no players are nearby. Their exact routine is as follows: The slime searches for a player (or, failing that, an iron golem ) within 16 blocks (spherical) distance. - If no target is found, the slime waits 10 to 30 ticks ( 1 ⁄ 2 to 1 1 ⁄ 2 seconds) between jumps, and changes direction randomly every 40 to 100 ticks (2 to 5 seconds). - If a target is found, the delay before jumping is 1 ⁄ 3 as long (3 to 10 ticks), and the slime's direction is set directly toward the target before jumping. Unlike most mobs , slimes do not pathfind toward their target, always approaching their target in a straight line without avoiding environmental hazards such as lava , cactus or dangerous falls. This means they can easily get stuck in corners or behind walls, not knowing how to circumvent them.",
+    "metadata": {
+      "source": "Slime",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 242
+    }
+  },
+  {
+    "text": "Slime > Behavior: This means they can easily get stuck in corners or behind walls, not knowing how to circumvent them. This behavior is shared by magma cubes . A slime's maximum health is equal to its size squared, and its dimensions are 0.51 blocks times its size in each dimension. When a slime attacks, it deals damage equal to its size, except for size 0 (smallest) slimes, which do no damage, and do not prevent sleeping . Because small slimes still have a hostile AI, they continuously try to attack the player. A slime's jump distance also depends on its size; a slime jumps a distance slightly farther than its length. When landing, a number (8 times the slime's size) of slime particles appear. Regardless of size, slimes always jump 1 block high. When a slime larger than 0 dies, it spawns 2-4 new slimes equivalent to its size divided by 2, rounding down. A slime that was named with a name tag produces smaller slimes with the same name when it dies.",
+    "metadata": {
+      "source": "Slime",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 228
+    }
+  },
+  {
+    "text": "Slime > Behavior: A slime that was named with a name tag produces smaller slimes with the same name when it dies. Slimes continuously damage all players, snow golems ‌ [ Bedrock Edition only ] , and iron golems they collide with (although damage immunity reduces the actual damage to 1 attack every half second), unlike other mobs that damage only those targets they specifically attack and as a result they deal damage about twice as quickly as other mobs. Slimes in water attempt to swim to the surface if possible. If forced to stay submerged, they eventually drown, splitting into smaller slimes that drown and finally drop slimeballs. Slimes are immune to Oozing .",
+    "metadata": {
+      "source": "Slime",
+      "section": "Behavior",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 144
+    }
+  },
+  {
+    "text": "The End > (introduction): The End is a dark, void-like, and space-like dimension consisting of separate islands in the void , made out of End stone . It is inhabited by endermen and shulkers . The ender dragon also spawns when the player first arrives. The End is often considered the final goal of Minecraft , and is usually the last dimension a player will travel to. The ender dragon is considered the final boss, and it is necessary to defeat it to return to the Overworld without dying , \"beat\" the game, and see the End Poem .",
+    "metadata": {
+      "source": "The End",
+      "section": "(introduction)",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 123
+    }
+  },
+  {
+    "text": "The End > Accessing: To access the End, the player must go through the process of finding a stronghold using eyes of ender , finding the portal room, and activating the End portal in the End portal room. The room consists of a 5×5 square of End portal frames , with the corners cut out, making a total of 12. The portal hangs over a lava pool, with a staircase leading up to it. A silverfish spawner sits on top of the staircase. The player can activate the portal by filling the 12 End portal frames each with an eye of ender. Each frame block has a 10% chance of generating with an eye in it. Once all the eyes of ender are placed, the portal activates and emits a loud noise audible from anywhere in the world. As soon as it is activated, the portal destroys all blocks in the central 3×3 square, including bedrock or another portal frame, and replaces them with the End portal blocks that can teleport an entity into the End dimension. Upon jumping into the portal, the player immediately arrives in the End (X: 100, Z: 0), along with any prior entities that may have teleported.",
+    "metadata": {
+      "source": "The End",
+      "section": "Accessing",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 245
+    }
+  },
+  {
+    "text": "The End > Accessing: Upon jumping into the portal, the player immediately arrives in the End (X: 100, Z: 0), along with any prior entities that may have teleported. If cheats are enabled, players can also teleport to the End without using an End portal: the command / execute in the_end allows the player to select their teleportation destination in the End directly.",
+    "metadata": {
+      "source": "The End",
+      "section": "Accessing",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 86
+    }
+  },
+  {
+    "text": "The End > Environment: The End consists of one large island surrounded at a distance by many smaller islands, all mainly composed of End stone . There is a gap between the central island and the outer islands of about 1000 blocks with nothing but the void . The starless \"sky\" and the void of the End are both composed of a blank, static pattern (see End sky ), colored slightly purple with Vibrant Visuals. The daylight cycle is absent in the End, similar to the Nether , being replaced by a constant dim light . The sky periodically flashes and emits purple light while also producing sounds. The purple light acts as sky light. The weather cycle does not exist in the End, meaning there is no rain , snowfall , or thunderstorms . Most items and blocks function in the End exactly as they do in the Overworld , with a few notable exceptions: - Beds and respawn anchors cause an explosion 25% stronger than TNT and fires when one attempts to use them, as beds do in the Nether and respawn anchors in the Overworld . Villagers , if brought in, can still use beds safely during night time in the Overworld.",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 235
+    }
+  },
+  {
+    "text": "The End > Environment: Villagers , if brought in, can still use beds safely during night time in the Overworld. - Compasses are unable to find the original spawn point , as spawn points cannot be set within the End, but a compass used on a lodestone still works. - Clocks are unable to determine the position of the sun and moon , as there is no daylight cycle in the End. Clocks instead spin randomly as they do in the Nether. - Eyes of ender cannot be thrown, since no strongholds generate in the End. - Nether portals cannot be activated by the player in the End (although they can be placed through commands or external programs and editors ). - Fire burns indefinitely on bedrock , but does not naturally spread onto other blocks of bedrock, as with netherrack . - Creaking hearts do not spawn creakings when placed between two pale oak logs . - Eyeblossoms do not change between open and closed states depending on the time of day.",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 204
+    }
+  },
+  {
+    "text": "The End > Environment > Biomes: There are 5 biomes that make up the End in Java Edition . Beds and respawn anchors still explode if the biome is set in the Overworld. In Bedrock Edition , all End biomes are classified as a single biome, which is called the_end .\n- The End\n- Small End Islands\n- End Midlands\n- End Highlands\n- End Barrens",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Biomes",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 81
+    }
+  },
+  {
+    "text": "The End > Environment > Structure and generated features: There are currently 9 structures and generated features in The End:",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Structure and generated features",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 22
+    }
+  },
+  {
+    "text": "The End > Environment > Terrain features > Main island: All players begin their exploration of the End with the main island. Unlike Nether portals , entering the End portal instantly teleports the player to the End, giving no time to back out. Upon arrival in the End, the player is placed on a 5×5×1 obsidian platform with three layers of air blocks above it. If there are any blocks in a three-block space above the platform, they are destroyed when a player enters an End portal. The platform can generate on the island, within it, or at a short distance from it, close enough to throw an ender pearl to reach the island. It always generates centered on the coordinates (100, 49, 0) with the player facing west. Once the player enters the End, the only way back (without prior setup) is to die or defeat the ender dragon . The dragon spawns naturally and flies around above ten end spikes of obsidian arranged in a circle with a radius of 42 blocks around the central exit portal , which activates when the dragon is killed. On top of each tower lies an End crystal . Two of the crystals are protected by cages of iron bars .",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Terrain features > Main island",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 244
+    }
+  },
+  {
+    "text": "The End > Environment > Terrain features > Main island: On top of each tower lies an End crystal . Two of the crystals are protected by cages of iron bars . These crystals heal the dragon but can be destroyed by hitting them (even with projectiles). Destroying the crystal while the dragon is healing damages the dragon. Once defeated, the dragon goes to the exit portal at (0, 64, 0), rises into the sky, and slowly disintegrates, with bright beams of light flashing from its body. It then explodes, drops 12,000 (first dragon) or 500 (all subsequent dragons) experience orbs, activates the exit portal, and generates one End gateway (first 20 dragons only). This gives the player access to the End's outer islands. Atop the exit portal lie four torches and the dragon egg . After the dragon is killed, it can be respawned an unlimited number of times by placing four End crystals on the sides of the exit portal. Respawning the ender dragon regenerates any obsidian pillar blocks previously mined by the player, as well as the torches on the exit portal.",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Terrain features > Main island",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 234
+    }
+  },
+  {
+    "text": "The End > Environment > Terrain features > Main island: Respawning the ender dragon regenerates any obsidian pillar blocks previously mined by the player, as well as the torches on the exit portal. However, the dragon egg does not regenerate when a respawned ender dragon is killed. Once the player enters the exit portal, the \" End Poem \" is displayed, thereby \"completing\" the game. The player then respawns wherever the spawn point is set in the Overworld or in the Nether and may return to the End through the same portal (or a different portal from another stronghold); the End remains in the same state as the player left it. The obsidian platform is regenerated each time a player enters the End, meaning that any blocks or block entities placed in the 5×5×4 space on or above the platform are destroyed and replaced with obsidian and air blocks.",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Terrain features > Main island",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 188
+    }
+  },
+  {
+    "text": "The End > Environment > Terrain features > Outer islands: The End's outer islands are more diverse than the main island. When a player enters one of the End gateways that generate after killing the dragon, they are instantly teleported over the ~1000 block void to the outer islands. These gateway portals are easiest to enter through the use of ender pearls , due to the one block tall gap between the bedrock blocks, but can also be entered by placing water and swimming through, using a trapdoor or piston to force the player to crawl, or with skilled use of a pair of elytra . The outer islands vary in size. There are occasional \"mini islands\" in the gaps between the larger ones, generally with nothing on them (occasionally they generate End gateways that return the player to the obsidian platform). The larger islands can also vary in size but are generally a hundred to several hundred blocks wide. The gaps between these islands are generally short enough that players can travel between them via ender pearls . These outer islands generate up to the world boundary . Some are topped with a forest of chorus trees that may be harvested for its chorus fruit , and perhaps chorus flowers , to grow it in the Overworld.",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Terrain features > Outer islands",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 246
+    }
+  },
+  {
+    "text": "The End > Environment > Terrain features > Outer islands: These outer islands generate up to the world boundary . Some are topped with a forest of chorus trees that may be harvested for its chorus fruit , and perhaps chorus flowers , to grow it in the Overworld. The player may find End cities (which may generate ships with them) on these islands, which hold exclusive loot. Elytra and the dragon head can only be found on the End ships. In Java Edition , due to a bug, the outer End islands generate in multiple concentric rings. The first ring ends at ±370,720 blocks laterally from (0, 0), cutting off terrain generation in a donut shape. It continues empty, but the second ring starts at ±524,288 blocks, then disappears again at ±642,112 blocks and comes back at ±741,455 blocks. It continues like this all the way until the world boundary, getting closer and closer. This is a hard limit caused by an arithmetic overflow when calculating the squared distance from the origin.",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Terrain features > Outer islands",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 217
+    }
+  },
+  {
+    "text": "The End > Environment > Terrain features > Outer islands: It continues like this all the way until the world boundary, getting closer and closer. This is a hard limit caused by an arithmetic overflow when calculating the squared distance from the origin. Outer End islands can spawn at a set of coordinates (X,Z) if and only if they satisfy both sin ⁡ ( X 2 + Z 2 43748131634 ) and X 2 + Z 2 − 1 , 000 , 000 are greater than zero. Interestingly, each of the rings supporting outer island generation has the same area. The player can only access the first to 6,548th rings due to the world boundary .",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Terrain features > Outer islands",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 136
+    }
+  },
+  {
+    "text": "The End > Environment > Mobs: The End is home to three naturally spawning mobs , with one additional related mob:\n- Ender Dragon : Spawns naturally on the central island when the player first arrives, but can be respawned by placing 4 End crystals , one on each side's middle block of the exit portal .\n- Enderman : Spawn naturally throughout the entire dimension.\n- Shulker : Appear within End cities on the outer islands. They do not respawn once killed, but can sometimes clone themselves when attacked by another shulker.\n- Endermite : Are associated with the End, but do not spawn naturally without player interaction.\nUnlike other dimensions, no passive mobs spawn naturally in the End.",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Mobs",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 150
+    }
+  },
+  {
+    "text": "The End > Environment > Blocks > Naturally generated: Naturally generated includes blocks that are created through the world seed and always generate no matter what.",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Blocks > Naturally generated",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 28
+    }
+  },
+  {
+    "text": "The End > Environment > Blocks > Naturally created: These blocks are created through a combination of events that lead these blocks to be placed by natural causes such as summoning the ender dragon , not by the player .",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Blocks > Naturally created",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 43
+    }
+  },
+  {
+    "text": "The End > Environment > Blocks > Structures: These blocks and entities are only generated as part of End cities , when the \"generated structures\"‌ [ Java Edition only ] option is on.",
+    "metadata": {
+      "source": "The End",
+      "section": "Environment > Blocks > Structures",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 37
+    }
+  },
+  {
+    "text": "The End > Technical information > Folder: In Java Edition , the End is stored in .minecraft /saves/ worldname /DIM1 . Deleting this folder resets the End, so that all player-made changes and buildings in that dimension are undone.\nIn Bedrock Edition , the com.mojang /minecraftWorlds/ world ID /db folder contains several collections of chunks. Some of these files are used for the End, but it is impossible to tell which ones simply by reading the file name.",
+    "metadata": {
+      "source": "The End",
+      "section": "Technical information > Folder",
+      "url": "https://minecraft.wiki/w/The_End",
+      "tokens": 106
+    }
+  },
+  {
+    "text": "The Nether > (introduction): The Nether is a dangerous, volcanic, fungal dimension resembling a hellish underworld. It contains fire that never goes out ; vast oceans of lava ; Nether fungi and normal mushrooms in place of plants; many unique mobs , mostly hostile in nature; and exclusive structures , resources, and biomes .",
+    "metadata": {
+      "source": "The Nether",
+      "section": "(introduction)",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 69
+    }
+  },
+  {
+    "text": "The Nether > Accessing: To access the Nether, the player must construct a Nether portal in the Overworld (portals created in the End do not activate). To create the portal, the player must first build a rectangular obsidian frame, ranging in size from a minimum of 4 blocks × 5 blocks to a maximum of 23 blocks × 23 blocks. Once the frame is completed, it can then be activated by placing fire within the frame, using flint and steel , fire charge , dispensers , or any material that is capable of igniting fire. The portal allows most entities (with the exception of the wither and the ender dragon ) to be transported to a corresponding portal in the Nether. In Survival , the player must stand in a Nether portal for 4 seconds to enter the Nether. The player can step out of a portal before it completes its animation to abort the teleport. The portal plays a sound effect while the player is inside it. If there is no corresponding portal, a new 4×5 portal is created.",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Accessing",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 217
+    }
+  },
+  {
+    "text": "The Nether > Accessing: The portal plays a sound effect while the player is inside it. If there is no corresponding portal, a new 4×5 portal is created. The portal can be destroyed by breaking the obsidian frame, by a nearby explosion, or by placing water in the Overworld or lava into it with a bucket or dispenser . Any of the blocks in the corners can be destroyed without destroying the portal. The Nether could generate in the former Old ‌ [ Bedrock Edition only ] world type, (with the same 256×256 borders as the Overworld) though Nether portals could not be created without using commands. Nether portals created in the Nether could spawn the player outside of the world barrier. If cheats are enabled, players can also teleport to the Nether without using a Nether portal: the syntax is / execute in the_nether in Java Edition , and / execute in nether in Bedrock Edition .",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Accessing",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 196
+    }
+  },
+  {
+    "text": "The Nether > Traits: Bedrock forms a rough 5 layer ceiling on top of the nether (starting at y-level 123 and ending at y-level 127) restricting the player from leaving the Nether. Just like in the Overworld , the player is protected from falling off the world by 5 bottom layers of bedrock (starting at y level 4 and ending at y-level 0) in a rough pattern. This makes the Nether 128 blocks high unlike the Overworld's 384. As with the vast Overworld and End dimensions of the Java and Bedrock Editions, the Nether is equally horizontally vast to the world border . In Java Edition , build limit in the Nether is 256 blocks: if the player manages to get on top of the bedrock roof , they can build additional 128 blocks upward on it. In Bedrock Edition , the build limit in the Nether is 128 blocks, despite it being 256 in the End, and 320 in the Overworld. The Nether has no daylight cycle and no weather . Natural sources of light include fire , lava , portals , shroomlights and glowstone .",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Traits",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 225
+    }
+  },
+  {
+    "text": "The Nether > Traits: The Nether has no daylight cycle and no weather . Natural sources of light include fire , lava , portals , shroomlights and glowstone . Even with a light level of 0, the Nether has a dim ambient light (roughly equivalent to light level 8 in the Overworld). Light otherwise functions exactly the same as it does in the Overworld and the End. The Nether is the only dimension without directional lighting in Vibrant Visuals , so there are no dynamic shadows. The majority of \"flora\" in the Nether is fungus-based as opposed to plants. The Nether \"grass\" consists of specialized Nether mycelium (known as \" nylium \"). The Nether features its own unique fungi (including Nether wart), as well as equivalent huge fungi that serve as trees . The stems of the huge fungi function as logs . Also present are a number of native vines and roots. Most creatures found in the Nether are hostile and potentially dangerous; the only Nether-exclusive mobs that are fully passive are striders .",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Traits",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 221
+    }
+  },
+  {
+    "text": "The Nether > Traits: Also present are a number of native vines and roots. Most creatures found in the Nether are hostile and potentially dangerous; the only Nether-exclusive mobs that are fully passive are striders . Locations in the Nether correlate to Overworld coordinates , but horizontal Overworld distances are scaled down by a ratio of 8:1 for travel in the Nether. Therefore, traveling one block in the Nether means traveling eight blocks in the Overworld. For example, in a perfect scenario, a player who enters a portal in the Overworld at X=0, Z=0 and travels in the Nether to X=1000, Z=1000 returns to the Overworld at X=8000, Z=8000. This makes portals a useful tool for traveling long distances in the Overworld. This does not allow one to pass the Overworld World border. Most items and blocks in the Nether function the same as they do in the Overworld, with a few notable exceptions: - Beds cannot be used as a spawn point; they instead explode and cause fires when a player attempts to sleep in one. It has an explosion power of 5.",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Traits",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 241
+    }
+  },
+  {
+    "text": "The Nether > Traits: - Beds cannot be used as a spawn point; they instead explode and cause fires when a player attempts to sleep in one. It has an explosion power of 5. The explosion is larger than that of TNT , which has an explosion power of 4. Villagers, if brought into the Nether, can still use beds safely during night time in the Overworld. - The player may use a powered respawn anchor to respawn in the Nether, but when it runs out of charges, the player once again respawns in the Overworld. - There is no way to place liquid water in the Nether without the use of commands , except inside a cauldron . These can be used to put out a player on fire. Using water buckets produces steam particles and a hissing sound, leaving the player with an empty bucket . Ice that is melted or smashed in the Nether does not produce water. A wet sponge instantly becomes a regular sponge when placed. If placed using cheats or when placed inside a cauldron, water takes on a reddish-brown color.‌ [ Bedrock Edition only ]",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Traits",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 231
+    }
+  },
+  {
+    "text": "The Nether > Traits: A wet sponge instantly becomes a regular sponge when placed. If placed using cheats or when placed inside a cauldron, water takes on a reddish-brown color.‌ [ Bedrock Edition only ] - Lava flows twice as far (eight blocks) and three times as fast in the Nether compared to Overworld, with the same flowing distance and half the flowing speed of water in the Overworld. - Grass blocks , most plants , and leaves take on a dead-looking brownish color because the Nether is dry and hot . - Maps generate a brown-gray static pattern. The player's direction indicator is colored red‌ [ BE only ] and spins randomly; its location is still relative to the player's location in the Nether, except in the New Nintendo 3DS Edition , where it is always in the center of the map. Using an Overworld map in the Nether displays the player's relative coordinates.‌ [ Bedrock Edition only ] - Clocks spin wildly, making it impossible to tell the time while in the Nether. Compasses also spin wildly unless connected to a lodestone , which they then point toward.",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Traits",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 234
+    }
+  },
+  {
+    "text": "The Nether > Traits: - Clocks spin wildly, making it impossible to tell the time while in the Nether. Compasses also spin wildly unless connected to a lodestone , which they then point toward. - Eyes of ender cannot be thrown, since no strongholds generate in the Nether. - Snow golems rapidly take fire damage and die, due to the Nether being dry and hot. However, they can survive if they have the Fire Resistance status effect. - Stalactites produce lava particles instead of water particles, and do not convert mud above them into clay . - Because there is no daylight cycle, certain blocks and mobs behave differently: Creaking hearts do not spawn creakings when placed between two pale oak logs . Eyeblossoms do not change between open and closed states depending on the time of day. Bees work without resting as if it never turns night. Villagers still continue their routine following the Overworld daylight cycle.",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Traits",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 197
+    }
+  },
+  {
+    "text": "The Nether > Environment: The Nether features unique cave-like terrain with no sky. Lava and fire are common hazards everywhere in the Nether. Areas distant from the player are shrouded in fog of red or blue, depending on the biome, and some biomes are filled with particles in the air. The shape of the terrain in the Nether is independent of the biome distribution; instead, the biomes alter the surface material and add terrain features to the netherrack terrain.",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Environment",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 103
+    }
+  },
+  {
+    "text": "The Nether > Environment > Biomes: The Nether is divided into several biomes just like the Overworld, each featuring unique terrain, mobs, structures, ambience , etc. There are five biomes in the Nether:",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Environment > Biomes",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 50
+    }
+  },
+  {
+    "text": "The Nether > Environment > Generated structures: The Nether contains a variety of unique generated structures. Though equally vast, it contains far fewer types of generated structures than there are in the Overworld.\nThere are 4 generated structures in the Nether:",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Environment > Generated structures",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 50
+    }
+  },
+  {
+    "text": "The Nether > Environment > Terrain features: The Nether has a lot of different terrain features that generate within the biomes of the Nether.\nThere are currently 5 terrain features in The Nether:",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Environment > Terrain features",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 41
+    }
+  },
+  {
+    "text": "The Nether > Environment > Mobs: The Nether is home to its own share of mobs , most of which are immune to fire and lava . Skeletons and endermen are the only Overworld mobs that can naturally spawn in the Nether; in Java Edition , baby zombified piglins may spawn as chicken jockeys .\nOther Overworld mobs do not naturally spawn in the Nether but can be brought in through portals (except for the wither and ender dragon ).\nThere are currently 12 in Java Edition , or 11 in Bedrock Edition , mobs that spawn in this dimension, with 3 additional associated mobs:\n- Blaze\n- Wither Skeleton\n- Skeleton\n- Ghast\n- Hoglin\n- Magma Cube\n- Piglin\n- Piglin Brute\n- Strider\n- Zombified Piglin\n- Warm Chicken ‌ [ JE only ] (from zombified piglin chicken jockeys )\n- Enderman\nAssociated: The following mobs are associated with the Nether, but do not spawn naturally without player interaction.\n- Happy Ghast\n- Wither\n- Zoglin",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Environment > Mobs",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 223
+    }
+  },
+  {
+    "text": "The Nether > Environment > Blocks > Naturally generated: Naturally generated blocks includes those that are created through the world seed.",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Environment > Blocks > Naturally generated",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 24
+    }
+  },
+  {
+    "text": "The Nether > Environment > Blocks > Naturally created: Naturally created blocks are created through a combination of events that lead these blocks to be placed by natural causes, not by the player.",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Environment > Blocks > Naturally created",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 37
+    }
+  },
+  {
+    "text": "The Nether > Environment > Blocks > Structures: These blocks are only generated as part of Nether fortresses , Nether fossils , bastion remnants and ruined portals , when the \" generated structures \" option is on.",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Environment > Blocks > Structures",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 43
+    }
+  },
+  {
+    "text": "The Nether > Technical information > Folder: In Java Edition , the Nether is stored in .minecraft /saves/ worldname /DIM-1 . Deleting this folder resets the Nether, so that all player-made changes and buildings in that dimension are undone.\nIn Bedrock Edition , the com.mojang /minecraftWorlds/ world ID /db folder contains several collections of chunks. Some of these files are used for the Nether, but it is impossible to tell which ones simply by reading the file name.",
+    "metadata": {
+      "source": "The Nether",
+      "section": "Technical information > Folder",
+      "url": "https://minecraft.wiki/w/The_Nether",
+      "tokens": 111
+    }
+  },
+  {
+    "text": "Trial Chambers > (introduction): Trial chambers are uncommon underground structures that serve as a mid-game combat challenge. They consist mostly of copper blocks and tuff bricks , and are the only place where trial spawners and vaults naturally generate. Trial chambers are also the only place where breezes spawn, whose breeze rods can be used to craft wind charges . Various materials such as heavy cores and certain armor trims are obtained exclusively by unlocking vaults in trial chambers. As it is the only source of breeze rods and heavy cores, the structure is also the location where maces are obtained.\nOminous trials can also take place here through Bad Omen , where Trial Omen causes all trial spawners to become ominous , making them more difficult and providing greater rewards.",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "(introduction)",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 152
+    }
+  },
+  {
+    "text": "Trial Chambers > Generation: Trial chambers generate underground in the Overworld . The starting room generates at an altitude of between Y=-40 and -20, but the structure is not restricted to those Y levels; the majority of the structure's rooms tend to generate between Y=-20 and 0. [ verify ]\nTrial chambers can only generate in new chunks, specifically ones that did not exist prior to Java Edition 1.21 and Bedrock Edition 1.21.0 .\nThe generation of trial chambers follows a grid of 34×34 chunk regions centered on the world origin (X=0, Z=0). There is always one trial chambers structure generated in each region at a random location, unless a deep dark biome cancels the generation of the trial chambers.\nWhile the origin point of the structure ( corridor_end ) cannot generate within a deep dark biome, other parts of it can intersect a deep dark biome.",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Generation",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 188
+    }
+  },
+  {
+    "text": "Trial Chambers > Generation > Locating: Trial chambers can be located using trial explorer maps , which are sold by journeyman-level cartographer villagers for 12 emeralds and a compass . The maps always point to the nearest trial chamber relative to the cartographer that does not already have a trial explorer map that points to it. All maps bought from the same cartographer always points to the same structure.\nIn Java Edition , a given villager always trades the same map, which is determined upon the trade unlocking.\nAn online seed map such as mcseedmap.net or chunkbase.com may be used instead.",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Generation > Locating",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 124
+    }
+  },
+  {
+    "text": "Trial Chambers > Structure: The starting room of the structure is corridor/end . This room connects to a chamber and a section of a corridor. At the end of the section of a corridor, an intersection links to another chamber and another section of a corridor is generated, but this time it ends on the atrium, which then leads to the entrance room.\nThe structure then branches out from some corridor/straight pieces.",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Structure",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 83
+    }
+  },
+  {
+    "text": "Trial Chambers > Structure > File structure: All trial chambers structures found below are located in the folder client.jar /data/minecraft/structure/trial_chambers ‌ [ JE only ] or data/behavior_packs/vanilla/structures/trial_chambers ‌ [ BE only ] .",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Structure > File structure",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 56
+    }
+  },
+  {
+    "text": "Trial Chambers > Structure > Components > Corridors: Trial chambers feature two corridors: - a corridor going from the entrance room to the intersection, passing through four slices and the atrium; - a corridor going from the intersection to the end room, passing through four slices. The intersection connects both corridors, forming an L-shape. The intersection and the end room always lead to a chamber, while slices have a probability to lead to a hallway (see § Hallways ). The entrance generates at the end of one of the two corridors. entrance_1 and entrance_2 include a vault , two entrance chests, and a platform containing either an oak , a mangrove , or a cactus ; additionally, entrance_1 has a secret room containing a bed and a chest. entrance_3 includes two vaults and three entrance chests. The atrium generates between the entrance and the slices. It always contains an ominous vault above the doorway leading to the entrance and a fountain. Murals are generated on both sides; they can depict either a bogged , a breeze , a spider , or a spiral shape. The grand staircase is also chosen randomly.",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Structure > Components > Corridors",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 223
+    }
+  },
+  {
+    "text": "Trial Chambers > Structure > Components > Corridors: Murals are generated on both sides; they can depict either a bogged , a breeze , a spider , or a spiral shape. The grand staircase is also chosen randomly. Corridor slices, or straight pieces, are sub-structures that make up the corridors; they are generated on top of a tuff brick plate. Each of the two corridors has four slices. Except for straight_1 and straight_8 , all slices have a copper door: - straight_2 and straight_5 generate a copper door on the lower level; - straight_3 and straight_6 generate a copper door on the middle level; - straight_4 and straight_7 generate a copper door on the upper level. On average, each trial chamber has 6,29 ( 44 ⁄ 7 ) doors. These copper doors can either lead directly to a chamber, a hallway or nothing. Provided the latter case doesn't happen: - lower level doors always lead to a descending spiral staircase ( lower_hallway_connector ); - upper level doors always lead to an ascending spiral staircase ( upper_hallway_connector );",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Structure > Components > Corridors",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 229
+    }
+  },
+  {
+    "text": "Trial Chambers > Structure > Components > Corridors: - lower level doors always lead to a descending spiral staircase ( lower_hallway_connector ); - upper level doors always lead to an ascending spiral staircase ( upper_hallway_connector ); - middle level doors and these spiral staircases have a 97.48% chance to directly lead to a chamber, 2.44% chance to lead to a hallway piece, and 0.08% chance to directly lead to a dead-end (see § Hallways ). Both straight_6 and straight_8 generate with a trial spawner that can either spawn a melee, small melee or ranged mob (see § Mobs ), but never breezes . straight_7 generates with a hidden vault . In addition to their addons, slices can generate with various decorations such as flower pots , decorated pots , candles and corridor barrels (see § Decor ). Some addons can generate with a trial spawner (that can either spawn a melee, small melee or ranged mob) and a vault. The end room generates at the end of one of the two corridors. It always leads to one of these chambers with equal probability: - chamber_1 - eruption - assembly - slanted",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Structure > Components > Corridors",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 245
+    }
+  },
+  {
+    "text": "Trial Chambers > Structure > Components > Corridors: The end room generates at the end of one of the two corridors. It always leads to one of these chambers with equal probability: - chamber_1 - eruption - assembly - slanted End rooms cannot lead to any other chamber, i.e. it excludes: - chamber_2 - pedestal - chamber_4 - chamber_8 End rooms always include an ominous vault . In addition to its ominous vault, end_2 also features a regular vault and an intersection chest.",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Structure > Components > Corridors",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 105
+    }
+  },
+  {
+    "text": "Trial Chambers > Structure > Components > Intersections: The intersection is the room that connects both corridors. It always features a safer zone equipped with beds as well as an entrance to a chamber. In addition to that:\n- intersection_1 and intersection_2 feature an ominous vault ;\n- intersection_2 and intersection_3 feature an intersection barrel ;\n- intersection_2 features a secret room with an additional bed and a decorated pot always containing 3 strings .",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Structure > Components > Intersections",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 89
+    }
+  },
+  {
+    "text": "Trial Chambers > Structure > Components > Hallways: Hallways are segments that connect corridors to chambers. When a copper door generates in a corridor, it (or, in the case of an upper or lower door, the spiral staircase that follows it; see § Slices ) may lead to one of the following pieces:\n- a chamber (97.48%);\n- a hallway segment (1.14%);\n- an encounter (0.41%);‌ [ Java Edition only ]\n- a dead end (0.08%).\nIf the selected piece cannot be generated, the game attempts to generate a different piece. After a certain number of failed attempts, it defaults to generating a dead end.​ [ more information needed ] If the dead end itself cannot be generated, no piece is generated.\nThis process is then repeated at the end of each hallway segment or encounter. Furthermore, hallways never branch, meaning that every copper door found in corridors eventually leads to a single chamber, a dead end, or nothing.\nEncounters are hallway pieces that consist in \"short challenges leading to a larger chamber\". They feature a single trial spawner and a vault.",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Structure > Components > Hallways",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 232
+    }
+  },
+  {
+    "text": "Trial Chambers > Structure > Components > Chambers: Chambers are large combat rooms that contain multiple trial spawners and vaults, as well as one ominous vault. Chambers can be accessed from hallways, intersections, end rooms, and corridor slices.\nEach chamber design has several potential entrances, of which only one is connected to the rest of the structure. The remaining entrances are sealed with an entrance cap (see § Hallways ). Each potential entrance, including the sealed ones, generates a disposal consisting of a hopper placed above a barrel (see § Decor ), allowing players to manage their inventory before entering a chamber.\nChamber_1 and Chamber_2\nPedestal\nChamber_4\nEruption\nAssembly\nChamber_8\nSlanted",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Structure > Components > Chambers",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 137
+    }
+  },
+  {
+    "text": "Trial Chambers > Structure > Components > Miscellaneous: Decor includes decorated pots, flower pots, candles, and barrels. It can generate in slices, some encounters, and some chambers.\nDisposals and beds are also classified as decor but are not part of the decor pool: they only generate near chamber entrances and at intersections respectively.",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Structure > Components > Miscellaneous",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 64
+    }
+  },
+  {
+    "text": "Trial Chambers > Mobs: Natural hostile mob spawning is disabled within a trial chamber. Mobs spawn only from the trial spawners . The number of mobs spawned scales with the number of players in range of each spawner, and breezes are spawned less per spawner and per player than other mobs.\nWhen a trial chamber structure generates, one mob from each of the following categories is randomly selected for the trial spawners in that structure. Every mob within the same category has an equal chance to be selected. The breeze is in its own category and is thus guaranteed to be found in certain chambers.\nAdditionally, chickens can also appear in trial chambers in two different ways.\n- In Java Edition , baby zombies or baby husks that spawn have a 5% chance to spawn as a chicken jockey .\n- Naturally generated dispensers can contain eggs and breezes can unintentionally power a button or pressure plate, activating the dispenser to fire the eggs, which have an 1/8 chance to spawn a chick.",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Mobs",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 212
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot: Loot is available from vaults , chests , barrels , dispensers , and decorated pots from within the chambers. Players who defeat a trial spawner each receive rewards; this loot scales depending on the number of players who defeat the trial spawner.",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 58
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Vaults: In Java Edition , each trial chambers vault and reward chest contains  items drawn from 3 pools,  with the following distribution:\nIn Bedrock Edition , each trial chambers vault and reward chest contains  items drawn from 3 pools,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Vaults",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 54
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Vaults > Ominous vaults: In Java Edition and Bedrock Edition , each trial chambers ominous vault contains  items drawn from 3 pools,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Vaults > Ominous vaults",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 35
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Chests > Entrances: In Java Edition and Bedrock Edition , each trial chambers entrance chest contains 2–3 item stacks,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Chests > Entrances",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 34
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Chests > Intersections: The room where the loot is stored isn't actually an intersection, it is a corridor end.\nIn Java Edition and Bedrock Edition , each trial chambers intersection chest contains 1–3 item stacks,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Chests > Intersections",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 55
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Chests > Supply: In Java Edition and Bedrock Edition , each trial chambers supply chest contains 3–5 item stacks,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Chests > Supply",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 34
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Barrels > Intersection barrels: In Java Edition , each trial chambers intersection barrel contains 1–3 item stacks,  with the following distribution:\nIn Bedrock Edition , each trial chambers intersection barrel contains 1–3 item stacks,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Barrels > Intersection barrels",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 53
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Barrels > Corridor barrels: Despite being barrels, the corridor containers are referred to as chests by the game.\nIn Java Edition and Bedrock Edition , each trial chambers corridor chest contains 1–3 item stacks,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Barrels > Corridor barrels",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 51
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Decorated pots: In addition to the below, decorated pots may have flow, guster, or scrape designs, which yield their respective pottery sherds when broken, along with bricks for any blank sides. There is a 10 ⁄ 13 chance that the pot is composed entirely out of bricks, and 1 ⁄ 13 chance for each of the variants with a single sherd.\nIn Java Edition and Bedrock Edition , each trial chambers corridor pot contains 1 item stack,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Decorated pots",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 101
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Dispensers > Chamber dispenser: In Java Edition and Bedrock Edition , each trial chambers chamber dispenser contains 1 item stack,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Dispensers > Chamber dispenser",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 42
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Dispensers > Corridor dispenser: In Java Edition and Bedrock Edition , each trial chambers corridor dispenser contains 1 item stack,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Dispensers > Corridor dispenser",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 42
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Dispensers > Water dispenser: In Java Edition and Bedrock Edition , each trial chambers water dispenser contains 1 item stack,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Dispensers > Water dispenser",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 42
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Trial spawners: When all mobs have been killed, the trial spawner has a 50% chance of picking the trial key , in which case it drops for all players. The other 50% of the time it drops one of the other items for each player.\nIn Java Edition and Bedrock Edition , each trial chambers trial spawner contains 1 item stack,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Trial spawners",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 83
+    }
+  },
+  {
+    "text": "Trial Chambers > Loot > Trial spawners > Ominous trial spawners: When all mobs have been killed, the ominous trial spawner has a 30% chance of picking the ominous trial key , in which case it drops for all players. The other 70% of the time it drops one of the other items for each player.\nIn Java Edition and Bedrock Edition , each trial chamber ominous trial spawner contains 1 item stack,  with the following distribution:",
+    "metadata": {
+      "source": "Trial Chambers",
+      "section": "Loot > Trial spawners > Ominous trial spawners",
+      "url": "https://minecraft.wiki/w/Trial_Chambers",
+      "tokens": 91
+    }
+  },
+  {
+    "text": "Villager > (introduction): Villagers are humanoid passive mobs that inhabit villages , work at their professions (see Villager professions ), breed , and interact with each other. Their outfit varies according to their occupation and biome , and a player can trade with them using emeralds as currency, with their prices affected by reputation.",
+    "metadata": {
+      "source": "Villager",
+      "section": "(introduction)",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 67
+    }
+  },
+  {
+    "text": "Villager > Spawning: Each villager spawns with an empty inventory . Villagers never spawn with armor or other equipment, but in Java Edition a dispenser can be used to equip armor on a villager.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Spawning",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 46
+    }
+  },
+  {
+    "text": "Villager > Spawning > Natural generation: Villagers can be found in villages , which spawn in several biomes such as plains , snowy plains , savannas , deserts , taigas , and snowy taigas ‌ [ Bedrock Edition only ] and can cut into other biomes such as swamps and jungles . When the village is generated, unemployed villagers spawn in them, the number of which depends on the buildings in that village, as some buildings generate villagers inside and some do not. Igloo basements always generate with one villager in the left cell and one zombie villager in the right cell. - In Java Edition , the generated villager is always unemployed. The villager cannot pathfind to the brewing stand or cauldron to take on a profession unless some of the blocks confining them are broken. The generated zombie villager always has the profession of cleric and becomes unemployed once cured. Both mobs are the plains variant. See § Appearance . - In Bedrock Edition , the villager has a random profession and the zombie villager is unemployed. Both mobs are the snowy variant. The villager can change its professions to cleric or leatherworker, due to the presence of the brewing stand and cauldron.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Spawning > Natural generation",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 248
+    }
+  },
+  {
+    "text": "Villager > Spawning > Natural generation: Both mobs are the snowy variant. The villager can change its professions to cleric or leatherworker, due to the presence of the brewing stand and cauldron. The zombie villager can do the same after being cured. Changing profession takes time. If the player manages to trade with the villager before it changes its profession, the villager keeps its initial profession. The zombie villager is unemployed immediately after being cured, so the player cannot lock in its profession.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Spawning > Natural generation",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 104
+    }
+  },
+  {
+    "text": "Villager > Spawning > Curing: Giving a zombie villager the Weakness effect and then feeding it a golden apple starts the curing process. After five minutes, it transforms into a villager, displaying purple Nausea status effect particles for 10 seconds after being cured.\nThe villager retains the profession it had, if it had one before turning into a zombie villager. If employed, a cured villager offers discounts on most of its trades.\nIn Bedrock Edition , if the zombie villager is spawned by a player, it adopts a randomly chosen profession. The villager can also be a nitwit, but it becomes a normal unemployed villager when cured.\nIn Java Edition , curing a zombie villager riding a chicken results in the villager riding a chicken. Eventually, the villager grows up and gains a profession while still being on the chicken.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Spawning > Curing",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 176
+    }
+  },
+  {
+    "text": "Villager > Drops: Farmers using bone meal when farming have an 8.5% chance to drop it when killed by a player or tamed wolf. Each level of Looting increases the chance by 1% per level. Adult villagers can drop armor equipped through dispensers . Otherwise, a villager, whether it is an adult or a baby, does not drop any items or experience when killed.\nWhen a villager dies or is converted to a zombie villager, any items in its hidden inventory slots are lost (see § Picking up items ).\nIf a villager is displaying a trade item to offer a trade, it will not drop it when it dies. Villagers also do not drop any other trading -related items.\nUpon successful trading, a villager drops 3–6 XP .\nUpon successful trading, while willing to breed , 8–11 XP is dropped.\nCuring a zombie villager with any armor or held items causes it to drop them as items.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Drops",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 196
+    }
+  },
+  {
+    "text": "Villager > Drops > Hero of the Village: In Java Edition , a villager can drop various items, depending on its profession, by throwing a gift toward a nearby player with the Hero of the Village effect. The gift is randomly selected from a list of items for the villager's individual profession, and there is a random cooldown before the villager can throw another gift.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Drops > Hero of the Village",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 78
+    }
+  },
+  {
+    "text": "Villager > Behavior > Movement patterns > Socializing: Nitwit and unemployed villagers leave their homes at day and begin to explore the village. Generally, they wander inside the village during the day. They may go indoors or outdoors, periodically making mumbling sounds. Occasionally, two villagers may stop and turn to look at each other, in a behavior called socializing, during which they stare at another villager for 4–5 seconds at a time. They continuously stare at a nearby player unless the villager is trying to get into a house at night, farm food, work, or flee from a zombie or illager. Baby villagers may jump on beds and play tag with each other, similarly to how baby piglins and baby hoglins play tag. In Bedrock Edition , baby villagers do not stop in order to stare at players, and thus continue moving as if the player is not there. A villager tries not to travel far from its bed in a large village unless the job site or the nearest gossip site ( bell ) is far away. Villagers emit green particles if they join a village, set a bed, or acquire a job site/profession. Villagers run inside at night or during rain, closing doors behind them.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Movement patterns > Socializing",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 249
+    }
+  },
+  {
+    "text": "Villager > Behavior > Movement patterns > Socializing: Villagers emit green particles if they join a village, set a bed, or acquire a job site/profession. Villagers run inside at night or during rain, closing doors behind them. They attempt to sleep at night, but if they cannot claim a bed, they stay indoors near a bed until morning. In the morning, they head outside and resume normal behavior. However, some villagers, such as nitwits, stay outside later than others unless being chased by an illager or zombie .",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Movement patterns > Socializing",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 111
+    }
+  },
+  {
+    "text": "Villager > Behavior > Movement patterns > Migration: If a villager finds itself outside the village boundary, or a villager without a village detects a village boundary within 32 blocks, it quickly moves back within the boundary. A villager taken more than 32 blocks away from its village boundary forgets the village within about 6 seconds. Whether in a village or not, a villager never despawns .",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Movement patterns > Migration",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 83
+    }
+  },
+  {
+    "text": "Villager > Behavior > Movement patterns > Pathfinding: Villagers, like most other mobs, can find paths around obstructions, avoid walking off cliffs of heights greater than 3 blocks, and avoid some blocks that cause harm. However, in crowded situations, one villager can push another off a cliff or into harm's way.\nVillagers can open all wooden and copper doors and find paths to blocks of interest behind the doors. However, they cannot open any trapdoors, fence gates, or iron doors. Villagers can climb ladders , but do not recognize them as paths and do not deliberately use them. Any climbing of ladders seems to be a side effect of them being pushed into the block by another mob (usually by other villagers). Climbing a ladder can leave a villager stranded on the second floor and roof of some village structures, as they lack the necessary AI to intentionally descend ladders.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Movement patterns > Pathfinding",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 184
+    }
+  },
+  {
+    "text": "Villager > Behavior > Movement patterns > Getting attacked: Like other passive mobs, villagers sprint away when attacked, but they also flee from some nearby mobs even before being attacked.\nZombies , zombie villagers , husks , drowned and zoglins attack villagers and cause them to flee.\nPillagers , vindicators , evokers , illusioners and ravagers cause villagers to flee but only attack adults. Vexes also cause villagers to flee but only attack adults when spawned by an evoker .\nPufferfish , wardens and withers attack villagers but don't cause them to flee until actually attacked.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Movement patterns > Getting attacked",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 128
+    }
+  },
+  {
+    "text": "Villager > Behavior > Movement patterns > Preferred path: When pathfinding , villagers prefer to stay on low cost blocks, such as dirt paths , cobblestone , bricks , and planks . They do this by trying to minimize the path cost of all of the blocks they walk across. They also avoid jumping, because it has a high path cost, but babies don't avoid it as much.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Movement patterns > Preferred path",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 82
+    }
+  },
+  {
+    "text": "Villager > Behavior > Job site blocks: Unemployed villagers (other than babies and nitwits) seek employment at job site blocks (also referred to as workstations), and employed villagers use job site blocks to refresh their trades (see § Working ). Villagers who have made their first trade must claim a site block that corresponds with their profession, whereas tradeless villagers may change their profession to match a site block. In Java Edition , an unemployed villager claims job site blocks by searching for the nearest unclaimed site in a 48-block sphere. When a suitable site block is detected, the villager starts pathfinding to it, staking a provisional claim. This can occur only while the villager is awake. A provisional claim is released if the villager cannot reach the block within 60 seconds, however the villager may try again immediately. To fully claim the site and change profession, the villager must approach within a 2-block radius of the job site's center. When a job site block is fully claimed, its owner emits green particles, and no other villager can claim the block unless the owner relinquishes it.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Job site blocks",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 239
+    }
+  },
+  {
+    "text": "Villager > Behavior > Job site blocks: When a job site block is fully claimed, its owner emits green particles, and no other villager can claim the block unless the owner relinquishes it. In Bedrock Edition , all villagers in a village search for unclaimed job sites in a 16 block radius and 4 block height. If a site block is found, it is added to a shared list of valid job site blocks for the whole village. An unemployed villager with a bed claims the first site block on that list and immediately acquires the profession to match, regardless of the distance or accessibility to the site block. The villager can even claim the site block while sleeping. When a job site block is claimed, both the block and the villager making the claim emit green particles and the site block is removed from the list. If a villager cannot pathfind to its claimed site, both the site block and villager emit anger particles. The site block may need to be broken or interacted by a piston before the villager unclaims it. [ verify for Bedrock Edition ]",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Job site blocks",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 227
+    }
+  },
+  {
+    "text": "Villager > Behavior > Gossiping: Villagers can store positive and negative memories about players and share them with other villagers. A player's reputation is determined by these memories, and can be changed by trading with, curing, attacking and killing villagers, which influences trading prices and the hostility of iron golems . Killing a villager increases the value of the corresponding gossip for all villagers whom it has a line of sight inside a box extending 16 blocks from the villager in all coordinate directions. Trading with, curing or attacking a villager only increases the value of the corresponding gossips for the targeted villager. Attacks and kills only result in negative gossip when villagers can determine their source, so indirect methods like fire , lava and suffocation from falling blocks can be used to kill villagers without losing reputation. Villagers can share gossip by talking to each other, though the shared gossip's value will be decreased by the sharing cost. Because the cost of sharing the major gossip gained from curing is greater than its maximum, it can never be shared. Every 20 minutes, all gossips of a villager decays by the amount in the \"Decay\" column.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Gossiping",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 236
+    }
+  },
+  {
+    "text": "Villager > Behavior > Gossiping: Every 20 minutes, all gossips of a villager decays by the amount in the \"Decay\" column. This rate does not depend on the time of day and cannot be sped up by sleeping. Because the decay of the major gossip gained from curing is 0, the gossip is permanent. A player's total reputation with a villager is determined by multiplying each gossip's value by its respective multiplier and adding the results together. When trading , villagers will change prices based on reputation. In Bedrock Edition negative reputation can only cancel out positive reputation and other price discounts but not increase the price. Iron golems that were not built by players become hostile toward all players whose reputation is -100 or lower with any villager within a box centered on the golem and extending 10 blocks in every horizontal and 8 in both vertical directions.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Gossiping",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 182
+    }
+  },
+  {
+    "text": "Villager > Behavior > Picking up items: Each villager has eight hidden inventory slots, which are initially empty when the villager is spawned. A villager can fill its inventory slots with items it picks up. In Bedrock Edition , a villager does not intentionally seek out items to pick up, but does collect any bread , carrots , potatoes , wheat , wheat seeds , beetroot , beetroot seeds , torchflower seeds , pitcher pods , and bone meal within reach.​ [ more information needed ] In Java Edition , a villager seeks out these items within 4 blocks. The listed items are the only items villagers can pick up, although the / item replace command can put any arbitrary item into a villager's inventory. Bone meal can be picked up only by a farmer villager. In Bedrock Edition , only farmers can pick up seeds and wheat. If a player and a villager are in the pickup range of an item at the same time, the player always picks it up first. If several villagers are next to an item, the same one picks up the item every time. This behavior prevents villagers from successfully sharing food or breeding in a small space.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Picking up items",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 237
+    }
+  },
+  {
+    "text": "Villager > Behavior > Picking up items: If several villagers are next to an item, the same one picks up the item every time. This behavior prevents villagers from successfully sharing food or breeding in a small space. When killed or converted to a zombie villager, any inventory item of the villager is lost, even when / gamerule keepInventory is set to true . If / gamerule mob_griefing is false , villagers cannot pick up items, and farmer villagers cannot plant or harvest crops. Like other mobs, villagers have four slots for worn armor , separate from their inventory slots. An adjacent dispenser can equip armor, elytra , mob heads or carved pumpkins to a villager,‌ [ Java Edition only ] but the armor is not rendered (except for carved pumpkins and mob heads). The equipment functions as normal; for example, a villager wearing an armor piece enchanted with Thorns can inflict Thorns damage to attackers, and a villager wearing Frost Walker boots is able to create frosted ice . If a villager is converted into a zombie villager, the armor it was wearing is dropped, though it may be able to pick it up and equip it again.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Picking up items",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 249
+    }
+  },
+  {
+    "text": "Villager > Behavior > Picking up items: If a villager is converted into a zombie villager, the armor it was wearing is dropped, though it may be able to pick it up and equip it again. A villager with Thorns III deals more damage to zombies that attacked the villager than the villager takes damage.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Picking up items",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 68
+    }
+  },
+  {
+    "text": "Villager > Behavior > Sharing food: In Java Edition , villagers collect bread, carrots, potatoes, beetroots, wheat seeds, beetroot seeds, and wheat. If a villager has at least 24 of these items, it gives the extra amount to a villager with 4 or fewer of each of these food items. That other villager can also do this until all villagers have shared all items they could (for example, on a group of three villagers one receives 60 bread, then it shares 36 to another villager to keep 24, and that same villager then shares 12 to the third villager). In the case of wheat, villagers have a distinct behavior. They do the same as other crops, but if a villager has at least 32 wheat, it tries to give half of it to another villager, making both have 16 wheat. If a villager has 8 full [ verify ] stacks of any kind of food or seeds and then tries to share with another villager, it leaves at least 24 items in each stack. Thus it can never empty inventory slots to pick up other items, unless it uses the items when trying to breed or when farming if it is a farmer villager.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Sharing food",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 247
+    }
+  },
+  {
+    "text": "Villager > Behavior > Sharing food: Thus it can never empty inventory slots to pick up other items, unless it uses the items when trying to breed or when farming if it is a farmer villager. A bait villager can be used in a farm taking advantage of this mechanic to have a farmer villager collect and deposit crops. In Bedrock Edition , if a villager has enough food in one inventory stack (6 bread or 24 carrots, potatoes, beetroots, or 18 wheat for farmers only) and sees a villager without enough food in one inventory stack (3 bread, 12 carrots, 12 potatoes, or 12 beetroots for non-farmers; 15 bread, 60 carrots, 60 potatoes, or 60 beetroots, or 45 wheat for farmers), the villager may decide to share food with that villager. To share, a villager finds its first inventory stack with at least 4 bread, carrots, potatoes, or beetroot or with at least 6 wheat, and then throws half the stack (rounded down) in the direction of the target villager.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Sharing food",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 224
+    }
+  },
+  {
+    "text": "Villager > Behavior > Sharing food: When wheat is shared, it is first crafted to bread, which may result in 1 or 2 less than half the stack being shared.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Sharing food",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 35
+    }
+  },
+  {
+    "text": "Villager > Behavior > Farming: Farmer villagers can tend planted wheat , carrots , potatoes , and beetroots , harvesting them if they are fully grown or bonemealing them if possible.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Farming",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 39
+    }
+  },
+  {
+    "text": "Villager > Behavior > Breeding: Adult villagers breed depending on the time of the day and need to be willing to spawn § Baby villagers , who require beds with at least two empty blocks above their heads. Job sites are not required for villagers to breed. Breeding depends on the number of valid beds. If a villager is \"willing\" (see § Willingness below), villagers breed as long as there are unclaimed beds available within the limits of the village. All baby villagers are initially unemployed. In Java Edition , two villagers nearby one another periodically enter mating mode if both have enough food and are not on cooldown. Breeding fails (with angry villager particles displayed) if no unclaimed bed can be reached via pathfinding within a 48-block radius. The appearance of the child is randomly determined by either the biome type of the parents or by the biome where the breeding occurred. In Bedrock Edition , a census is periodically taken to determine the current population of the village. All villagers within the horizontal boundary of the village are counted as part of the population to determine if continued villager mating is allowed.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Breeding",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 227
+    }
+  },
+  {
+    "text": "Villager > Behavior > Breeding: In Bedrock Edition , a census is periodically taken to determine the current population of the village. All villagers within the horizontal boundary of the village are counted as part of the population to determine if continued villager mating is allowed. However, any villager within the horizontal boundary of the village and the spherical boundary of the village attempts to enter mating mode as long as there is at least one villager within the boundary. If two villagers simultaneously enter mating mode while they are close to one another, they breed and produce a child. The appearance is determined by the biome where the breeding occurs in Bedrock Edition .",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Breeding",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 127
+    }
+  },
+  {
+    "text": "Villager > Behavior > Breeding > Willingness: Villagers must be willing to breed. Willingness is determined by the amount of food items a villager has. Becoming willing consumes the villager's food stock, even if breeding fails to produce a baby villager. After successfully breeding, villagers cease to be willing for 5 minutes, at which point they must gather a sufficient stock of food items to breed again. Villagers must have enough beds within village bounds‌ [ Java Edition only ] /loaded terrain‌ [ Bedrock Edition only ] [ verify for Bedrock Edition ] for baby villagers to spawn. The villager must be able to path-find to the bed from its current position. (Note that mobs view certain blocks, such as slabs, trapdoors, etc., as full blocks for pathfinding, so putting these types of blocks above a bed invalidates the bed.) Villagers can become willing by having either 3 bread , 12 carrots , 12 potatoes , or 12 beetroots in one slot in their inventory. Any villager with an excess of food (usually farmers) throws food to other villagers, allowing them to pick it up and obtain enough food to become willing.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Breeding > Willingness",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 237
+    }
+  },
+  {
+    "text": "Villager > Behavior > Breeding > Willingness: Any villager with an excess of food (usually farmers) throws food to other villagers, allowing them to pick it up and obtain enough food to become willing. The player can also throw bread, carrots, beetroots, or potatoes at the villagers themselves to encourage breeding. Villagers consume the required food upon becoming willing. If / gamerule mobGriefing is false , villagers don't pick up food or break crops.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Breeding > Willingness",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 97
+    }
+  },
+  {
+    "text": "Villager > Behavior > Baby villagers: Baby villagers (sometimes called children, or child villagers) sprint around, entering and leaving houses at will. They sometimes stop sprinting to stare at other villagers, the player‌ [ Java Edition only ] , or an iron golem . If the iron golem is holding out a poppy , a child may cautiously take the flower from its hands. Baby villagers tend to group and chase one another around the village as if playing tag. They also jump on beds.\nIllagers (except \"Johnny\" vindicators in Bedrock Edition ) ignore baby villagers until they reach adulthood.\nBaby villagers give gifts of poppies or wheat seeds to players who have the Hero of the Village effect in Java Edition .\nBaby villagers can fit through 1×1 block gaps.\nA baby villager becomes an adult 20 minutes after birth, even when in a boat or a minecart. Baby villagers with no AI do not grow up.\nGolden dandelions do not work on baby villagers.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Baby villagers",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 201
+    }
+  },
+  {
+    "text": "Villager > Behavior > Lightning: When lightning strikes within 3–4 blocks of a villager, the villager is replaced by a witch that can't despawn. Even a baby villager that is struck by lightning is turned into a two-block-tall witch.\nIron golems will attack any villagers that turn into witches.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Lightning",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 70
+    }
+  },
+  {
+    "text": "Villager > Behavior > Iron golem summoning: In Java Edition , villagers can summon an iron golem to protect themselves from hostile mobs. This requires either a villager panicking in a group of 3 villagers or 5 gossiping villagers. If they don't find an iron golem within 16 blocks of their location for 30 seconds, another one is summoned.\nIn Bedrock Edition , villagers can summon an iron golem if there are more than 10 villagers per existing golem, the village has at least 20 beds, and 75% of these villagers must have worked in the past day.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Iron golem summoning",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 120
+    }
+  },
+  {
+    "text": "Villager > Behavior > Panicking: Villagers sometimes panic during a raid or a zombie siege by emitting water particles (sweat) and shaking.\nIn Java Edition , villagers panic if they see a mob that is hostile toward villagers, like a zombie, zombie villager, husk, drowned, zoglin, illager, vex, wither, or ravager and flee frantically from them, sometimes hiding in houses.\nIn Bedrock Edition , villagers panic by running around in circles around a bed in a village house, such as when a raid happens or when the player rings the village bell.\nJava Edition villagers in panic are more likely to summon iron golems. To see these mobs, the villager must have an unobstructed line of sight to it (eye-level to eye-level), and be within a certain range (spherical distance between feet center bottom-most point of the villager and hostile mob):",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Panicking",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 192
+    }
+  },
+  {
+    "text": "Villager > Behavior > Panicking > Zombies: Zombies, zombie villagers, husks, and drowned seek out and attack villagers within a 35– to 52.5–block radius (depending on regional difficulty )‌ [ Java Edition only ] or a 16-block radius‌ [ Bedrock Edition only ] (even when the villager is invisible). Zombies attempt to break down doors , but only a fraction of zombies can do so and can succeed only when difficulty is set to hard. Zombies who cannot break doors tend to crowd around a door that separates them from a villager. If a zombie or a drowned comes across a set of doors with one open, it usually tries to go through the closed door.\nAll zombies either kill villagers or convert them into zombie villagers . The chance of the villager becoming a zombie villager upon death depends on difficulty , being 0% on Easy, 50% on Normal, and 100% on Hard. Baby villagers can be infected by zombies as well, becoming baby zombie villagers. Drowned are able to convert villagers into zombie villagers even when attacking with a trident from a distance.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Panicking > Zombies",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 221
+    }
+  },
+  {
+    "text": "Villager > Behavior > Panicking > Raids: During a raid , villagers flee from illagers and run to the nearest house , similar to a zombie siege . For a villager to hide, the house must have a door and at least one bed.\nBefore the first raid wave in Java Edition , at least one villager rushes to ring the bell in the center of the village (if they are close enough) to warn the other villagers of an incoming raid before going into their house. In Bedrock Edition , the bell rings automatically regardless of whether a villager is nearby. In Java Edition , when a bell is rung, all illagers within 48 blocks get the glowing effect for 3 seconds.\nA villager often stays in the house it first entered, but may exit the house occasionally. The player can still trade with villagers during a raid .\nIn Java Edition , the villager displays water particles on random occasions as if sweating.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Panicking > Raids",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 189
+    }
+  },
+  {
+    "text": "Villager > Behavior > Hero of the Village: In Java Edition , once the player gains the Hero of the Village status after defeating a raid, villagers give them a discount for their trades and throw them gifts related to their profession. In Bedrock Edition , the villagers do not throw the player gifts, but they still give them a discount for their trades.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Hero of the Village",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 70
+    }
+  },
+  {
+    "text": "Villager > Behavior > Staring: Villagers stare at any player that stares at them, or goes near them, even if they have the Invisibility effect. This also applies for some mobs, especially cats . A villager first turns its head toward the player, then the body. Villagers can keep staring at the player unless a raid happens or a zombie comes and chases them off.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Behavior > Staring",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 78
+    }
+  },
+  {
+    "text": "Villager > Schedules: Villagers have set schedules depending on their age and employment status. Schedules define the villager's goals, which mostly determine how they behave throughout the day. However, their goals can be interrupted by higher priority behaviors most villagers have, such as fleeing from an attack, trading, and getting out of the rain.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Schedules",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 67
+    }
+  },
+  {
+    "text": "Villager > Schedules > Working: Employed villagers spend most of their day standing next to their job site blocks. From time to time, they \"gather supplies\" by wandering a short distance away, then returning. Some professions have additional job-specific goals that are part of their work schedule: - Farmers harvest and sow crops. - Librarians inspect bookshelves.‌ [ Bedrock Edition only ] When a villager reaches its job site block, it commences \"work\". Two times a day, working resupplies any locked trades, even without having a bed or while sitting in a minecart. A villager can \"reach\" its job site block if the block is in any of the 8 directly adjacent or diagonal block spaces horizontally around it at the height of their feet, or at the 9 blocks below that. Villagers can still \"reach\" them diagonally, even if they can't see or touch the face of the block. Employed villagers do not breed with each other during their work schedule. Nitwits and unemployed villagers do not follow this rule, as they can breed with each other and employed villagers that are not working.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Schedules > Working",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 234
+    }
+  },
+  {
+    "text": "Villager > Schedules > Working: Employed villagers do not breed with each other during their work schedule. Nitwits and unemployed villagers do not follow this rule, as they can breed with each other and employed villagers that are not working. Leatherworker villagers can work at any cauldron, not only their job site block. Also, the cauldron does not have to be filled with water in order for the villager to work at it.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Schedules > Working",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 92
+    }
+  },
+  {
+    "text": "Villager > Schedules > Wandering: All villagers wander from time to time, but for the unemployed and nitwits, they wander for the majority of their day. A wandering villager chooses a random block and walks toward it, then stands there for a variable amount of time before wandering again. If at any time it detects a job site block it can claim, it does so, assumes the skin for the associated profession, and immediately begins following the appropriate schedule. A villager attempts to claim a job site block by finding a path to a block next to one, showing angry particles when unable to reach it. After a villager fails to reach the job site block several times, it becomes unclaimed, indicated by showing angry particles on it. The villager loses its job site block and eventually becomes unemployed if the villager is at novice-level and no nearby job site block is available. Any other nearby unemployed villager has a chance to become the block's new owner. If there are no unemployed villagers nearby, then the villager who lost the job site block seeks for another unclaimed one or tries to reclaim the same unreachable one in an endless loop (this also happens for claiming beds).",
+    "metadata": {
+      "source": "Villager",
+      "section": "Schedules > Wandering",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 250
+    }
+  },
+  {
+    "text": "Villager > Schedules > Wandering: The wander schedule includes a job-specific goal called \"exploring the outskirts\" that causes villagers to wander near the edges of the village. This enables them to detect new beds, job site blocks, bells, and houses that players have used to extend the village. During this time of the day, they may also share items.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Schedules > Wandering",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 72
+    }
+  },
+  {
+    "text": "Villager > Schedules > Gathering: Late in the day, adult villagers gather at a meeting place (the area around a bell ). When two villagers encounter one another, they mingle (look at each other and \"converse\" by humming at other villagers). They may also share food, or breed if both are willing.\nIf a villager isn't close enough to detect a bell, it wanders randomly, searching for one.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Schedules > Gathering",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 89
+    }
+  },
+  {
+    "text": "Villager > Schedules > Playing: Baby villagers wander randomly around the village. When they encounter another baby villager, the two of them follow each other for a while and sometimes run as if racing or chasing each other.\nIn Java Edition , they sometimes stop to jump and bounce on a bed or to stare at an iron golem they encounter. In Bedrock Edition , if the iron golem offers them a poppy, the baby villager cautiously accepts it.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Schedules > Playing",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 91
+    }
+  },
+  {
+    "text": "Villager > Schedules > Returning home: All villagers head home a short time before sunset. They roam around until they get near their beds, then target a block beside the bed. The bed's head must be accessible for the villagers to \"see\" it. Once they reach their beds, they do not go through a door again before sleeping.\nA villager who has no bed simply waits inside a house until morning. This includes players stealing a villager's bed to sleep in, mostly the villager stays in the house and doesn't move until sunrise. But sometimes, if they detect an unclaimed bed nearby they walk out of the house and toward the bed.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Schedules > Returning home",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 138
+    }
+  },
+  {
+    "text": "Villager > Schedules > Sleeping: At sunset, villagers lie down in their beds and remain there until morning. Villagers wake early if food is thrown at them‌ [ Java Edition only ] , they are pushed out of bed, or if their bed is destroyed. They also wake up when their bed is used , if they are attacked , or when a bell is rung. If possible, they return to sleeping in a bed after the interruption. Jumping on a bed with a villager sleeping in it does not cause the villager to get up. In Java Edition , a villager can be pushed on its bed and sometimes turn its head. A villager can be pushed off a bed, but is most likely to go back to sleeping after staring at the player who pushed the villager for a few seconds. When sleeping in Java Edition , a villager's hitbox reduces to a cube restricted to the pillow part of the bed. If an anvil is dropped on the hitbox, the villager takes damage and wakes up and the anvil is dropped as an item.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Schedules > Sleeping",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 217
+    }
+  },
+  {
+    "text": "Villager > Schedules > Sleeping: If an anvil is dropped on the hitbox, the villager takes damage and wakes up and the anvil is dropped as an item. In Bedrock Edition , dropping an anvil on a villager that is sleeping causes the villager to take damage but remain sleeping in the bed and the anvil remains on top of the bed. A villager who has no bed continues wandering in search of a bed to claim. Villagers follow their Overworld schedules regardless of which dimension they are in. They can sleep in the Nether or the End , without causing the usual consequences of the bed exploding (See Bed § Sleeping ), if the Overworld's time is correct. This is because the daylight cycle continues in these dimensions, even though it is not normally apparent to the player. Sometimes when a villager gets in a bed from another direction they turn their body until their head is on the pillow of the bed. Villagers also sleep with their eyes open.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Schedules > Sleeping",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 200
+    }
+  },
+  {
+    "text": "Villager > Schedules > Healing: A villager gets a brief regeneration effect once leveling up in its profession. Pink regeneration particles ( ) appear while it is healing.\nIn Bedrock Edition , when a villager successfully sleeps, they immediately heal themselves when waking up at dawn (if they are hurt).",
+    "metadata": {
+      "source": "Villager",
+      "section": "Schedules > Healing",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 61
+    }
+  },
+  {
+    "text": "Villager > Professions: Each villager can have a profession except for the nitwit, indicated by their clothing as well as by the title at the top of the trading interface . A villager can choose their profession by claiming a job site block. When they go to work, they use their daily schedule to get to their claimed job site block. Some professions, like farmers and librarians, do other things. Farmers plant crops, and librarians can inspect bookshelves‌ [ Bedrock Edition only ] [ verify ] . If an adult villager does not have a profession (either they are unemployed or a nitwit), they wander instead. A job site block can be claimed only if it is unclaimed. Removal of a claimed job site block causes the owner to switch to another profession or become unemployed, provided that the villager has no prior trades with the player. If the villager has prior trades, it keeps its profession and claims a new job site block that matches its profession if one is available. This means that once a player trades with a villager, the villager keeps its profession forever. Nitwits and baby villagers cannot change their profession.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Professions",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 240
+    }
+  },
+  {
+    "text": "Villager > Professions: This means that once a player trades with a villager, the villager keeps its profession forever. Nitwits and baby villagers cannot change their profession. In Java Edition , villagers summoned by a spawn egg or via command / summon are always unemployed until they have claimed a job site block. In Bedrock Edition , however, villagers summoned in similar ways have a random profession ; their profession can be changed by a job site block, though. Novice-level villagers who have not yet traded can lose their profession and change into unemployed villagers. Unemployed adults actively seek for an unclaimed job site block and change into the corresponding profession. Below is a table listing the various professions, along with the specific job site block that each profession requires (13 jobs in total, not including unemployed/nitwit):",
+    "metadata": {
+      "source": "Villager",
+      "section": "Professions",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 167
+    }
+  },
+  {
+    "text": "Villager > Professions > Nitwit: Nitwit villagers wear robes that are green on top. They cannot change their profession, trade , or gather around bells , but are still able to breed. They are not equipped with a level stone since they cannot trade. In Java Edition , pressing use on a nitwit causes it to grunt and bobble its head at the player . A nitwit must be born or spawned; no villagers change to nitwit from unemployed or a profession, and vice versa. Due to a bug, nitwits cannot spawn in through breeding. As such, they can only be found naturally or by curing naturally spawned zombie villagers. Zombie villagers can also be spawned as babies, so this is the only way to encounter baby nitwits in Survival mode. In Bedrock Edition , every baby villager has a 10% chance to become a nitwit when they become an adult, as well as having a different sleep schedule where they wander around the village for about 2000 ticks (1 minute 40 seconds) after other villagers go to sleep, before seeking a bed.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Professions > Nitwit",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 232
+    }
+  },
+  {
+    "text": "Villager > Professions > Nitwit: If they can claim a bed, they arise in the morning 2000 ticks after the rest of the village wakes up.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Professions > Nitwit",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 34
+    }
+  },
+  {
+    "text": "Villager > Professions > Appearance: Villagers and zombie villagers have seven skin types corresponding to the biome they spawn in. Their appearance also varies based on their profession and their five tiers. They show which trade tier they have unlocked by a badge of a varying material on their belt. A new tier is obtained every time a player trades with a villager and the badge appears as stone, iron, gold, emerald, and diamond. Villagers have different outfits depending on their biome. Naturally generated villagers take on the outfit from the biome they were spawned in. When breeding occurs, the outfit of the child is determined by the biome where the breeding occurs, but in Java Edition , there is a 50% chance it's inherited from the biome type of the parents (equal chance for both parents). In case the villager's outfit is determined by biome but the biome has no specific villager type, it always becomes a plains villager. The outfits available are the following: Desert Savanna Taiga Snowy Swamp Jungle Plains Notes Villagers have 13 professions and 2 non professions for a total of 15 outfits : - Farmer (straw hat) Trades crops and natural foods, such as bread and cookies.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Professions > Appearance",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 245
+    }
+  },
+  {
+    "text": "Villager > Professions > Appearance: Desert Savanna Taiga Snowy Swamp Jungle Plains Notes Villagers have 13 professions and 2 non professions for a total of 15 outfits : - Farmer (straw hat) Trades crops and natural foods, such as bread and cookies. - Fisherman (fisher hat) Trades campfires and fishing items. - Shepherd (brown hat with white apron) Trades shears, wool, dyes, paintings and beds. - Fletcher (hat with feather and quiver on the back) Trades bows, crossbows, all types of arrows (except luck) and archery ingredients. - Cleric (purple apron and creeper cloak) Trades magic items like ender pearls, redstone dust, glowstone dust, and other enchanting or potion ingredients. - Weaponsmith (eyepatch and black apron) Trades minerals, bells and enchanted melee weapons. The axe enchantments are weapon related, such as Sharpness or Smite . - Armorer (welding mask) Trades foundry items and sells chain, iron and enchanted diamond armor tiers. - Toolsmith (black apron) Trades minerals, bells and harvest tools. The axe enchantments are tool related.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Professions > Appearance",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 234
+    }
+  },
+  {
+    "text": "Villager > Professions > Appearance: - Toolsmith (black apron) Trades minerals, bells and harvest tools. The axe enchantments are tool related. - Librarian (eyeglasses and a book as a hat) Trades enchanted books, clocks, compasses, name tags, glass, ink sacs, lanterns, and book and quills. - Cartographer (golden monocle) Trades banners, compasses, banner patterns, papers and various maps, including explorer maps. - Leatherworker (brown apron and brown gloves) Trades scutes, rabbit hide, and leather-related items. - Butcher (red headband and white apron) Trades meats, sweet berries, rabbit stew, and dried kelp blocks. - Mason (black apron and black gloves) Trades polished stones, terracotta, clay, glazed terracotta and quartz. - Nitwit (green coated, no badge) No trades, no badge - Unemployed (no overlay, base clothing of biome without any extra features) No trades until employed. No badge until employed. - Villagers have different trades based on the biome in which they spawn.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Professions > Appearance",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 233
+    }
+  },
+  {
+    "text": "Villager > Trading: The trading system is a gameplay mechanic that allows players to buy and sell various items to and from villagers, using emeralds as a currency. Their trades can be valuable or somewhat meaningless, depending on the cost, the items the player might get, and how the player treats the villagers. Only adult villagers with professions can trade; the player cannot trade with nitwits, unemployed villagers, or baby villagers. Attempting to do so causes the villager to display a head-bobbling animation and play the villager's declined trade sound‌ [ Java Edition only ] . Pressing the use control on an employed villager allows a player to trade, making offers based on the villager's profession and profession level. All offers involve emeralds as a currency, and items related to the villager's profession. Trading can allow the acquisition of items that would otherwise be difficult or impossible to obtain, such as enchanted books with \"treasure\" enchantments (e.g. Mending ), bottles o' enchanting , or chainmail armor . When a villager gets a new trade, they receive 10 seconds of Regeneration I (totaling to 4 HP of restoration), which emits pink particles.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Trading",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 249
+    }
+  },
+  {
+    "text": "Villager > Trading: When a villager gets a new trade, they receive 10 seconds of Regeneration I (totaling to 4 HP of restoration), which emits pink particles. The villager also emits green particles suggesting contentment. Completing a trade with a villager increases its professional level, and makes the villager drop 3–6 XP ; while willing to breed , instead, 8–11 XP is dropped. Some trades grant higher levels to the villager than others. As it advances through its profession, the villager offers additional trades. When a villager unlocks a new trade at a higher level, it almost always grants more experience than lower-level trades. Villagers have a maximum supply of items and after the player has traded for an item that many times, the villager's supply of the item is exhausted. This results in the trade being temporarily locked. A player can continue to trade for the villager's other available items if any. Exhausted items are restocked when the villager works at a job site, up to twice per day .",
+    "metadata": {
+      "source": "Villager",
+      "section": "Trading",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 218
+    }
+  },
+  {
+    "text": "Villager > Trading: A player can continue to trade for the villager's other available items if any. Exhausted items are restocked when the villager works at a job site, up to twice per day . Clicking use on an unemployed or nitwit villager in Java Edition causes it to grunt and bobble their head; doing so in Bedrock Edition does nothing. Using a name tag on a villager always names the villager instead of opening the trading interface. In Java Edition , using space inside of the trading interface after one trade was made refills the trading slots with items from the inventory. [ verify ]",
+    "metadata": {
+      "source": "Villager",
+      "section": "Trading",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 129
+    }
+  },
+  {
+    "text": "Villager > Trading > Supply and demand: The price of an item can rise and fall with changes in demand. The price of a traded item can rise when next resupplied, or fall from a risen price if not traded. Demand is stored per item, not per villager.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Trading > Supply and demand",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 59
+    }
+  },
+  {
+    "text": "Villager > Trading > Trade offering: When a player holds an emerald or other item near a villager who wants that item, the villager holds up an item it offers in exchange. In Bedrock Edition , villagers raise their arms when showing trade items. For example, a farmer villager who buys 20 wheat for one emerald holds up an emerald, offering it to a player holding wheat.\nIf the villager has more than one trade for an item, it cycles through the trades, offering a different item every few seconds. This kind of trading interaction makes it easier to find villagers who offer a particular trade, but the player must still open the trading interface to complete the trade. Note that villagers do not hold items to offer trades during their gather or sleep phases , even though it is still possible to trade with them.\nVillagers do not offer trades that are currently out of stock.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Trading > Trade offering",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 176
+    }
+  },
+  {
+    "text": "Villager > Trading > Economic trade: Villagers have various professions that progress through experience-based levels, unlocking new trade tiers.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Trading > Economic trade",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 27
+    }
+  },
+  {
+    "text": "Villager > Trading > Economic trade > Experience levels: - To rank up a villager, the player needs to trade. Trading with a Novice-level villager adds 1 or 2 XP per trade and each level progressively gains more XP per trade until the Master rank which earns up to 30 XP per trade. To see more, go to Trading .",
+    "metadata": {
+      "source": "Villager",
+      "section": "Trading > Economic trade > Experience levels",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 71
+    }
+  },
+  {
+    "text": "Villager > Trading > Popularity or reputation: In Bedrock Edition , villagers increase their prices of trades if a player's popularity is low, (e.g. from damaging villagers), and decrease it if their popularity is high (e.g. from trading with multiple villagers). Curing a zombie villager also increases the player's popularity by 10.\nIn Java Edition , a villager's prices are affected by the player's reputation with that villager rather than by village popularity.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Trading > Popularity or reputation",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 102
+    }
+  },
+  {
+    "text": "Villager > Trading > Hero of the Village: When a player receives Hero of the Village , players receive discounted prices on all the items traded by villagers in both editions. The Hero of the Village also gets gifts.‌ [ Java Edition only ]\nEach villager throws gifts related to its profession, and nitwits and unemployed villagers throw wheat seeds instead. These gifts range in value from common (like seeds ) to rare items (like chainmail armor ).\nA player's popularity increases by 10 in Java Edition and doesn't increase in Bedrock Edition . Villagers also shoot off fireworks , with different colored fireworks with no pattern.",
+    "metadata": {
+      "source": "Villager",
+      "section": "Trading > Hero of the Village",
+      "url": "https://minecraft.wiki/w/Villager",
+      "tokens": 127
+    }
+  }
+]
