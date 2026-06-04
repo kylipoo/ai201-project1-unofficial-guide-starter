@@ -15,8 +15,8 @@ following the Chunking Strategy section of planning.md:
     when the sentence itself doesn't name the article.
   - Every chunk carries {source, section, url} metadata for Milestone 4.
 
-Run:  python chunk.py                 # chunk everything -> chunks.json
-      python chunk.py --inspect "The Nether"   # print that article's chunks to eyeball
+Run:  python chunker.py                 # chunk everything -> chunks.json
+      python chunker.py --inspect "The Nether"   # print that article's chunks to eyeball
 """
 
 import json
@@ -174,7 +174,7 @@ def sample(n=5):
     typical cases from different articles.
     """
     if not OUT_FILE.exists():
-        sys.exit("No chunks.json yet. Run `python chunk.py` first.")
+        sys.exit("No chunks.json yet. Run `python chunker.py` first.")
     chunks = json.loads(OUT_FILE.read_text(encoding="utf-8"))
     sizes = [c["metadata"]["tokens"] for c in chunks]
     total = len(chunks)
@@ -211,10 +211,10 @@ def random_chunks(n=5, seed=None):
     sense on its own? Could someone answer a question from this chunk alone?
 
     Pass a seed to reproduce the same draw later (e.g. to cite exact chunks in a writeup):
-        python chunk.py --random 5 42
+        python chunker.py --random 5 42
     """
     if not OUT_FILE.exists():
-        sys.exit("No chunks.json yet. Run `python chunk.py` first.")
+        sys.exit("No chunks.json yet. Run `python chunker.py` first.")
     chunks = json.loads(OUT_FILE.read_text(encoding="utf-8"))
 
     rng = random.Random(seed)
@@ -242,7 +242,7 @@ def main():
     print(f"Token size: min {min(sizes)}, max {max(sizes)}, "
           f"avg {sum(sizes) // len(sizes)}  (target <= {MAX_TOKENS})")
     print(f"Chunks over target (single long sentences): {over}")
-    print('\nEyeball one article with:  python chunk.py --inspect "The Nether"')
+    print('\nEyeball one article with:  python chunker.py --inspect "The Nether"')
 
 
 if __name__ == "__main__":

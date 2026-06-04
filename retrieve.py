@@ -54,8 +54,8 @@ def print_hits(query, hits):
     print(f"\nQUERY: {query}")
     for rank, h in enumerate(hits, 1):
         flag = "" if h["distance"] < 0.5 else "  <-- weak (>0.5)"
-        print(f"  {rank}. [{h['distance']:.3f}]{flag} {h['source']} > {h['section']}")
-        print(f"     {h['text'][:160]}...")
+        print(f"\n  {rank}. [{h['distance']:.3f}]{flag} {h['source']} > {h['section']}")
+        print(f"     {h['text']}")           # full chunk text, so relevance is judgable
 
 
 def main():

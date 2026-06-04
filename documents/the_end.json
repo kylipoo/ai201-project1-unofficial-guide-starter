@@ -7,6 +7,10 @@
       "text": "The End is a dark, void-like, and space-like dimension consisting of separate islands in the void , made out of End stone . It is inhabited by endermen and shulkers . The ender dragon also spawns when the player first arrives. The End is often considered the final goal of Minecraft , and is usually the last dimension a player will travel to. The ender dragon is considered the final boss, and it is necessary to defeat it to return to the Overworld without dying , \"beat\" the game, and see the End Poem ."
     },
     {
+      "section": "Contents",
+      "text": "- 1 Accessing\n- 2 Environment 2.1 Biomes 2.2 Structure and generated features 2.3 Terrain features 2.3.1 Main island 2.3.2 Outer islands 2.4 Mobs 2.5 Blocks 2.5.1 Naturally generated 2.5.2 Naturally created 2.5.3 Structures\n- 3 Technical information 3.1 ID 3.2 Folder\n- 4 Achievements\n- 5 Advancements\n- 6 Videos\n- 7 History 7.1 Development 7.2 Java Edition 7.3 Bedrock Edition 7.4 Legacy Console Edition 7.5 New Nintendo 3DS Edition\n- 8 Issues\n- 9 Trivia\n- 10 Gallery 10.1 Screenshots 10.2 Mojang screenshots 10.3 Development images\n- 11 References\n- 12 Navigation"
+    },
+    {
       "section": "Accessing",
       "text": "To access the End, the player must go through the process of finding a stronghold using eyes of ender , finding the portal room, and activating the End portal in the End portal room. The room consists of a 5×5 square of End portal frames , with the corners cut out, making a total of 12. The portal hangs over a lava pool, with a staircase leading up to it. A silverfish spawner sits on top of the staircase.\nThe player can activate the portal by filling the 12 End portal frames each with an eye of ender. Each frame block has a 10% chance of generating with an eye in it. Once all the eyes of ender are placed, the portal activates and emits a loud noise audible from anywhere in the world. As soon as it is activated, the portal destroys all blocks in the central 3×3 square, including bedrock or another portal frame, and replaces them with the End portal blocks that can teleport an entity into the End dimension. Upon jumping into the portal, the player immediately arrives in the End (X: 100, Z: 0), along with any prior entities that may have teleported.\nIf cheats are enabled, players can also teleport to the End without using an End portal: the command / execute in the_end allows the player to select their teleportation destination in the End directly."
     },
@@ -20,7 +24,7 @@
     },
     {
       "section": "Environment > Structure and generated features",
-      "text": "There are currently 9 structures and generated features in The End:"
+      "text": "There are currently 9 structures and generated features in The End:\nName | Description | Image\nCentral island | The center of the End is a large, asteroid-like island composed entirely of End stone , floating in the void. At a distance of 1000 blocks away, an expanse of more islands begins, away from the main island. These consist of large islands, about the size of the main island, and smaller ones, which tend to be thin.\nOuter islands | The outer End islands are found 1000 blocks away from the central island. There are two types of outer islands: small and large. The large islands are populated with chorus tree forests, and the occasional End city . Many large islands are empty. The player can go to the End islands through an End gateway .\nEnd spike | End spikes, also known as obsidian pillars, obsidian spikes or obsidian towers, are generated structures at the End that are made of obsidian , with a single bedrock block and an End crystal on top of each pillar. Larger ones have cylindrical forms. The pillars surround the exit portal in a 42 block radius circle, and penetrate through the main island down to y level 0 .\nEnd platform | The End platform is a 5 by 5 square of obsidian that is generated once a player or entity enters the End. If the obsidian is destroyed, or if a block is placed on top of the three air blocks above any part of the platform when the player enters the End, the obsidian is restored and any blocks on top of those three air blocks above the platform are replaced with air, and dropped as an item.\nExit portal | The exit portal (also known as the End fountain) is a structure located on the central island that enables the players to return to their spawn points in the Overworld or the Nether . It activates upon the defeat of the ender dragon .\nEnd gateway | End gateway portals are generated in the End after defeating the ender dragon , and are used to gain quick access to the outer End islands and teleport the player back to the center island.\nEnd city | End cities are skyscraper-like structures found on the outer islands of the End. They are inhabited by shulkers and hold exclusive loot .\nEnd ship | End ships are floating structures that are sometimes generated alongside End cities. They are the only places where elytra and the dragon head can be legitimately obtained.\nChorus tree | Chorus trees are tall, coral-like blocks ubiquitous in the outer islands. They are composed of chorus plants and chorus fruit . Similar to bamboo and sugar cane , breaking one part causes all plants above the tree to break."
     },
     {
       "section": "Environment > Terrain features > Main island",
@@ -36,15 +40,19 @@
     },
     {
       "section": "Environment > Blocks > Naturally generated",
-      "text": "Naturally generated includes blocks that are created through the world seed and always generate no matter what."
+      "text": "Naturally generated includes blocks that are created through the world seed and always generate no matter what.\n- Air\n- Bedrock\n- Chorus Flower\n- Chorus Plant\n- End Stone\n- Obsidian\n- Iron Bars\n- End Gateway"
     },
     {
       "section": "Environment > Blocks > Naturally created",
-      "text": "These blocks are created through a combination of events that lead these blocks to be placed by natural causes such as summoning the ender dragon , not by the player ."
+      "text": "These blocks are created through a combination of events that lead these blocks to be placed by natural causes such as summoning the ender dragon , not by the player .\n- Air\n- Bedrock\n- Dragon Egg\n- End Gateway\n- End Portal\n- End Stone\n- Fire\n- Iron Bars\n- Obsidian\n- Wall Torch"
     },
     {
       "section": "Environment > Blocks > Structures",
-      "text": "These blocks and entities are only generated as part of End cities , when the \"generated structures\"‌ [ Java Edition only ] option is on."
+      "text": "These blocks and entities are only generated as part of End cities , when the \"generated structures\"‌ [ Java Edition only ] option is on.\n- Brewing Stand\n- Chest\n- Dragon Wall Head\n- End Rod\n- End Stone Bricks\n- Ender Chest\n- Item Frame\n- Magenta Wall Banner\n- Ladder\n- Magenta Stained Glass\n- Purpur Block\n- Purpur Slab\n- Purpur Stairs\n- Purpur Pillar"
+    },
+    {
+      "section": "Technical information > ID",
+      "text": "Name | Identifier | Numeric ID\nThe End | the_end | 1"
     },
     {
       "section": "Technical information > Folder",

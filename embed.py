@@ -1,7 +1,7 @@
 """
 Milestone 4 — Stage 3: Embedding + Vector Store.
 
-Loads the chunks produced by chunk.py, embeds each one with all-MiniLM-L6-v2, and stores
+Loads the chunks produced by chunker.py, embeds each one with all-MiniLM-L6-v2, and stores
 the vectors in ChromaDB together with their metadata (source article, section, url, and
 the chunk's position within its document). Run this once after chunking; re-run it whenever
 chunks.json changes.
@@ -21,7 +21,7 @@ CHUNKS_FILE = Path("chunks.json")
 
 def load_chunks():
     if not CHUNKS_FILE.exists():
-        sys.exit("No chunks.json. Run `python chunk.py` first.")
+        sys.exit("No chunks.json. Run `python chunker.py` first.")
     return json.loads(CHUNKS_FILE.read_text(encoding="utf-8"))
 
 

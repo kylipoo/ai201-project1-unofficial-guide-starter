@@ -7,7 +7,7 @@ documents/.
 
 "Structured" matters: instead of dumping a wall of text, each article is saved as a
 list of sections that preserve the wiki's own header hierarchy (e.g. Behavior > Curing).
-chunk.py relies on that structure to do header-aware splitting and to build the
+chunker.py relies on that structure to do header-aware splitting and to build the
 "Article > Section:" prefix described in the Chunking Strategy section of planning.md.
 
 Run:  python ingest.py
@@ -62,12 +62,26 @@ EXCLUDE_SECTIONS = {
 }
 
 # CSS selectors for page furniture to delete before reading text: infoboxes, navboxes,
-# rendered tables (sprite/recipe/loot tables don't survive as prose), edit links, refs.
+# edit links, refs. NOTE: we no longer delete every <table> — content tables (class
+# "wikitable") hold real data (loot, enchantment descriptions) and are flattened to text
+# instead (see flatten_table). Layout/sprite tables that are not wikitables contribute
+# nothing because the walk only reads wikitables.
 JUNK_SELECTORS = [
-    "table", "style", "script",
+    "style", "script",
     "sup.reference", ".mw-editsection", ".navbox", ".infobox",
     ".thumb", ".mw-empty-elt", ".reflist", ".noprint", ".hatnote",
 ]
+
+
+def flatten_table(table):
+    """Render a wiki content table as text: one row per line, cells joined by ' | '."""
+    rows = []
+    for tr in table.find_all("tr"):
+        cells = [c.get_text(" ", strip=True) for c in tr.find_all(["th", "td"], recursive=False)]
+        cells = [c for c in cells if c]
+        if cells:
+            rows.append(" | ".join(cells))
+    return "\n".join(rows)
 
 
 def fetch_html(page: str) -> str:
@@ -112,40 +126,48 @@ def extract_sections(html: str):
             if text:
                 sections.append({"section": current_path() or "(introduction)", "text": text})
 
-    for el in body.children:
-        if getattr(el, "name", None) is None:
+    # Walk every descendant in document order (not just direct children), so content and
+    # tables nested inside wrapper <div>s are still reached and land under the right header.
+    for el in body.descendants:
+        name = getattr(el, "name", None)
+        if name is None:
             continue
 
-        # Detect a heading. Newer MediaWiki wraps <h2 id="..."> inside <div class="mw-heading">,
-        # so check both the bare tag and the wrapper.
-        heading = None
-        if el.name in ("h2", "h3", "h4"):
-            heading = el
-        elif el.name == "div" and "mw-heading" in (el.get("class") or []):
-            heading = el.find(["h2", "h3", "h4"])
-
-        if heading is not None:
+        if name in ("h2", "h3", "h4"):
             flush()
             buf = []
-            level = int(heading.name[1])
-            name = heading.get_text(" ", strip=True)
-            heads[level] = name
+            level = int(name[1])
+            heading_name = el.get_text(" ", strip=True)
+            heads[level] = heading_name
             for deeper in range(level + 1, 5):   # entering a new section resets deeper crumbs
                 heads[deeper] = None
             if level == 2:                       # only top sections toggle the skip switch
-                skipping = name.lower() in EXCLUDE_SECTIONS
+                skipping = heading_name.lower() in EXCLUDE_SECTIONS
             continue
 
         if skipping:
             continue
 
-        # Collect readable blocks. Lists are flattened one item per line so the chunker
-        # can use newlines as natural split points.
-        if el.name in ("p", "dl"):
+        # A wikitable is collected whole (flattened); its inner <p>/<li> are skipped below
+        # so we don't also collect them twice. Nested lists are likewise handled by their
+        # outer list, and list items by their <ul>/<ol>.
+        if name == "table":
+            if "wikitable" in (el.get("class") or []):
+                flat = flatten_table(el)
+                if flat:
+                    buf.append(flat)
+            continue
+
+        if el.find_parent(["table", "li"]) is not None:
+            continue   # already represented by its table / list item
+
+        if name in ("p", "dl"):
             text = el.get_text(" ", strip=True)
             if text:
                 buf.append(text)
-        elif el.name in ("ul", "ol"):
+        elif name in ("ul", "ol"):
+            if el.find_parent(["ul", "ol"]) is not None:
+                continue   # nested list — the outer list's get_text already includes it
             for li in el.find_all("li", recursive=False):
                 item = li.get_text(" ", strip=True)
                 if item:

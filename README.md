@@ -117,36 +117,42 @@
      "The embedding model treated the professor's nickname as out-of-vocabulary and returned
      results from an unrelated review" is an explanation. -->
 
-> Note: this failure was caught during Milestone 3 chunk inspection (`python chunk.py
-> --random`), before retrieval/generation was built. It is a defect in the chunks
-> themselves, so it is certain to surface at query time; the end-to-end run in the
-> Evaluation Report will confirm it.
+This failure was found during testing, diagnosed to a specific pipeline stage, fixed, and
+re-verified. The "found → fixed → verified" trail is below.
 
-**Question that failed:** "What loot can I get from a Trial Chamber vault?" (a core
-Trial Chambers question — that structure's whole point is its rewards).
+**Question that failed:** "What is the enchantment that lets me automatically repair my
+items?" (my evaluation question #5; the answer is Mending). I also hit the same wall asking
+about specific enchantments from the "List of enchantments" — they returned *"I don't have
+enough information in my sources to answer that."*
 
-**What the system returned:** The most relevant chunk is content-free. Chunk 158 reads,
-in full: *"Trial Chambers > Loot > Vaults > Ominous vaults: In Java Edition and Bedrock
-Edition, each trial chambers ominous vault contains items drawn from 3 pools, with the
-following distribution:"* — and then it stops. The chunk promises a loot distribution but
-contains none, so any answer built from it can confirm that vault loot *exists* without
-naming a single item.
+**What the system returned (before the fix):** A refusal. Searching the chunks showed why:
+the only place "Mending" appeared in the whole Enchantment document was a conflict list
+(*"Bow: Infinity and Mending"*) — the corpus said Mending *exists* but never what it *does*.
+The same defect produced content-free "stub" chunks elsewhere, e.g. *"…each trial chambers
+ominous vault contains items drawn from 3 pools, with the following distribution:"* and then
+nothing. A corpus-wide scan found **19 of 233 chunks (~8%)** were these dangling stubs,
+concentrated in **Trial Chambers (13)**.
 
-**Root cause (tied to a specific pipeline stage):** Ingestion — not chunking or
-retrieval. `ingest.py` deletes every `<table>` element (it is in `JUNK_SELECTORS`) to keep
-the text clean, but on minecraft.wiki the actual loot and structure data lives *inside
-those tables*. The introductory sentence ("…the following distribution:") is a normal
-paragraph, so it survives, while the table it points to is removed — leaving a dangling
-reference. A corpus-wide scan found **19 of 233 chunks (~8%) with this pattern**,
-concentrated in **Trial Chambers (13 chunks)** — the one article whose value is almost
-entirely tabular loot.
+**Root cause (tied to a specific pipeline stage):** Ingestion. `ingest.py` deleted every
+`<table>` element to keep the text clean — but on minecraft.wiki the real loot and the
+per-enchantment descriptions live *inside* those tables. The lead-in sentence (a normal
+`<p>`) survived; the table it pointed to was deleted, leaving a reference to data that was
+no longer there.
 
-**What you would change to fix it:** Flatten tables into prose during ingestion instead of
-deleting them — render each row as text (e.g. "Pool 1: Diamond ×1–2 (40% chance)") so the
-data survives as embeddable content. As a cheap safety net, also drop "stub" chunks whose
-body ends in a lead-in ("…the following:") with no payload, so retrieval never surfaces an
-empty promise. After either change, re-run `python chunk.py --sample` and confirm the
-dangling-chunk count falls.
+**The fix (and why the first approach was wrong):** Instead of deleting tables, flatten
+each content table (`wikitable`) into `col | col | col` text rows so the data survives as
+embeddable content. This also required rewriting the ingestion walk from a flat scan of the
+page's *direct* children to a **recursive descent** of the whole document tree — many
+tables (17 in Trial Chambers) are nested inside wrapper `<div>`s, so the flat walk never
+reached them. (Note: the AI tool's first ingestion design deleted tables outright; the
+recursive, table-preserving parse is the model I should have specified up front — see AI
+Usage.)
+
+**Verification (after the fix):** Dangling stubs dropped from **19/233 to 2/399** chunks,
+and question #5 now answers correctly — *"The enchantment that lets you automatically repair
+your items is Mending,"* sourced to the Enchantment page. Other List-of-enchantments
+questions (Silk Touch, Smite, Frost Walker) now answer correctly too, and the previously
+working questions (Nether access, villager breeding) did not regress.
 
 ---
 
@@ -172,14 +178,32 @@ dangling-chunk count falls.
      chunk_text(). It returned a function using a fixed character split. I overrode the
      chunk size from 500 to 200 because my documents are short reviews, not long guides." -->
 
-**Instance 1**
+**Instance 1 — ingestion (and where the AI got it wrong)**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* my Documents list and Chunking Strategy from planning.md, plus
+  stages 1–2 of the pipeline diagram, and asked it to write a script that fetches and
+  cleans the 10 wiki articles into structured documents.
+- *What it produced:* an `ingest.py` that pulls each page via the MediaWiki API, strips
+  page furniture, and splits the article by its section headers. To "keep the text clean"
+  it deleted every HTML `<table>`.
+- *What I changed or overrode:* deleting tables was the wrong call, and it caused my
+  Failure Case above — the enchantment descriptions and Trial Chambers loot live *inside*
+  those tables, so questions about them returned "not enough information." In hindsight I
+  should have specified the parsing model up front: the AI's flat parse only read the
+  page's direct children, when what this wiki needs is a **recursive** parse that descends
+  into nested wrappers and **flattens** content tables into text instead of discarding
+  them. I directed that change; stubs fell from 19/233 to 2/399 and the failing
+  enchantment questions started answering correctly.
 
-**Instance 2**
+**Instance 2 — grounded generation**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* my Retrieval Approach section and stage 5 of the diagram, with the
+  requirement that answers come only from retrieved chunks and that sources are attributed.
+- *What it produced:* a `generate.py` that passes the top-k chunks to Groq's
+  llama-3.3-70b as context with a system prompt instructing it to answer only from that
+  context and refuse otherwise.
+- *What I changed or overrode:* I made source attribution **programmatic** — the source
+  list is built in code from the retrieved chunks' metadata, not parsed out of the LLM's
+  answer — so attribution can't be hallucinated. I verified grounding by asking a question
+  my corpus doesn't cover ("how do I tame a horse?"); the system correctly refused instead
+  of answering from the model's training knowledge.
