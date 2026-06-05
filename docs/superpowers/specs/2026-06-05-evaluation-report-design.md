@@ -1,0 +1,172 @@
+# Evaluation Report Feature — Design
+
+**Date:** 2026-06-05
+**Status:** Approved (pending spec review)
+
+## Goal
+
+Add an evaluation capability to the Minecraft RAG app that satisfies the Project 1
+Evaluation Report requirement: 5 test questions with ground-truth answers, the system run
+on each, and per-question documentation of the question, correct answer, system response,
+retrieved chunks, and an accuracy verdict — plus at least one explained failure case.
+
+The app gains a **"Run Evaluation"** action (a dedicated tab) that runs all 5 questions,
+displays the evidence on-screen, and exports a `evaluation_report.md` file pre-filled with
+everything except the human verdicts, which are completed manually.
+
+## Decisions (from brainstorming)
+
+1. **Verdicts are judged manually**, not by an LLM. The app gathers and lays out the
+   evidence; the human assigns accurate / partially accurate / inaccurate. This is the most
+   defensible approach for a graded report — the student is the evaluator.
+2. **Source URLs are shown** for every retrieved chunk so the human can click through to the
+   wiki and verify against the actual source.
+3. **Output:** on-screen display in the app **and** an exported Markdown file
+   (`evaluation_report.md`) with blank verdict fields, ready to drop into the submission.
+4. **Vector score = answer-similarity** (system answer vs. ground truth). Retrieval distances
+   are also shown per chunk because the assignment requires documenting which chunks were
+   retrieved — but the headline computed score is answer-similarity.
+5. **Directionality is labeled explicitly** because the two numbers point opposite ways:
+   - Answer-similarity: **higher = better**, range 0–1.
+   - Retrieval distance: **lower = better**, `<0.5` = strong.
+
+## Scoring definitions
+
+- **Answer-similarity** = cosine similarity between `embed(system_answer)` and
+  `embed(ground_truth)`, using the same `all-MiniLM-L6-v2` model the rest of the system uses
+  ([vectorstore.py](../../../vectorstore.py)). Because `embed()` returns L2-normalized
+  vectors, cosine similarity is the dot product of the two vectors. Range ~0–1, higher = better.
+- **Retrieval distance** = the cosine distance ChromaDB already returns per chunk
+  (`hits[i]["distance"]`), lower = better.
+
+**Caveat (why verdicts stay manual):** both numbers measure *semantic closeness, not
+correctness*. A chunk can be close but not contain the answer; a wrong answer can be lexically
+similar to the ground truth and score high; a correctly-phrased-differently answer can score
+lower. The scores are supporting evidence, not the verdict.
+
+## Components
+
+### `eval_questions.py` (new)
+Single source of truth for the evaluation set.
+
+```python
+EVAL_SET = [
+    {
+        "id": 1,
+        "question": "How do I go to the Nether in the first place?",
+        "ground_truth": "Need obsidian and a fire source; build a 4x5 obsidian frame "
+                        "(minimum 10 obsidian), light the inside, step through the purple portal.",
+    },
+    # ... all 5, ground_truth paraphrased from planning.md lines 141-150
+]
+
+EVAL_QUESTIONS = [item["question"] for item in EVAL_SET]
+```
+
+[retrieve.py](../../../retrieve.py) imports `EVAL_QUESTIONS` from here instead of defining its
+own copy (removes the current duplication at retrieve.py:22-28).
+
+### `evaluate.py` (new)
+- `run_evaluation(k=DEFAULT_K) -> list[dict]`: for each item in `EVAL_SET`, call `ask()` from
+  [generate.py](../../../generate.py), compute answer-similarity via `embed()`, and assemble a
+  result dict:
+  ```python
+  {
+      "id", "question", "ground_truth",
+      "answer",            # system response
+      "answer_similarity", # float 0–1
+      "hits",              # list of {text, source, section, url, distance}
+  }
+  ```
+- `answer_similarity(answer, ground_truth) -> float`: `embed([answer, ground_truth])` then dot
+  product of the two normalized vectors. (Guard: if `answer` is empty/refusal, similarity is
+  still computed honestly — a refusal that scores low against a real ground truth is itself
+  signal.)
+- `to_markdown(results) -> str`: render the full report (see format below).
+- A `main()` so it runs from the CLI too: `python evaluate.py` writes `evaluation_report.md`.
+
+### `app.py` (modified)
+Wrap the existing UI in `gr.Tabs`:
+- **Tab "Ask"** — the current interface, unchanged.
+- **Tab "Evaluation"** — a **Run Evaluation** button. On click: call `run_evaluation()`,
+  render the 5 entries on-screen (Markdown), write `evaluation_report.md` to the project root,
+  and show a confirmation line with the file path. On-screen, each question shows the
+  answer-similarity as a labeled bar (e.g. `0.81 ━━━━━━━━░░  (higher = better)`) so the
+  direction is obvious at a glance.
+
+Nothing in the existing Ask flow changes.
+
+## Exported report format
+
+`evaluation_report.md`:
+
+```markdown
+# Evaluation Report — The Unofficial Minecraft Guide
+
+Generated by `evaluate.py`. Verdicts and the failure-case analysis are filled in manually.
+
+Scores legend:
+- Answer-similarity: higher = better (range 0–1).
+- Retrieval distance: lower = better (<0.5 = strong match).
+
+---
+
+### Q1 — How do I go to the Nether in the first place?
+
+**Ground truth:** Need obsidian + fire source; build 4x5 frame, light inside, step through portal.
+
+**System answer:** To go to the Nether, you'll need to build a portal from obsidian...
+
+**Answer-similarity:** 0.81  (higher = better)
+
+**Retrieved chunks** (distance: lower = better):
+1. [dist 0.21] Nether > Creation — "A nether portal is built as a frame of obsidian..." (https://…)
+2. [dist 0.34] Obsidian > Obtaining — "Obsidian is obtained when water flows over lava..." (https://…)
+... (k=5)
+
+**Retrieval verdict:** _[ accurate / partial / inaccurate ]_
+**Response verdict:** _[ accurate / partial / inaccurate ]_
+**Notes:** _____
+
+---
+
+... Q2–Q5 ...
+
+---
+
+## Failure Case
+
+_Pick the weakest result above and explain why it failed — e.g. vocabulary mismatch between
+the casual question and wiki jargon, a chunk boundary that split the answer, off-topic
+retrieval, or a low-similarity answer. Reference the scores as evidence._
+```
+
+Two separate verdict fields (retrieval vs response) because the assignment asks you to judge
+both and they can diverge — good retrieval can still produce a bad answer, and vice versa.
+
+## Error handling
+
+- **Missing `GROQ_API_KEY` / API error during `ask()`:** surface the error in the on-screen
+  panel and abort the run cleanly rather than writing a half-built report.
+- **Empty collection / ChromaDB not built:** `retrieve()` would return no hits; the report
+  records the empty retrieval honestly (it is itself a finding).
+- **File write:** `evaluation_report.md` is written to the project root, overwriting any prior
+  run (the report is regenerable, so no timestamped copies — keeps it simple).
+
+## Testing
+
+- `answer_similarity()` is pure and testable: identical strings → ~1.0; unrelated strings →
+  low; verify it returns a float in range.
+- `run_evaluation()` smoke test: returns 5 results, each with the required keys and a non-empty
+  `hits` list (given a built collection).
+- `to_markdown()`: given a fixed sample results list, asserts the output contains each question,
+  the score legends, both verdict placeholders per question, and the Failure Case section.
+- Manual end-to-end: launch the app, click Run Evaluation, confirm the on-screen panel renders
+  and `evaluation_report.md` appears with blank verdict fields.
+
+## Out of scope (YAGNI)
+
+- LLM-as-judge / automatic verdicts.
+- Persisting verdicts back through the app (verdicts are filled in the Markdown file by hand).
+- Timestamped/historical report archives.
+- Configurable question sets in the UI — the 5 questions are fixed in `eval_questions.py`.
