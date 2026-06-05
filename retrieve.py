@@ -13,13 +13,12 @@ Run:  python retrieve.py "How do I go to the Nether?"     # one query, top 5
 import sys
 
 from vectorstore import embed, get_collection
+# eval_questions.py is the single source of truth for the 5 evaluation questions.
+from eval_questions import EVAL_QUESTIONS
 
 # Top-k from planning.md -> Retrieval Approach. 5 because many questions span multiple
 # articles (e.g. "barter with piglins in the Nether" needs Piglin + Bartering + Nether).
 DEFAULT_K = 5
-
-# The 5 evaluation questions live in eval_questions.py (single source of truth).
-from eval_questions import EVAL_QUESTIONS
 
 
 def retrieve(query, k=DEFAULT_K):

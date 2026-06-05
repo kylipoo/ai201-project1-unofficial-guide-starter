@@ -1,5 +1,5 @@
 import sys
-import os
+from pathlib import Path
 
-# Ensure the project root is on sys.path so test modules can import project code directly.
-sys.path.insert(0, os.path.dirname(__file__))
+# Add the project root to sys.path so tests in tests/ can import top-level modules.
+sys.path.insert(0, str(Path(__file__).parent))
