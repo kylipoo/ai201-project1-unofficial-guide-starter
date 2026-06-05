@@ -18,3 +18,9 @@ def test_score_is_float_in_range():
     s = answer_similarity("anything", "something else")
     assert isinstance(s, float)
     assert -1.0 <= s <= 1.0
+
+
+def test_empty_or_none_returns_zero():
+    assert answer_similarity("", "Build a portal.") == 0.0
+    assert answer_similarity("Build a portal.", "") == 0.0
+    assert answer_similarity(None, "Build a portal.") == 0.0

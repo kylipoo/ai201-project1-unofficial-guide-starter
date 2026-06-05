@@ -19,7 +19,10 @@ def answer_similarity(answer, ground_truth):
 
     embed() returns L2-normalized vectors, so cosine similarity is the dot product.
     Higher = better (range ~0-1; normalized so the formula allows -1..1).
+    Returns 0.0 if either argument is None or empty (no usable text to compare).
     """
-    vecs = embed([answer or "", ground_truth or ""])
+    if not answer or not ground_truth:
+        return 0.0
+    vecs = embed([answer, ground_truth])
     a, b = vecs[0], vecs[1]
     return float(sum(x * y for x, y in zip(a, b)))
