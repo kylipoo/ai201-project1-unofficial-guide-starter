@@ -18,14 +18,8 @@ from vectorstore import embed, get_collection
 # articles (e.g. "barter with piglins in the Nether" needs Piglin + Bartering + Nether).
 DEFAULT_K = 5
 
-# The 5 evaluation questions from planning.md -> Evaluation Plan.
-EVAL_QUESTIONS = [
-    "How do I go to the Nether in the first place?",
-    "How do I get more villagers without finding a village?",
-    "How do I get ender pearls in the Nether? I can't find any Endermen.",
-    "How do I get that cool pair of wings that lets me fly?",
-    "What is the enchantment that lets me automatically repair my items?",
-]
+# The 5 evaluation questions live in eval_questions.py (single source of truth).
+from eval_questions import EVAL_QUESTIONS
 
 
 def retrieve(query, k=DEFAULT_K):

@@ -13,3 +13,6 @@ gradio==4.44.1
 
 # Document ingestion — add if your documents/ folder contains .pdf files:
 # pdfplumber==0.11.4
+
+# Testing (dev)
+pytest>=8.0
