@@ -7,10 +7,6 @@
       "text": "The End is a dark, void-like, and space-like dimension consisting of separate islands in the void , made out of End stone . It is inhabited by endermen and shulkers . The ender dragon also spawns when the player first arrives. The End is often considered the final goal of Minecraft , and is usually the last dimension a player will travel to. The ender dragon is considered the final boss, and it is necessary to defeat it to return to the Overworld without dying , \"beat\" the game, and see the End Poem ."
     },
     {
-      "section": "Contents",
-      "text": "- 1 Accessing\n- 2 Environment 2.1 Biomes 2.2 Structure and generated features 2.3 Terrain features 2.3.1 Main island 2.3.2 Outer islands 2.4 Mobs 2.5 Blocks 2.5.1 Naturally generated 2.5.2 Naturally created 2.5.3 Structures\n- 3 Technical information 3.1 ID 3.2 Folder\n- 4 Achievements\n- 5 Advancements\n- 6 Videos\n- 7 History 7.1 Development 7.2 Java Edition 7.3 Bedrock Edition 7.4 Legacy Console Edition 7.5 New Nintendo 3DS Edition\n- 8 Issues\n- 9 Trivia\n- 10 Gallery 10.1 Screenshots 10.2 Mojang screenshots 10.3 Development images\n- 11 References\n- 12 Navigation"
-    },
-    {
       "section": "Accessing",
       "text": "To access the End, the player must go through the process of finding a stronghold using eyes of ender , finding the portal room, and activating the End portal in the End portal room. The room consists of a 5×5 square of End portal frames , with the corners cut out, making a total of 12. The portal hangs over a lava pool, with a staircase leading up to it. A silverfish spawner sits on top of the staircase.\nThe player can activate the portal by filling the 12 End portal frames each with an eye of ender. Each frame block has a 10% chance of generating with an eye in it. Once all the eyes of ender are placed, the portal activates and emits a loud noise audible from anywhere in the world. As soon as it is activated, the portal destroys all blocks in the central 3×3 square, including bedrock or another portal frame, and replaces them with the End portal blocks that can teleport an entity into the End dimension. Upon jumping into the portal, the player immediately arrives in the End (X: 100, Z: 0), along with any prior entities that may have teleported.\nIf cheats are enabled, players can also teleport to the End without using an End portal: the command / execute in the_end allows the player to select their teleportation destination in the End directly."
     },
@@ -49,14 +45,6 @@
     {
       "section": "Environment > Blocks > Structures",
       "text": "These blocks and entities are only generated as part of End cities , when the \"generated structures\"‌ [ Java Edition only ] option is on.\n- Brewing Stand\n- Chest\n- Dragon Wall Head\n- End Rod\n- End Stone Bricks\n- Ender Chest\n- Item Frame\n- Magenta Wall Banner\n- Ladder\n- Magenta Stained Glass\n- Purpur Block\n- Purpur Slab\n- Purpur Stairs\n- Purpur Pillar"
-    },
-    {
-      "section": "Technical information > ID",
-      "text": "Name | Identifier | Numeric ID\nThe End | the_end | 1"
-    },
-    {
-      "section": "Technical information > Folder",
-      "text": "In Java Edition , the End is stored in .minecraft /saves/ worldname /DIM1 . Deleting this folder resets the End, so that all player-made changes and buildings in that dimension are undone.\nIn Bedrock Edition , the com.mojang /minecraftWorlds/ world ID /db folder contains several collections of chunks. Some of these files are used for the End, but it is impossible to tell which ones simply by reading the file name."
     }
   ]
 }

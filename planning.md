@@ -146,8 +146,8 @@ Given that I had chosen all-MiniLM-L6-v2, I can expect a small, fast, local-runn
    1. I expect that this one will give multiple options. Either: 1) Go to the blue biome, Endermen are most abundant there, then kill the Endermen for the pearls. Or 2) Mine the gold ore in the Nether, craft gold ingots, then throw the ingots to nearby Piglins. This will start a barter and there is a chance you may get Ender pearls.
 4. How do I get that cool pair of wings that I see lots of Minecraft youtubers wearing that let me fly?
    1. 1. Go to the end 2) Beat the Ender Dragon 3) Go into one of the portals on the outer edges of the island 4) Keep exploring the end islands until you see an end city, some of them have end ships behind them. 5) Stack up, go into the ship, you will find your Elytra.
-5. What is the enchantment that lets me automatically repair my items?
-   1. Ah, the enchantment you're thinking of is Mending, which is a treasure enchantment that can only be found in certain structures or by trading with a Librarian villager (is RNG dependent) for the enchanted book.
+5. How do I enchant my equipment?
+   1. Use an enchanting table (make sure you have experience and Lapis Lazuli), an anvil (make sure you have an enchanted book).
 
 ## Anticipated Challenges
 

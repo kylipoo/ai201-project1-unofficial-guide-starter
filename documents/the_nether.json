@@ -7,10 +7,6 @@
       "text": "The Nether is a dangerous, volcanic, fungal dimension resembling a hellish underworld. It contains fire that never goes out ; vast oceans of lava ; Nether fungi and normal mushrooms in place of plants; many unique mobs , mostly hostile in nature; and exclusive structures , resources, and biomes ."
     },
     {
-      "section": "Contents",
-      "text": "- 1 Accessing\n- 2 Traits\n- 3 Environment 3.1 Biomes 3.1.1 Biome distribution 3.2 Generated structures 3.3 Terrain features 3.4 Mobs 3.5 Blocks 3.5.1 Naturally generated 3.5.2 Naturally created 3.5.3 Structures\n- 4 Technical information 4.1 ID 4.2 Folder\n- 5 Achievements\n- 6 Advancements\n- 7 Videos\n- 8 History 8.1 Java Edition 8.2 Bedrock Edition 8.3 Legacy Console Edition 8.4 New Nintendo 3DS Edition\n- 9 Issues\n- 10 Trivia\n- 11 Gallery 11.1 Screenshots 11.1.1 Historical screenshots 11.2 Development images 11.3 In other media\n- 12 References\n- 13 External links\n- 14 Navigation"
-    },
-    {
       "section": "Accessing",
       "text": "To access the Nether, the player must construct a Nether portal in the Overworld (portals created in the End do not activate). To create the portal, the player must first build a rectangular obsidian frame, ranging in size from a minimum of 4 blocks × 5 blocks to a maximum of 23 blocks × 23 blocks. Once the frame is completed, it can then be activated by placing fire within the frame, using flint and steel , fire charge , dispensers , or any material that is capable of igniting fire.\nThe portal allows most entities (with the exception of the wither and the ender dragon ) to be transported to a corresponding portal in the Nether. In Survival , the player must stand in a Nether portal for 4 seconds to enter the Nether. The player can step out of a portal before it completes its animation to abort the teleport. The portal plays a sound effect while the player is inside it. If there is no corresponding portal, a new 4×5 portal is created. The portal can be destroyed by breaking the obsidian frame, by a nearby explosion, or by placing water in the Overworld or lava into it with a bucket or dispenser . Any of the blocks in the corners can be destroyed without destroying the portal.\nThe Nether could generate in the former Old ‌ [ Bedrock Edition only ] world type, (with the same 256×256 borders as the Overworld) though Nether portals could not be created without using commands. Nether portals created in the Nether could spawn the player outside of the world barrier.\nIf cheats are enabled, players can also teleport to the Nether without using a Nether portal: the syntax is / execute in the_nether in Java Edition , and / execute in nether in Bedrock Edition ."
     },
@@ -53,14 +49,6 @@
     {
       "section": "Environment > Blocks > Structures",
       "text": "These blocks are only generated as part of Nether fortresses , Nether fossils , bastion remnants and ruined portals , when the \" generated structures \" option is on.\n- Polished Basalt\n- Blackstone Slab\n- Blackstone Stairs\n- Blackstone Wall\n- Gilded Blackstone\n- Polished Blackstone\n- Polished Blackstone Slab\n- Polished Blackstone Stairs\n- Polished Blackstone Bricks\n- Polished Blackstone Brick Slab\n- Polished Blackstone Brick Stairs\n- Polished Blackstone Brick Wall\n- Cracked Polished Blackstone Bricks\n- Chiseled Polished Blackstone\n- Bone Block\n- Block of Gold\n- Iron Chain\n- Chest\n- Crying Obsidian\n- Dried Ghast\n- Lantern\n- Monster Spawner\n- Nether Bricks\n- Nether Brick Fence\n- Nether Brick Stairs\n- Nether Wart\n- Obsidian\n- Block of Quartz\n- Smooth Quartz Block\n- Smooth Quartz Slab"
-    },
-    {
-      "section": "Technical information > ID",
-      "text": "Name | Identifier | Numeric ID\nNether | the_nether | -1"
-    },
-    {
-      "section": "Technical information > Folder",
-      "text": "In Java Edition , the Nether is stored in .minecraft /saves/ worldname /DIM-1 . Deleting this folder resets the Nether, so that all player-made changes and buildings in that dimension are undone.\nIn Bedrock Edition , the com.mojang /minecraftWorlds/ world ID /db folder contains several collections of chunks. Some of these files are used for the Nether, but it is impossible to tell which ones simply by reading the file name."
     }
   ]
 }

@@ -54,11 +54,13 @@ EXCLUDE_SECTIONS = {
     "see also",         # outbound links
     "navigation",       # navbox of every related page
     "data values",      # NBT / numeric ID tables, not prose
+    "technical information",  # ID/numeric-id tables + save-folder paths, not gameplay prose
     "sounds",           # tables of sound-event files
     "achievements",     # Bedrock achievement list
     "advancements",     # Java advancement list
     "trivia",           # off-topic factoids / version trivia
     "notes",            # footnotes
+    "contents",         # the MediaWiki table-of-contents (an <h2>Contents</h2> in the .toc box)
 }
 
 # CSS selectors for page furniture to delete before reading text: infoboxes, navboxes,
@@ -70,6 +72,7 @@ JUNK_SELECTORS = [
     "style", "script",
     "sup.reference", ".mw-editsection", ".navbox", ".infobox",
     ".thumb", ".mw-empty-elt", ".reflist", ".noprint", ".hatnote",
+    ".toc",             # table-of-contents box (otherwise captured as a "Contents" section)
 ]
 
 

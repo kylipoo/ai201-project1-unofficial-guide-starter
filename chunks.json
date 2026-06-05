@@ -9,15 +9,6 @@
     }
   },
   {
-    "text": "Bartering > Contents: - 1 Mechanics\n- 2 Items bartered\n- 3 History 3.1 Java Edition 3.2 Bedrock Edition\n- 4 Issues\n- 5 Gallery\n- 6 See also\n- 7 References\n- 8 Navigation",
-    "metadata": {
-      "source": "Bartering",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/Bartering",
-      "tokens": 42
-    }
-  },
-  {
     "text": "Bartering > Mechanics: Adult piglins can trade gold ingots for certain items when they pick up nearby gold ingot items or when the player uses gold ingots while looking at them. After the piglin takes the gold ingot and examines it for 6 seconds (120 gameticks) in Java Edition it tosses a random item to the player, or upward if no player is in sight. The full cycle time, from when a piglin accepts an ingot until it accepts the next ingot, is 6.05 seconds (121 gameticks) in Java Edition and 8 seconds (160 gameticks) in Bedrock Edition . Baby piglins take the ingot, but do not barter; they instead store the ingot in their inventory. Piglin brutes ignore gold ingots and do not barter. Piglins can pick up other items that are in the piglin_food or piglin_loved tags; however, gold ingots are the only items that piglins accept for bartering. Hitting a piglin causes it to \"confiscate\" the ingot; the piglin does not complete the barter. It cannot be bartered with again unless it puts another item in its inventory.",
     "metadata": {
       "source": "Bartering",
@@ -69,15 +60,6 @@
       "section": "(introduction)",
       "url": "https://minecraft.wiki/w/Enchantment",
       "tokens": 40
-    }
-  },
-  {
-    "text": "Enchantment > Contents: - 1 Obtaining\n- 2 Behavior\n- 3 Disenchanting\n- 4 List of enchantments 4.1 Enchantments 4.2 Descriptions 4.3 Summary of enchantments by item\n- 5 Maximum effective values for enchantments\n- 6 Data values 6.1 Item data\n- 7 Sounds\n- 8 Achievements\n- 9 Advancements\n- 10 Videos\n- 11 History 11.1 Reveal 11.2 Java Edition 11.3 Bedrock Edition 11.4 Legacy Console Edition 11.5 New Nintendo 3DS Edition\n- 12 Issues\n- 13 Gallery 13.1 Screenshots 13.2 Development images\n- 14 Trivia\n- 15 See also\n- 16 References\n- 17 External links\n- 18 Navigation",
-    "metadata": {
-      "source": "Enchantment",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/Enchantment",
-      "tokens": 146
     }
   },
   {
@@ -342,15 +324,6 @@
     }
   },
   {
-    "text": "Ender Dragon > Contents: - 1 Spawning 1.1 Initial spawning 1.2 Re-summoning\n- 2 Death and drops\n- 3 Behavior 3.1 Movement 3.2 Attacking\n- 4 Dragon Fireball\n- 5 Sounds\n- 6 Data values 6.1 ID 6.2 Entity data 6.3 Command details\n- 7 Achievements\n- 8 Advancements\n- 9 Videos\n- 10 History 10.1 Announcement 10.2 Java Edition 10.3 Bedrock Edition 10.4 Legacy Console Edition 10.5 New Nintendo 3DS Edition 10.6 Data history\n- 11 Issues\n- 12 Trivia 12.1 Notch-related\n- 13 Gallery 13.1 Screenshots 13.2 Mojang screenshots 13.3 Textures 13.4 Development images 13.5 In other media 13.5.1 Merchandise\n- 14 Notes\n- 15 References\n- 16 External links\n- 17 Navigation",
-    "metadata": {
-      "source": "Ender Dragon",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/Ender_Dragon",
-      "tokens": 174
-    }
-  },
-  {
     "text": "Ender Dragon > Spawning > Initial spawning: The ender dragon spawns 20 game ticks (1 second) after an entity first arrives in the End, along with the bedrock frame for the exit portal.",
     "metadata": {
       "source": "Ender Dragon",
@@ -549,15 +522,6 @@
     }
   },
   {
-    "text": "Illager > Contents: - 1 Properties\n- 2 List of mobs 2.1 Affiliated mobs 2.2 Jockeys\n- 3 Occurrences 3.1 Raid captains 3.2 Ravager jockeys 3.3 Events 3.4 Effects\n- 4 Rune\n- 5 Java Edition 5.1 Reinforcements 5.2 Raids 5.3 Patrols\n- 6 Bedrock Edition\n- 7 Videos\n- 8 History 8.1 Java Edition 8.2 Bedrock Edition 8.3 Legacy Console Edition 8.4 New Nintendo 3DS Edition\n- 9 Issues\n- 10 Trivia\n- 11 Gallery 11.1 Screenshots 11.2 In other media\n- 12 References\n- 13 See also\n- 14 Navigation",
-    "metadata": {
-      "source": "Illager",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/Illager",
-      "tokens": 134
-    }
-  },
-  {
     "text": "Illager > Properties: All raiders (and, by extension, all illagers) share the following properties: - They are part of the #raider entity tag . - They can join patrols . - They participate in raids . - They gain the Glowing effect whenever a bell is rung within 32 blocks' distance.‌ [ Java Edition only ] - They follow illager captains . They follow orders given by captains.‌ [ Java Edition only ] - Witches throw splash potions of Instant Health and Regeneration at them during raids . All illagers share the following properties exclusive to them: - All illagers are also raiders and possess all properties specific to raiders. - They are classified as Illager in the game code. - They are part of the #illager entity tag . - They are immune to the Raid Omen effect. - They can wear ominous banners and become captains . Raid captains can give orders to other illagers and raiders.‌ [ Java Edition only ] - They cannot be damaged by evoker fangs . - They cannot be damaged by ravager roars. - They flee from creakings that are closer than 8 blocks' distance. - They may spawn as ravager jockeys in raids.",
     "metadata": {
       "source": "Illager",
@@ -717,24 +681,6 @@
       "section": "(introduction)",
       "url": "https://minecraft.wiki/w/Piglin",
       "tokens": 98
-    }
-  },
-  {
-    "text": "Piglin > Contents: - 1 Spawning - 2 Drops 2.1 On death 2.2 Equipment 2.2.1 Weapons 2.2.2 Armor 2.3 Picked up equipment 2.4 Other picked up items 2.5 Experience - 3 Behavior 3.1 Aggravation 3.1.1 Aggravation range 3.1.2 Light aggravation 3.1.3 Medium aggravation 3.1.4 Heavy aggravation 3.1.5 Other 3.2 Attacking 3.2.1 Using swords 3.2.2 Using crossbows 3.2.3 Using spears 3.2.4 Hostility 3.2.5 Hunting 3.2.6 Being distracted 3.3 Bartering 3.4 Picking up items 3.4.1 Equipping 3.4.2 Piglin loved items 3.4.3 Despawning 3.5 Zombification - 4 Sounds - 5 Data values 5.1 ID 5.2 Entity data - 6 Achievements - 7 Advancements - 8 Videos - 9 History 9.1 Concept 9.2 Announcement 9.3 Java Edition 9.4 Bedrock Edition - 10 Issues - 11 Trivia",
-    "metadata": {
-      "source": "Piglin",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/Piglin",
-      "tokens": 243
-    }
-  },
-  {
-    "text": "Piglin > Contents: - 6 Achievements - 7 Advancements - 8 Videos - 9 History 9.1 Concept 9.2 Announcement 9.3 Java Edition 9.4 Bedrock Edition - 10 Issues - 11 Trivia - 12 Gallery 12.1 Renders 12.1.1 Armed 12.2 Screenshots 12.3 Mojang images 12.4 Textures 12.5 In other media - 13 See also - 14 Notes - 15 References - 16 External links - 17 Navigation",
-    "metadata": {
-      "source": "Piglin",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/Piglin",
-      "tokens": 97
     }
   },
   {
@@ -1071,15 +1017,6 @@
     }
   },
   {
-    "text": "Slime > Contents: - 1 Spawning 1.1 Swamps 1.2 Slime chunks 1.2.1 Java Edition 1.2.2 Bedrock Edition 1.3 Trial spawners 1.4 Potions\n- 2 Drops 2.1 On death 2.1.1 Large slime 2.1.2 Medium slime 2.1.3 Small slime\n- 3 Behavior\n- 4 Sounds\n- 5 Data values 5.1 ID 5.2 Entity data\n- 6 Achievements\n- 7 Advancements\n- 8 Videos\n- 9 History 9.1 Java Edition 9.2 Bedrock Edition 9.3 Legacy Console Edition 9.4 New Nintendo 3DS Edition 9.5 Data history\n- 10 Issues\n- 11 Trivia\n- 12 Gallery 12.1 Screenshots 12.2 Mojang screenshots 12.3 Textures 12.4 In other media\n- 13 See also\n- 14 External links\n- 15 References\n- 16 Navigation",
-    "metadata": {
-      "source": "Slime",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/Slime",
-      "tokens": 185
-    }
-  },
-  {
     "text": "Slime > Spawning: Slimes spawn naturally in 3 sizes: small, medium, and large. A fourth size, known as semi-large , only spawns from trial spawners and the oozing mob effect [ verify ] . Slimes have an NBT tag, [Byte] Size , which determines their size. Small, medium, and big slimes have their Size set to 0 , 1 , and 3 respectively. Using the / summon or / data commands, a slime can be given any Size in the range from 0 to 126 (inclusive). [ verify for Bedrock Edition ] A slime needs a space of 2.04×2.04×2.04 blocks to spawn, which must be clear of solid and liquid obstructions. When a slime attempts to spawn, the game checks to see if the space requirement is followed. Therefore, small and medium slimes are not able to spawn in 2-block tall areas even though it would normally be enough room for other small mobs. Any block within the space, even a glass pane , can prevent slimes from spawning.",
     "metadata": {
       "source": "Slime",
@@ -1098,43 +1035,7 @@
     }
   },
   {
-    "text": "Slime > Spawning: Category: Monster | Java Edition | Bedrock Edition Spawn area | Spawn weight | Spawn chance | Group size | Spawn weight | Group size Birch Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Stony Shore | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Cherry Grove | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Wooded Badlands | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Taiga | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Badlands | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Old Growth Birch Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Dark Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Snowy Taiga | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Bamboo Jungle | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Lush Caves | 100 ⁄ 515 | 19.42% | 4 | 100 | 1",
-    "metadata": {
-      "source": "Slime",
-      "section": "Spawning",
-      "url": "https://minecraft.wiki/w/Slime",
-      "tokens": 233
-    }
-  },
-  {
-    "text": "Slime > Spawning: Bamboo Jungle | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Lush Caves | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Frozen Peaks | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Jagged Peaks | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Beach | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Sparse Jungle | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Windswept Hills | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Snowy Slopes | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Stony Peaks | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Eroded Badlands | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Grove | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Flower Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1",
-    "metadata": {
-      "source": "Slime",
-      "section": "Spawning",
-      "url": "https://minecraft.wiki/w/Slime",
-      "tokens": 239
-    }
-  },
-  {
-    "text": "Slime > Spawning: Grove | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Flower Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Snowy Beach | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Ice Spikes | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Pale Garden | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Meadow | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Old Growth Spruce Taiga | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Desert | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Windswept Gravelly Hills | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Windswept Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Mangrove Swamp | 100 ⁄ 516 | 19.38% | 4 | 100 | 1 Frozen River | 100 ⁄ 516 | 19.38% | 4 | 100 | 1 Swamp | 100 ⁄ 516 | 19.38% | 4 | 100 | 1",
-    "metadata": {
-      "source": "Slime",
-      "section": "Spawning",
-      "url": "https://minecraft.wiki/w/Slime",
-      "tokens": 244
-    }
-  },
-  {
-    "text": "Slime > Spawning: Frozen River | 100 ⁄ 516 | 19.38% | 4 | 100 | 1 Swamp | 100 ⁄ 516 | 19.38% | 4 | 100 | 1 Jungle | 100 ⁄ 517 | 19.34% | 4 | 100 | 1 Warm Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Frozen Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Savanna | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Plains | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Cold Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Savanna Plateau | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Deep Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Lukewarm Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Deep Cold Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Deep Frozen Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1",
-    "metadata": {
-      "source": "Slime",
-      "section": "Spawning",
-      "url": "https://minecraft.wiki/w/Slime",
-      "tokens": 245
-    }
-  },
-  {
-    "text": "Slime > Spawning: Deep Cold Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Deep Frozen Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Sunflower Plains | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Snowy Plains | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Deep Lukewarm Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Windswept Savanna | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Old Growth Pine Taiga | 100 ⁄ 540 | 18.52% | 4 | 100 | 1 Dripstone Caves | 100 ⁄ 610 | 16.39% | 4 | 100 | 1 River | 100 ⁄ 615 | 16.26% | 4 | 100 | 1 Sulfur Caves | 25 ⁄ 315 | 7.94% | 1 | 100 | 1 Mangrove Swamp | 1 ⁄ 516 | 0.19% | 1 | — | — Swamp | 1 ⁄ 516 | 0.19% | 1 | — | — Badlands Plateau | — | — | — | 100 | 1 Bamboo Jungle Hills | — | — | — | 100 | 1",
+    "text": "Slime > Spawning: Category: Monster | Java Edition | Bedrock Edition Spawn area | Spawn weight | Spawn chance | Group size | Spawn weight | Group size Bamboo Jungle | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Meadow | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Stony Peaks | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Eroded Badlands | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Windswept Hills | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Frozen Peaks | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Grove | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Jagged Peaks | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Wooded Badlands | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Snowy Slopes | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Beach | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Birch Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1",
     "metadata": {
       "source": "Slime",
       "section": "Spawning",
@@ -1143,30 +1044,48 @@
     }
   },
   {
-    "text": "Slime > Spawning: Swamp | 1 ⁄ 516 | 0.19% | 1 | — | — Badlands Plateau | — | — | — | 100 | 1 Bamboo Jungle Hills | — | — | — | 100 | 1 Modified Jungle | — | — | — | 100 | 1 Jungle Hills | — | — | — | 100 | 1 Giant Spruce Taiga Hills | — | — | — | 100 | 1 Gravelly Mountains+ | — | — | — | 100 | 1 Taiga Mountains | — | — | — | 100 | 1 Modified Jungle Edge | — | — | — | 100 | 1 Modified Wooded Badlands Plateau | — | — | — | 100 | 1 Desert Lakes | — | — | — | 100 | 1 Taiga Hills | — | — | — | 100 | 1 Deep Warm Ocean | — | — | — | 100 | 1 Wooded Hills | — | — | — | 100 | 1 Birch Forest Hills | — | — | — | 100 | 1 Swamp Hills | — | — | — | 100 | 1 Desert Hills | — | — | — | 100 | 1 Dark Forest Hills | — | — | — | 100 | 1",
+    "text": "Slime > Spawning: Beach | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Birch Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Sparse Jungle | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Flower Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Snowy Taiga | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Taiga | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Lush Caves | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Stony Shore | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Snowy Beach | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Old Growth Birch Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Old Growth Spruce Taiga | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Badlands | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Pale Garden | 100 ⁄ 515 | 19.42% | 4 | 100 | 1",
     "metadata": {
       "source": "Slime",
       "section": "Spawning",
       "url": "https://minecraft.wiki/w/Slime",
-      "tokens": 242
+      "tokens": 244
     }
   },
   {
-    "text": "Slime > Spawning: Swamp Hills | — | — | — | 100 | 1 Desert Hills | — | — | — | 100 | 1 Dark Forest Hills | — | — | — | 100 | 1 Snowy Taiga Hills | — | — | — | 100 | 1 Legacy Frozen Ocean | — | — | — | 100 | 1 Mountain Edge | — | — | — | 100 | 1 Snowy Mountains | — | — | — | 100 | 1 Modified Badlands Plateau | — | — | — | 100 | 1 Snowy Taiga Mountains | — | — | — | 100 | 1 Shattered Savanna Plateau | — | — | — | 100 | 1 Giant Tree Taiga Hills | — | — | — | 100 | 1 Tall Birch Hills | — | — | — | 100 | 1",
+    "text": "Slime > Spawning: Badlands | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Pale Garden | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Cherry Grove | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Ice Spikes | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Windswept Gravelly Hills | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Windswept Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Desert | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Dark Forest | 100 ⁄ 515 | 19.42% | 4 | 100 | 1 Mangrove Swamp | 100 ⁄ 516 | 19.38% | 4 | 100 | 1 Frozen River | 100 ⁄ 516 | 19.38% | 4 | 100 | 1 Swamp | 100 ⁄ 516 | 19.38% | 4 | 100 | 1 Jungle | 100 ⁄ 517 | 19.34% | 4 | 100 | 1",
     "metadata": {
       "source": "Slime",
       "section": "Spawning",
       "url": "https://minecraft.wiki/w/Slime",
-      "tokens": 162
+      "tokens": 241
     }
   },
   {
-    "text": "Slime > Spawning: Shattered Savanna Plateau | — | — | — | 100 | 1 Giant Tree Taiga Hills | — | — | — | 100 | 1 Tall Birch Hills | — | — | — | 100 | 1 - ↑ a b c d e f g h i j k l m n o p q r s t u v w x y z aa ab ac ad ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx Spawn attempt succeeds only in slime chunks.‌ [ Bedrock Edition only ] - ↑ a b c Slimes are spawned once, for both slime chunks and the surface.‌ [ Bedrock Edition only ] - ↑ a b c d Slimes are spawned twice, once for slime chunks and once for the surface.‌ [ Java Edition only ]",
+    "text": "Slime > Spawning: Swamp | 100 ⁄ 516 | 19.38% | 4 | 100 | 1 Jungle | 100 ⁄ 517 | 19.34% | 4 | 100 | 1 Snowy Plains | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Deep Cold Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Sunflower Plains | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Deep Frozen Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Lukewarm Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Savanna Plateau | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Windswept Savanna | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Deep Lukewarm Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Deep Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Warm Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1",
     "metadata": {
       "source": "Slime",
       "section": "Spawning",
       "url": "https://minecraft.wiki/w/Slime",
-      "tokens": 203
+      "tokens": 235
+    }
+  },
+  {
+    "text": "Slime > Spawning: Deep Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Warm Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Frozen Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Savanna | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Cold Ocean | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Plains | 100 ⁄ 520 | 19.23% | 4 | 100 | 1 Old Growth Pine Taiga | 100 ⁄ 540 | 18.52% | 4 | 100 | 1 Dripstone Caves | 100 ⁄ 610 | 16.39% | 4 | 100 | 1 River | 100 ⁄ 615 | 16.26% | 4 | 100 | 1 Sulfur Caves | 25 ⁄ 315 | 7.94% | 1 | 100 | 1 Swamp | 1 ⁄ 516 | 0.19% | 1 | — | — Mangrove Swamp | 1 ⁄ 516 | 0.19% | 1 | — | —",
+    "metadata": {
+      "source": "Slime",
+      "section": "Spawning",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 212
+    }
+  },
+  {
+    "text": "Slime > Spawning: Swamp | 1 ⁄ 516 | 0.19% | 1 | — | — Mangrove Swamp | 1 ⁄ 516 | 0.19% | 1 | — | — - ↑ a b c d e f g h i j k l m n o p q r s t u v w x y z aa ab ac ad ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay Spawn attempt succeeds only in slime chunks. - ↑ a b c d Slimes are spawned twice, once for slime chunks and once for the surface.‌ [ Java Edition only ] - ↑ a b Slimes are spawned once, for both slime chunks and the surface.‌ [ Bedrock Edition only ]",
+    "metadata": {
+      "source": "Slime",
+      "section": "Spawning",
+      "url": "https://minecraft.wiki/w/Slime",
+      "tokens": 156
     }
   },
   {
@@ -1341,15 +1260,6 @@
     }
   },
   {
-    "text": "The End > Contents: - 1 Accessing\n- 2 Environment 2.1 Biomes 2.2 Structure and generated features 2.3 Terrain features 2.3.1 Main island 2.3.2 Outer islands 2.4 Mobs 2.5 Blocks 2.5.1 Naturally generated 2.5.2 Naturally created 2.5.3 Structures\n- 3 Technical information 3.1 ID 3.2 Folder\n- 4 Achievements\n- 5 Advancements\n- 6 Videos\n- 7 History 7.1 Development 7.2 Java Edition 7.3 Bedrock Edition 7.4 Legacy Console Edition 7.5 New Nintendo 3DS Edition\n- 8 Issues\n- 9 Trivia\n- 10 Gallery 10.1 Screenshots 10.2 Mojang screenshots 10.3 Development images\n- 11 References\n- 12 Navigation",
-    "metadata": {
-      "source": "The End",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/The_End",
-      "tokens": 161
-    }
-  },
-  {
     "text": "The End > Accessing: To access the End, the player must go through the process of finding a stronghold using eyes of ender , finding the portal room, and activating the End portal in the End portal room. The room consists of a 5×5 square of End portal frames , with the corners cut out, making a total of 12. The portal hangs over a lava pool, with a staircase leading up to it. A silverfish spawner sits on top of the staircase. The player can activate the portal by filling the 12 End portal frames each with an eye of ender. Each frame block has a 10% chance of generating with an eye in it. Once all the eyes of ender are placed, the portal activates and emits a loud noise audible from anywhere in the world. As soon as it is activated, the portal destroys all blocks in the central 3×3 square, including bedrock or another portal frame, and replaces them with the End portal blocks that can teleport an entity into the End dimension. Upon jumping into the portal, the player immediately arrives in the End (X: 100, Z: 0), along with any prior entities that may have teleported.",
     "metadata": {
       "source": "The End",
@@ -1512,39 +1422,12 @@
     }
   },
   {
-    "text": "The End > Technical information > ID: Name | Identifier | Numeric ID\nThe End | the_end | 1",
-    "metadata": {
-      "source": "The End",
-      "section": "Technical information > ID",
-      "url": "https://minecraft.wiki/w/The_End",
-      "tokens": 25
-    }
-  },
-  {
-    "text": "The End > Technical information > Folder: In Java Edition , the End is stored in .minecraft /saves/ worldname /DIM1 . Deleting this folder resets the End, so that all player-made changes and buildings in that dimension are undone.\nIn Bedrock Edition , the com.mojang /minecraftWorlds/ world ID /db folder contains several collections of chunks. Some of these files are used for the End, but it is impossible to tell which ones simply by reading the file name.",
-    "metadata": {
-      "source": "The End",
-      "section": "Technical information > Folder",
-      "url": "https://minecraft.wiki/w/The_End",
-      "tokens": 106
-    }
-  },
-  {
     "text": "The Nether > (introduction): The Nether is a dangerous, volcanic, fungal dimension resembling a hellish underworld. It contains fire that never goes out ; vast oceans of lava ; Nether fungi and normal mushrooms in place of plants; many unique mobs , mostly hostile in nature; and exclusive structures , resources, and biomes .",
     "metadata": {
       "source": "The Nether",
       "section": "(introduction)",
       "url": "https://minecraft.wiki/w/The_Nether",
       "tokens": 69
-    }
-  },
-  {
-    "text": "The Nether > Contents: - 1 Accessing\n- 2 Traits\n- 3 Environment 3.1 Biomes 3.1.1 Biome distribution 3.2 Generated structures 3.3 Terrain features 3.4 Mobs 3.5 Blocks 3.5.1 Naturally generated 3.5.2 Naturally created 3.5.3 Structures\n- 4 Technical information 4.1 ID 4.2 Folder\n- 5 Achievements\n- 6 Advancements\n- 7 Videos\n- 8 History 8.1 Java Edition 8.2 Bedrock Edition 8.3 Legacy Console Edition 8.4 New Nintendo 3DS Edition\n- 9 Issues\n- 10 Trivia\n- 11 Gallery 11.1 Screenshots 11.1.1 Historical screenshots 11.2 Development images 11.3 In other media\n- 12 References\n- 13 External links\n- 14 Navigation",
-    "metadata": {
-      "source": "The Nether",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/The_Nether",
-      "tokens": 163
     }
   },
   {
@@ -1746,48 +1629,12 @@
     }
   },
   {
-    "text": "The Nether > Technical information > ID: Name | Identifier | Numeric ID\nNether | the_nether | -1",
-    "metadata": {
-      "source": "The Nether",
-      "section": "Technical information > ID",
-      "url": "https://minecraft.wiki/w/The_Nether",
-      "tokens": 28
-    }
-  },
-  {
-    "text": "The Nether > Technical information > Folder: In Java Edition , the Nether is stored in .minecraft /saves/ worldname /DIM-1 . Deleting this folder resets the Nether, so that all player-made changes and buildings in that dimension are undone.\nIn Bedrock Edition , the com.mojang /minecraftWorlds/ world ID /db folder contains several collections of chunks. Some of these files are used for the Nether, but it is impossible to tell which ones simply by reading the file name.",
-    "metadata": {
-      "source": "The Nether",
-      "section": "Technical information > Folder",
-      "url": "https://minecraft.wiki/w/The_Nether",
-      "tokens": 111
-    }
-  },
-  {
     "text": "Trial Chambers > (introduction): Trial chambers are uncommon underground structures that serve as a mid-game combat challenge. They consist mostly of copper blocks and tuff bricks , and are the only place where trial spawners and vaults naturally generate. Trial chambers are also the only place where breezes spawn, whose breeze rods can be used to craft wind charges . Various materials such as heavy cores and certain armor trims are obtained exclusively by unlocking vaults in trial chambers. As it is the only source of breeze rods and heavy cores, the structure is also the location where maces are obtained.\nOminous trials can also take place here through Bad Omen , where Trial Omen causes all trial spawners to become ominous , making them more difficult and providing greater rewards.",
     "metadata": {
       "source": "Trial Chambers",
       "section": "(introduction)",
       "url": "https://minecraft.wiki/w/Trial_Chambers",
       "tokens": 152
-    }
-  },
-  {
-    "text": "Trial Chambers > Contents: - 1 Generation 1.1 Locating - 2 Structure 2.1 File structure 2.2 Blocks 2.3 Components 2.3.1 Corridors 2.3.1.1 Entrance 2.3.1.2 Atrium 2.3.1.3 Slices 2.3.1.4 End 2.3.2 Intersections 2.3.3 Hallways 2.3.3.1 Encounters 2.3.4 Chambers 2.3.5 Miscellaneous 2.3.5.1 Decor 2.3.5.2 Dispenser 2.3.5.3 Loot containers 2.3.5.4 Trial spawners - 3 Mobs",
-    "metadata": {
-      "source": "Trial Chambers",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/Trial_Chambers",
-      "tokens": 141
-    }
-  },
-  {
-    "text": "Trial Chambers > Contents: - 3 Mobs - 4 Loot 4.1 Vaults 4.1.1 Ominous vaults 4.2 Chests 4.2.1 Entrances 4.2.2 Intersections 4.2.3 Supply 4.3 Barrels 4.3.1 Intersection barrels 4.3.2 Corridor barrels 4.4 Decorated pots 4.5 Dispensers 4.5.1 Chamber dispenser 4.5.2 Corridor dispenser 4.5.3 Water dispenser 4.6 Trial spawners 4.6.1 Ominous trial spawners - 5 Data values 5.1 ID - 6 Achievements - 7 Advancements - 8 Videos - 9 History 9.1 Announcement and teaser 9.2 Java Edition 9.3 Bedrock Edition - 10 Issues - 11 Trivia - 12 Gallery 12.1 Screenshots 12.2 Mojang screenshots 12.3 In other media 12.4 Concept artwork - 13 Notes - 14 References - 15 External links - 16 Navigation",
-    "metadata": {
-      "source": "Trial Chambers",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/Trial_Chambers",
-      "tokens": 207
     }
   },
   {
@@ -2979,24 +2826,6 @@
     }
   },
   {
-    "text": "Villager > Contents: - 1 Spawning 1.1 Natural generation 1.2 Curing - 2 Drops 2.1 Hero of the Village - 3 Behavior 3.1 Movement patterns 3.1.1 Socializing 3.1.2 Migration 3.1.3 Pathfinding 3.1.4 Getting attacked 3.1.5 Preferred path 3.2 Job site blocks 3.3 Gossiping 3.4 Picking up items 3.5 Sharing food 3.6 Farming 3.7 Breeding 3.7.1 Willingness 3.8 Baby villagers 3.9 Lightning 3.10 Iron golem summoning 3.11 Panicking 3.11.1 Zombies 3.11.2 Raids 3.12 Hero of the Village 3.13 Staring - 4 Schedules 4.1 Working 4.2 Wandering 4.3 Gathering 4.4 Playing 4.5 Returning home 4.6 Sleeping 4.7 Healing - 5 Professions 5.1 Nitwit 5.2 Appearance - 6 Trading 6.1 Supply and demand 6.2 Trade offering 6.3 Economic trade 6.3.1 Experience levels 6.4 Popularity or reputation 6.5 Hero of the Village - 7 Sounds 7.1 Working 7.2 Working",
-    "metadata": {
-      "source": "Villager",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/Villager",
-      "tokens": 248
-    }
-  },
-  {
-    "text": "Villager > Contents: - 7 Sounds 7.1 Working 7.2 Working - 8 Data values 8.1 ID 8.2 Entity data - 9 Achievements - 10 Advancements - 11 Videos - 12 History 12.1 Announcement 12.2 Java Edition 12.2.1 Historical renders 12.3 Bedrock Edition 12.3.1 Historical renders 12.4 Legacy Console Edition 12.5 PlayStation 4 Edition 12.6 New Nintendo 3DS Edition 12.7 Data history - 13 Issues - 14 Trivia - 15 Gallery 15.1 Renders 15.1.1 Idle 15.2 Mojang images 15.3 Screenshots 15.4 Textures 15.5 In other media 15.5.1 Other appearances - 16 See also - 17 Notes - 18 References - 19 Navigation",
-    "metadata": {
-      "source": "Villager",
-      "section": "Contents",
-      "url": "https://minecraft.wiki/w/Villager",
-      "tokens": 161
-    }
-  },
-  {
     "text": "Villager > Spawning: Each villager spawns with an empty inventory . Villagers never spawn with armor or other equipment, but in Java Edition a dispenser can be used to equip armor on a villager.",
     "metadata": {
       "source": "Villager",
@@ -3438,7 +3267,7 @@
     }
   },
   {
-    "text": "Villager > Professions: If the villager has prior trades, it keeps its profession and claims a new job site block that matches its profession if one is available. This means that once a player trades with a villager, the villager keeps its profession forever. Nitwits and baby villagers cannot change their profession. In Java Edition , villagers summoned by a spawn egg or via command / summon are always unemployed until they have claimed a job site block. In Bedrock Edition , however, villagers summoned in similar ways have a random profession ; their profession can be changed by a job site block, though. Novice-level villagers who have not yet traded can lose their profession and change into unemployed villagers. Unemployed adults actively seek for an unclaimed job site block and change into the corresponding profession. Below is a table listing the various professions, along with the specific job site block that each profession requires (13 jobs in total, not including unemployed/nitwit): Profession | Job site block / Workstation | Biome Desert | Jungle | Plains | Savanna | Snow | Swamp | Taiga Unemployed | None Nitwit Armorer | Blast Furnace Butcher | Smoker Cartographer | Cartography Table Cleric | Brewing Stand",
+    "text": "Villager > Professions: If the villager has prior trades, it keeps its profession and claims a new job site block that matches its profession if one is available. This means that once a player trades with a villager, the villager keeps its profession forever. Nitwits and baby villagers cannot change their profession. In Java Edition , villagers summoned by a spawn egg or via command / summon are always unemployed until they have claimed a job site block. In Bedrock Edition , however, villagers summoned in similar ways have a random profession ; their profession can be changed by a job site block, however. Novice-level villagers who have not yet traded can lose their profession and change into unemployed villagers. Unemployed adults actively seek for an unclaimed job site block and change into the corresponding profession. Below is a table listing the various professions, along with the specific job site block that each profession requires (13 jobs in total, not including unemployed/nitwit): Profession | Job site block / Workstation | Biome Desert | Jungle | Plains | Savanna | Snow | Swamp | Taiga Unemployed | None Nitwit Armorer | Blast Furnace Butcher | Smoker Cartographer | Cartography Table Cleric | Brewing Stand",
     "metadata": {
       "source": "Villager",
       "section": "Professions",

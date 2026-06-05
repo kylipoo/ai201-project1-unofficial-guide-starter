@@ -25,8 +25,12 @@ from retrieve import DEFAULT_K, retrieve
 
 load_dotenv(dotenv_path=Path(__file__).with_name(".env"))
 
-# MODEL = "llama-3.3-70b-versatile"   # Groq, free tier (planning.md -> AI Tool Plan, M5)
-MODEL = "llama-3.1-8b-instant"
+# llama-3.3-70b-versatile (planning.md -> AI Tool Plan, M5). The smaller 8b-instant model
+# made unstable grounding decisions on borderline questions — e.g. it refused "...without
+# finding a village?" but answered the same question without the "?" — so we use the 70b
+# model, which makes that judgment correctly and stably. (See generate.py debug, 2026-06.)
+MODEL = "llama-3.3-70b-versatile"
+# MODEL = "llama-3.1-8b-instant"   # faster/cheaper, but brittle on borderline grounding
 REFUSAL = "I don't have enough information in my sources to answer that."
 
 SYSTEM_PROMPT = f"""You are a helpful Minecraft guide. Answer the player's question using \
